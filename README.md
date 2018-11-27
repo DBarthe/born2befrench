@@ -4,7 +4,7 @@ Born2BeFrench
 Salut toi !
 
 
-## Tuto
+## Tuto
 
 Prérequis:
 * [git for windows](https://gitforwindows.org/)
