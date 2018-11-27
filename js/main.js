@@ -16,5 +16,5 @@
   ]
 
   subtitle = subtitleTranslations[Math.floor(Math.random() * subtitleTranslations.length)];
-  alert(subtitle);
+  $("#subtitle").text(subtitle)
 })();
