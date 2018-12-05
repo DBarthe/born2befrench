@@ -1,0 +1,8 @@
+library(readr)
+indexation_decrets_1890 <- read_csv("data/indexation_decrets_1890.csv")
+summary(indexation_decrets_1890)
+library(Hmisc)
+describe(indexation_decrets_1890)
+as.data.frame(head(sort(table(indexation_decrets_1890$`Pays de naissance`), decreasing = TRUE), 20))
+as.data.frame(head(sort(table(indexation_decrets_1890$Profession), decreasing = TRUE), 20))
+as.data.frame(head(sort(table(indexation_decrets_1890$`Ville de naissance`), decreasing = TRUE), 20))

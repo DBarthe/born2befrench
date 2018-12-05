@@ -1,0 +1,403 @@
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+<!--DTD EAD DEMAT-->
+<!--Archives nationales - Dematerialisation des instruments de recherche-->
+
+<!--DTD utilisee par le chantier demat pour la retroconversion des instruments de recherche des archives nationales.-->
+<!--Basee sur la DTD EAD 2002 : +//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN -->
+<!-- Cette DTD est une DTD etendue de la DTD ead light donnee au prestataire pour la dematerialisation des IR-->
+<!--Version definitive du 18/05/2011 : version pour post-traitement --> 
+
+<!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
+<!--STRUCTURE GENERALE DE l'IR -->
+<!ELEMENT ead (eadheader, frontmatter?, archdesc) >
+
+<!-- En-tete EAD-->
+<!ELEMENT eadheader (eadid, filedesc,  profiledesc, revisiondesc?)>
+<!ATTLIST eadheader dateencoding NMTOKEN "iso8601">
+<!ATTLIST eadheader langencoding NMTOKEN "iso639-2b">
+<!ATTLIST eadheader repositoryencoding NMTOKEN "iso15511">
+
+<!-- Preliminaires-->
+<!ELEMENT frontmatter (div+)>
+
+<!-- Description archivistique-->
+<!ELEMENT  archdesc (did,  (accessrestrict | acqinfo | altformavail | arrangement | bibliography | bioghist | controlaccess | custodhist  | originalsloc | otherfindaid | relatedmaterial | scopecontent | separatedmaterial | userestrict |daogrp)*, dsc, (index)*)>
+<!ATTLIST archdesc level (class | collection | file | fonds | item | otherlevel | recordgrp | series | subfonds | subgrp | subseries) #REQUIRED>
+<!ATTLIST archdesc otherlevel NMTOKEN #IMPLIED>
+
+<!-- Conditions d'acces-->
+<!ELEMENT accessrestrict (head?, p+)>
+<!ATTLIST accessrestrict id ID #IMPLIED>
+
+<!-- Modalites d'entree-->
+<!ELEMENT acqinfo (head?, p+)>
+<!ATTLIST acqinfo id ID #IMPLIED>
+<!ATTLIST acqinfo audience (external | internal) #IMPLIED>
+
+<!-- Adresse-->
+<!ELEMENT address (addressline+)>
+
+<!--Ligne d'adresse -->
+<!ELEMENT addressline (#PCDATA |emph)*>
+
+<!-- Documents de substitution-->
+<!ELEMENT altformavail (head?, p+)>
+
+
+
+<!-- Reference a d'autres documents d'archives-->
+<!ELEMENT archref (#PCDATA | physloc | repository)*>
+<!ATTLIST archref audience (external | internal) #IMPLIED>
+<!ATTLIST archref href CDATA #IMPLIED>
+<!ATTLIST archref title CDATA #IMPLIED>
+
+<!-- Classement-->
+<!ELEMENT arrangement (head?, p+)>
+<!ATTLIST arrangement id ID #IMPLIED>
+
+<!-- Auteur de l'instrument de recherche-->
+<!ELEMENT author (#PCDATA | emph)*>
+
+<!-- Bibliographie-->
+<!ELEMENT bibliography (head?, p*, bibref*)>
+<!ATTLIST bibliography id ID #IMPLIED>
+
+<!-- Reference bibliographique-->
+<!ELEMENT bibref (#PCDATA | corpname | edition | imprint | persname | title)*>
+
+<!-- Biographie ou histoire-->
+<!ELEMENT bioghist (head?, p+)>
+<!ATTLIST bioghist id ID #IMPLIED>
+<!ATTLIST bioghist audience (external | internal) #IMPLIED>
+
+<!-- Composant-->
+<!ELEMENT c (did, (accessrestrict | acqinfo | altformavail | arrangement | bibliography | bioghist | c | controlaccess | custodhist | originalsloc | otherfindaid | relatedmaterial | scopecontent | separatedmaterial | userestrict |daogrp)*)>
+<!ATTLIST c audience (external | internal) #IMPLIED>
+<!ATTLIST c id ID #IMPLIED>
+<!--sous la forme <c id="d_1"> <c id="d_1_1"> etc -->
+<!ATTLIST c level (class | collection | file | fonds | item | otherlevel | recordgrp | series | subfonds | subgrp | subseries) #IMPLIED>
+<!ATTLIST c otherlevel NMTOKEN #IMPLIED>
+
+<!-- Modification-->
+<!ELEMENT change (date, item)>
+
+<!-- Vedettes et acces controles-->
+<!ELEMENT controlaccess (corpname | famname | genreform| geogname | name | occupation | function| persname | subject)+>
+<!ATTLIST controlaccess audience (external | internal) #IMPLIED>
+
+<!-- Collectivites-->
+<!ELEMENT corpname (#PCDATA | emph)*>
+<!ATTLIST corpname authfilenumber CDATA #IMPLIED>
+<!ATTLIST corpname normal CDATA #IMPLIED>
+<!ATTLIST corpname role CDATA #IMPLIED>
+<!ATTLIST corpname source NMTOKEN #IMPLIED>
+
+<!-- Creation-->
+<!ELEMENT creation (#PCDATA | emph | date)*>
+
+<!-- Historique de la conservation-->
+<!ELEMENT custodhist (head?, p+)>
+<!ATTLIST custodhist id ID #IMPLIED>
+<!ATTLIST custodhist audience (external | internal) #IMPLIED>
+
+<!-- Objet archivistique numerique-->
+<!ELEMENT dao (daodesc?)>
+<!ATTLIST dao actuate (onload | onrequest) #IMPLIED>
+<!ATTLIST dao audience (external | internal) #IMPLIED>
+<!ATTLIST dao href CDATA #IMPLIED>
+<!ATTLIST dao show (embed | new) #IMPLIED>
+<!ATTLIST dao title CDATA #IMPLIED>
+
+<!-- Description d'objet archivistique numerique-->
+<!ELEMENT daodesc (p+)>
+
+<!-- Groupe d'objets archivistiques numeriques-->
+<!ELEMENT daogrp (daodesc?, daoloc+)>
+<!ATTLIST daogrp audience (external | internal) #IMPLIED>
+<!ATTLIST daogrp title CDATA #IMPLIED>
+
+
+<!-- Emplacement d'objet archivistique numerique-->
+<!ELEMENT daoloc (daodesc?)>
+<!ATTLIST daoloc audience (external | internal) #IMPLIED>
+<!ATTLIST daoloc href CDATA #IMPLIED>
+<!ATTLIST daoloc title CDATA #IMPLIED>
+<!ATTLIST daoloc xpointer CDATA #IMPLIED>
+
+
+<!-- Date-->
+<!ELEMENT date (#PCDATA | emph)*>
+<!ATTLIST date calendar NMTOKEN "gregorian">
+<!ATTLIST date era NMTOKEN "ce">
+<!ATTLIST date normal CDATA #IMPLIED>
+<!ATTLIST date type  (existence) #IMPLIED >
+
+
+<!-- Element d'une liste de definition-->
+<!ELEMENT defitem (label, item)>
+<!ATTLIST defitem id ID #IMPLIED>
+
+<!-- Regles de description-->
+<!ELEMENT descrules (#PCDATA | emph | lb)*>
+
+<!-- Identification et description-->
+<!ELEMENT did ((unitid | unittitle | unitdate)+, (dao |langmaterial | origination | physdesc | physloc | repository)*)>
+<!ATTLIST did id ID #IMPLIED>
+
+<!-- Dimensions-->
+<!ELEMENT  dimensions (#PCDATA | emph)*>
+<!ATTLIST dimensions type CDATA #IMPLIED>
+<!ATTLIST dimensions unit CDATA #IMPLIED>
+
+<!-- Subdivision du texte-->
+<!ELEMENT div (head?, (p | div)+)>
+<!ATTLIST div id ID #IMPLIED>
+
+<!-- Description des sous-composants-->
+<!ELEMENT dsc (c*)>
+<!ATTLIST dsc audience (internal | external) #IMPLIED>
+
+
+
+<!-- Identifiant EAD-->
+<!ELEMENT eadid (#PCDATA)>
+
+<!-- Edition-->
+<!ELEMENT edition (#PCDATA | emph)*>
+<!ATTLIST edition audience (external | internal) #IMPLIED>
+
+<!-- Mention d'edition-->
+<!ELEMENT editionstmt (edition)>
+
+<!-- Mise en valeur-->
+<!ELEMENT emph (#PCDATA | emph)*>
+<!ATTLIST emph altrender (appnote) #IMPLIED>
+<!ATTLIST emph render (altrender | bold | italic | super | underline) #IMPLIED>
+
+<!-- Entree de tableau-->
+<!ELEMENT entry  (#PCDATA | emph | note)*>
+
+<!-- Importance materielle-->
+<!ELEMENT extent (#PCDATA | emph)*>
+<!ATTLIST extent type CDATA #IMPLIED>
+<!ATTLIST extent unit CDATA #IMPLIED>
+
+<!ELEMENT extref (#PCDATA)>
+<!ATTLIST extref href CDATA #REQUIRED>
+<!ATTLIST extref xpointer CDATA #IMPLIED>
+
+
+<!-- Nom de famille-->
+<!ELEMENT famname (#PCDATA | emph)*>
+<!ATTLIST famname authfilenumber CDATA #IMPLIED>
+<!ATTLIST famname normal CDATA #IMPLIED>
+<!ATTLIST famname role CDATA #IMPLIED>
+<!ATTLIST famname source  NMTOKEN #IMPLIED>
+
+<!-- Description du fichier-->
+<!ELEMENT filedesc (titlestmt, editionstmt?, publicationstmt, notestmt?)>
+
+<!-- Fonctions administratives  -->
+<!-- Le contenu de cet élément sera obligatoirement associé à un référentiel. Tout descripteur qui n'existera pas dans le référentiel sera rejété au moment de
+l'import de l'IR-->
+<!-- cet élément ne peut être contenu que dans <controlaccess> -->
+<!ELEMENT function (#PCDATA)>
+<!ATTLIST function authfilenumber CDATA #IMPLIED>
+<!ATTLIST function normal CDATA #IMPLIED>
+<!ATTLIST function source NMTOKEN #IMPLIED>
+<!ATTLIST function encodinganalog CDATA #IMPLIED>
+<!ATTLIST function rules NMTOKEN #IMPLIED>
+
+<!-- Genre et caracteristiques physiques  -->
+<!-- Le contenu de cet élément sera obligatoirement associé à un référentiel. Tout descripteur qui n'existera pas dans le référentiel sera rejété au moment de
+l'import de l'IR-->
+<!-- cet élément ne peut être contenu que dans <controlaccess> -->
+<!ELEMENT genreform (#PCDATA)>
+<!ATTLIST genreform authfilenumber CDATA #IMPLIED>
+<!ATTLIST genreform normal CDATA #IMPLIED>
+<!ATTLIST genreform source NMTOKEN #IMPLIED>
+<!ATTLIST genreform type CDATA #IMPLIED>
+<!ATTLIST genreform encodinganalog CDATA #IMPLIED>
+<!ATTLIST genreform rules NMTOKEN #IMPLIED>
+
+<!-- Nom geographique-->
+<!ELEMENT geogname (#PCDATA | emph)*>
+<!ATTLIST geogname authfilenumber CDATA #IMPLIED>
+<!ATTLIST geogname normal CDATA #IMPLIED>
+<!ATTLIST geogname role CDATA #IMPLIED>
+<!ATTLIST geogname source NMTOKEN #IMPLIED>
+
+<!-- Titre de partie-->
+<!ELEMENT head (#PCDATA | emph)*>
+
+<!-- Adresse bibliographique-->
+<!ELEMENT imprint (#PCDATA | date | emph | geogname | publisher)*>
+
+<!-- Index-->
+<!ELEMENT index (head?, p*,  (index | indexentry)+)>
+
+<!-- Entree d'index-->
+<!ELEMENT indexentry ((corpname | famname | geogname | name | occupation | persname | subject)+, (ref)*)>
+
+<!-- Item-->
+<!ELEMENT item (#PCDATA | emph)*>
+
+<!-- Etiquette-->
+<!ELEMENT label (#PCDATA | emph)*>
+
+<!-- Langue des unites documentaires-->
+<!ELEMENT langmaterial (#PCDATA | emph | language)*>
+
+<!-- Langue-->
+<!ELEMENT language (#PCDATA | emph)*>
+<!ATTLIST language langcode NMTOKEN #IMPLIED>
+
+<!-- Langue utilisee-->
+<!ELEMENT langusage (#PCDATA | emph | language)*>
+
+<!-- Retour a la ligne-->
+<!ELEMENT lb EMPTY>
+
+<!-- Liste-->
+<!ELEMENT list (head?, (defitem | item)+)>
+
+<!-- Nom-->
+<!ELEMENT name (#PCDATA | emph)*>
+<!ATTLIST name authfilenumber CDATA #IMPLIED>
+<!ATTLIST name normal CDATA #IMPLIED>
+<!ATTLIST name role CDATA #IMPLIED>
+<!ATTLIST name source CDATA #IMPLIED>
+
+<!-- Note-->
+<!ELEMENT note (p+)>
+
+<!-- Mention de note-->
+<!ELEMENT notestmt (note+)>
+
+<!-- Fonction-->
+<!ELEMENT occupation (#PCDATA | emph)*>
+<!ATTLIST occupation authfilenumber CDATA #IMPLIED>
+<!ATTLIST occupation normal CDATA #IMPLIED>
+<!ATTLIST occupation source NMTOKEN #IMPLIED>
+
+<!-- Existence et lieu de conservation des documents originaux-->
+<!ELEMENT originalsloc (head?, p+)>
+
+<!-- Origine-->
+<!ELEMENT origination (#PCDATA | corpname | emph | famname | name | persname)*>
+
+<!-- Autre instrument de recherche-->
+<!ELEMENT otherfindaid (head?, (archref | bibref | p)+)>
+
+
+<!-- Paragraphe-->
+<!ELEMENT p (#PCDATA | archref | date | dao | daogrp | emph |extref | lb | list | note | origination | ref | repository | table)*>
+
+<!-- Nom de personne-->
+<!ELEMENT persname (#PCDATA | emph)*>
+<!ATTLIST persname authfilenumber CDATA #IMPLIED>
+<!ATTLIST persname normal CDATA #IMPLIED>
+<!ATTLIST persname role CDATA #IMPLIED>
+<!ATTLIST persname source NMTOKEN #IMPLIED>
+
+<!-- Description physique-->
+<!ELEMENT physdesc (#PCDATA | dimensions | emph | extent | physfacet)*>
+
+<!-- Particularite physique-->
+<!ELEMENT physfacet (#PCDATA | emph)*>
+<!ATTLIST physfacet source CDATA #IMPLIED>
+<!ATTLIST physfacet type CDATA #IMPLIED>
+
+<!-- Localisation physique-->
+<!ELEMENT physloc (#PCDATA | emph)*>
+<!ATTLIST physloc audience (external | internal) #IMPLIED>
+
+<!-- Description du profil-->
+<!ELEMENT profiledesc (creation, descrules?, langusage?)>
+
+<!-- Mention de publication-->
+<!ELEMENT publicationstmt ( p*, publisher, address?, date)>
+
+<!-- Editeur-->
+<!ELEMENT publisher (#PCDATA | emph)*>
+
+<!-- Reference-->
+<!ELEMENT ref (#PCDATA | emph)*>
+<!ATTLIST ref audience (external | internal) #IMPLIED>
+<!ATTLIST ref href CDATA #IMPLIED>
+<!ATTLIST ref target IDREF #IMPLIED>
+<!ATTLIST ref title CDATA #IMPLIED>
+
+<!-- Documents en relation-->
+<!ELEMENT relatedmaterial (head?, (relatedmaterial | p+))>
+<!ATTLIST relatedmaterial id ID #IMPLIED>
+
+<!-- Organisme responsable de l'acces intellectuel-->
+<!ELEMENT repository (#PCDATA | address | corpname | emph)*>
+
+<!-- Description des revisions-->
+<!ELEMENT revisiondesc (change+)>
+
+<!-- Ligne de tableau-->
+<!ELEMENT row (entry+)>
+
+<!-- Presentation du contenu-->
+<!ELEMENT scopecontent (head?, (note | p | scopecontent | table)+)>
+<!ATTLIST scopecontent id ID #IMPLIED>
+<!ATTLIST scopecontent audience (external | internal) #IMPLIED>
+
+<!-- Documents separes-->
+<!ELEMENT separatedmaterial (head?, p+)>
+<!ATTLIST separatedmaterial id ID #IMPLIED>
+
+<!-- Mot-matiere-->
+<!ELEMENT subject (#PCDATA | emph)*>
+<!ATTLIST subject authfilenumber CDATA #IMPLIED>
+<!ATTLIST subject normal CDATA #IMPLIED>
+<!ATTLIST subject source NMTOKEN #IMPLIED>
+
+<!-- Sous-titre de l'instrument de recherche-->
+<!ELEMENT subtitle (#PCDATA | emph | lb)*>
+
+<!-- Tableau-->
+<!ELEMENT table (head?, tgroup+)>
+
+<!-- Corps de tableau-->
+<!ELEMENT tbody (row+)>
+
+<!-- Groupe d'elements de tableau-->
+<!ELEMENT tgroup (thead?, tbody)>
+<!ATTLIST tgroup cols NMTOKEN #REQUIRED>
+
+<!-- En-tete de ligne ou de colonne-->
+<!ELEMENT thead (row+)>
+
+<!-- Titre-->
+<!ELEMENT title (#PCDATA)>
+
+<!-- Titre propre de l'instrument de recherche-->
+<!ELEMENT titleproper (#PCDATA | emph | date | lb)*>
+
+<!-- Mention de titre-->
+<!ELEMENT titlestmt (titleproper, subtitle, author?)>
+
+<!-- Date de l'unite documentaire-->
+<!ELEMENT unitdate (#PCDATA | emph)*>
+<!ATTLIST unitdate calendar NMTOKEN "gregorian">
+<!ATTLIST unitdate era NMTOKEN "ce">
+<!ATTLIST unitdate normal CDATA #IMPLIED>
+
+<!-- Identifiant de l'unite documentaire-->
+<!ELEMENT unitid (#PCDATA)>
+<!ATTLIST unitid id ID #IMPLIED>
+<!ATTLIST unitid type (cote-de-consultation | cote-groupee) #IMPLIED>
+<!ATTLIST unitid repositorycode NMTOKEN #IMPLIED>
+
+<!-- Intitule de l'unite documentaire-->
+<!ELEMENT unittitle (#PCDATA | corpname | emph | geogname | lb | name | persname | unitdate)*>
+<!ATTLIST unittitle altrender (titre1 | titre2 | titre3 | titre4 | titre5 | titre6 | titre7) #IMPLIED>
+<!ATTLIST unittitle audience (external | internal ) #IMPLIED >
+
+<!-- Conditions d'utilisation-->
+<!ELEMENT userestrict (head?, p+)>
