@@ -8,6 +8,14 @@ services:
       - cluster.name=docker-cluster
       - bootstrap.memory_lock=true
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - cluster.routing.allocation.disk.threshold_enabled=true
+      - cluster.routing.allocation.disk.watermark.low=93%
+      - cluster.routing.allocation.disk.watermark.high=95%
+      - http.host=0.0.0.0
+      - "http.cors.allow-origin=*"
+      - http.cors.enabled=true
+      - http.cors.allow-methods=OPTIONS, HEAD, GET, POST, PUT, DELETE
+      - "http.cors.allow-headers=X-Requested-With, X-Auth-Token, Content-Type, Content-Length, Authorization, Access-Control-Allow-Headers, Accept"
     ulimits:
       nproc: 65535
       memlock:
