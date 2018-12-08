@@ -6,3 +6,15 @@ describe(indexation_decrets_1890)
 as.data.frame(head(sort(table(indexation_decrets_1890$`Pays de naissance`), decreasing = TRUE), 20))
 as.data.frame(head(sort(table(indexation_decrets_1890$Profession), decreasing = TRUE), 20))
 as.data.frame(head(sort(table(indexation_decrets_1890$`Ville de naissance`), decreasing = TRUE), 20))
+
+
+library(readr)
+indexation_decrets_1887 <- read_csv("data/indexation_decrets_1887.csv")
+View(indexation_decrets_1887)
+as.data.frame(head(sort(table(indexation_decrets_1887$REMARQUES), decreasing = TRUE), 20))
+as.data.frame(head(sort(table(indexation_decrets_1887$Origine_parents), decreasing = TRUE), 20))
+
+as.data.frame(head(sort(table(indexation_decrets_1887$`Lieu_naissance 1`), decreasing = TRUE), 20))
+as.data.frame(head(sort(table(indexation_decrets_1887$Pays_naissance), decreasing = TRUE), 20))
+as.data.frame(head(sort(table(indexation_decrets_1887$Profession_categorie), decreasing = TRUE), 20))
+as.data.frame(head(sort(table(indexation_decrets_1887$Ep_Lieu_naissance), decreasing = TRUE), 20))
