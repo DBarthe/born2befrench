@@ -2,5 +2,6 @@
 
 index=$1
 
+curl -X DELETE localhost:9200/$index
 curl -X PUT -H Content-type:application/json localhost:9200/$index?pretty -d @mapping_$index.json
 

@@ -1,4 +1,13 @@
 {
+  "settings" : {
+    "analysis" : {
+      "analyzer" : {
+        "default" : {
+          "type": "french"
+        }
+      }
+    }
+  },
   "mappings" : {
     "_doc" : {
       "properties" : {
@@ -17,7 +26,32 @@
         "date_naissance" : {
           "type" : "date"
         },
+        "status_familial": {
+          "type": "keyword"
+        },
+        "decret_cote" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
         "nom" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "urls": {
+          "type": "text",
+          "index": false
+        },
+        "lieu_naissance" : {
           "type" : "text",
           "fields" : {
             "keyword" : {
@@ -65,6 +99,15 @@
               }
             },
             "Date de naissance (texte libre)" : {
+              "type" : "text",
+              "fields" : {
+                "keyword" : {
+                  "type" : "keyword",
+                  "ignore_above" : 256
+                }
+              }
+            },
+            "Date de naissance (texte libre) 2" : {
               "type" : "text",
               "fields" : {
                 "keyword" : {
