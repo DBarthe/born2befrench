@@ -85,8 +85,6 @@ const ResearchHelp = (props) => (
                     </li>
                 </ul>
             </li>
-
-
 		</ol>
 	</ResearchHelpContainer>
 );
