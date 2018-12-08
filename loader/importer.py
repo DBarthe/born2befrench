@@ -1,11 +1,29 @@
 import json
-
+from lxml import etree as ET
 import pandas as pd
 import os
 import dateparser
 import datetime
 
 data_dir = '../data'
+
+
+def normalize_place(literal):
+    if literal is not None:
+        res = ", ".join(filter(lambda s: len(s) > 0,
+                               map(lambda s: s.strip(), literal.replace("(", ',').replace(')', '').split(',')))).strip()
+        if len(res) > 0:
+            return res
+
+
+def parse_country_name(place_literal):
+    if place_literal is not None:
+        place_literal = place_literal.strip()
+        if len(place_literal) > 0:
+            if place_literal[-1] == ")":
+                place_literal = place_literal[:-1]
+
+            return place_literal
 
 
 class Importer:
@@ -69,6 +87,9 @@ class ImporterNormalized(ImporterToJsonl):
         'profession',
         'date_naissance',
         'pays_naissance',
+        'lieu_residence',
+        'status_familial',
+        'urls',
     }
 
     def __init__(self, csv_path, output_path, year):
@@ -89,17 +110,55 @@ class ImporterNormalized(ImporterToJsonl):
     def handle_row(self, row):
         res = {
             'cote': self.extract_cote(row),
+            'decret_cote': self.extract_decret_cote(row),
             'date': self.extract_date(row),
             'nom': self.extract_nom(row),
             'prenoms': self.extract_prenoms(row),
             'date_naissance': self.extract_date_naissance(row),
             'profession': self.extract_profession(row),
             'pays_naissance': self.extract_pays_naissance(row),
+            'urls': self.extract_urls(row),
+            'lieu_residence': self.extract_lieu_residence(row),
+            'status_familial': 'chef de famille',
             "original": row.to_dict()
         }
         super(ImporterNormalized, self).handle_row(res)
 
+        if self.has_ep(row):
+            self.handle_ep(row, res)
+
+        if self.has_children(row):
+            self.handle_children(row)
+
+    def has_ep(self, row):
+        return False
+
+    def has_children(self, row):
+        return False
+
+    def handle_ep(self, row, principal):
+        res = {
+            'cote': principal['cote'],
+            'decret_cote': principal['decret_cote'],
+            'date': principal['date'],
+            'nom': self.extract_nom_ep(row),
+            'prenoms': self.extract_prenoms_ep(row),
+            'date_naissance': self.extract_date_naissance_ep(row),
+            'pays_naissance': self.extract_pays_naissance_ep(row),
+            'urls': principal['urls'],
+            'lieu_residence': principal['lieu_residence'],
+            'status_familial': 'épouse',
+            "original": principal['original']
+        }
+        super(ImporterNormalized, self).handle_row(res)
+
+    def handle_children(self, row):
+        pass
+
     def extract_cote(self, row):
+        pass
+
+    def extract_decret_cote(self, row):
         pass
 
     def extract_date(self, row):
@@ -118,6 +177,24 @@ class ImporterNormalized(ImporterToJsonl):
         pass
 
     def extract_pays_naissance(self, row):
+        pass
+
+    def extract_urls(self, row):
+        pass
+
+    def extract_lieu_residence(self, row):
+        pass
+
+    def extract_nom_ep(self, row):
+        pass
+
+    def extract_prenoms_ep(self, row):
+        pass
+
+    def extract_date_naissance_ep(self, row):
+        pass
+
+    def extract_pays_naissance_ep(self, row):
         pass
 
 
@@ -158,6 +235,9 @@ class Importer1887(ImporterNormalized):
     def extract_cote(self, row):
         return row['COTE']
 
+    def extract_decret_cote(self, row):
+        return row['DECRET_COTE']
+
     def extract_date(self, row):
         return self.parse_document_date(row['Date_decret'])
 
@@ -175,6 +255,52 @@ class Importer1887(ImporterNormalized):
 
     def extract_pays_naissance(self, row):
         return row['Pays_naissance']
+
+    def extract_lieu_residence(self, row):
+        return normalize_place(row['Lieu_residence'])
+
+    def has_ep(self, row):
+        return row['Ep_Nom'] is not None and len(row['Ep_Nom'].strip()) > 0
+
+    def extract_nom_ep(self, row):
+        array = row['Ep_Nom'].strip().split(",")
+        if len(array) >= 1:
+            return array[0].strip()
+
+    def extract_prenoms_ep(self, row):
+        array = row['Ep_Nom'].strip().split(",")
+        if len(array) >= 2:
+            dirty = array[1].strip()
+            if "née" in dirty:
+                return " ".join(dirty.split()[:-5])
+            else:
+                return dirty
+
+    def extract_date_naissance_ep(self, row):
+        date = self.parse_literal_date(row['Ep_Date_naissance'])
+        if date is None:
+            date_lit = self.get_literal_date_from_ep_nom(row)
+            if date_lit is not None:
+                date = self.parse_literal_date(date_lit)
+        return date
+
+    @staticmethod
+    def get_literal_date_from_ep_nom(row):
+        date = None
+        if "née" in row['Ep_Nom']:
+            array = row['Ep_Nom'].strip().split(",")
+            if len(array) == 2:
+                dirty = array[1].strip()
+                date = " ".join(dirty.split()[-3:])
+            elif len(array) == 3:
+                dirty = array[2].strip()
+                date = " ".join(dirty.split()[-3:])
+        return date
+
+    def extract_pays_naissance_ep(self, row):
+        return parse_country_name(row['Ep_Lieu_naissance'])
+
+
 
 
 class Importer1890(ImporterNormalized):
@@ -201,13 +327,17 @@ class Importer1890(ImporterNormalized):
         'Ville de naissance 2',
         'Département de naissance 2',
         'Pays de naissance 2',
-        'Prénom(s) et date(s) de naissance'  # enfants
+        'Enfants'  # enfants
     ]
 
-    CSV_PATH = os.path.join(data_dir, 'sources/indexation_decrets_1890.csv')
+    CSV_PATH = os.path.join(data_dir, 'transformed/indexation_decrets_1890_clean.csv')
+    XML_PATH = "../data/sources/FRAN_IR_056870.xml"
 
     def __init__(self, output_path):
         super(Importer1890, self).__init__(Importer1890.CSV_PATH, output_path, 1890)
+        xml = ET.parse(self.XML_PATH)
+        self.cote_to_decret = {doc.text.split(' (')[0].strip(): doc.getparent().getparent().getparent().find(
+            "did/unitid[@type='cote-de-consultation']").text for doc in xml.findall("archdesc/dsc/c/c/did/unitid")}
 
     def parse_document_date(self, literal):
         if literal is None:
@@ -217,6 +347,9 @@ class Importer1890(ImporterNormalized):
 
     def extract_cote(self, row):
         return row['Numéro de dossier']
+
+    def extract_decret_cote(self, row):
+        return self.cote_to_decret[self.extract_cote(row).split(" (")[0].strip()]
 
     def extract_date(self, row):
         return self.parse_document_date(row['Mois'])
@@ -235,6 +368,29 @@ class Importer1890(ImporterNormalized):
 
     def extract_pays_naissance(self, row):
         return row['Pays de naissance']
+
+    def extract_urls(self, row):
+        return "https://www.siv.archives-nationales.culture.gouv.fr/siv/UD/FRAN_IR_056870/" + row['id']
+
+    def extract_lieu_residence(self, row):
+        return normalize_place(",".join(filter(lambda s: s is not None,
+                                               [row['Ville de résidence'], row["Département de résidence"],
+                                                row["Pays de résidence"]])))
+
+    def has_ep(self, row):
+        return row['NOM2'] is not None and len(row['NOM2'].strip()) > 0
+
+    def extract_nom_ep(self, row):
+        return row['NOM2'].strip()
+
+    def extract_prenoms_ep(self, row):
+        return row['Prénom(s)2']
+
+    def extract_date_naissance_ep(self, row):
+        return self.parse_literal_date(row["Date de naissance 2"])
+
+    def extract_pays_naissance_ep(self, row):
+        return parse_country_name(row['Pays de naissance 2'])
 
 
 class ImporterOriginal(ImporterToJsonl):
@@ -260,9 +416,9 @@ def import_original():
 
 
 def import_normalized():
-    # importer1887 = Importer1887(output_path="../data/transformed/indexation_decrets_normalized_1887.jsonl")
-    # importer1887.run(chunksize=1024)
-    # importer1887.output.close()
+    importer1887 = Importer1887(output_path="../data/transformed/indexation_decrets_normalized_1887.jsonl")
+    importer1887.run(chunksize=1024)
+    importer1887.output.close()
 
     importer1890 = Importer1890(output_path="../data/transformed/indexation_decrets_normalized_1890.jsonl")
     importer1890.run(chunksize=1024)

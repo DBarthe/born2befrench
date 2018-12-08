@@ -22,7 +22,7 @@ def load_original():
     load_jsonl("../data/transformed/indexation_decrets_original_1890.jsonl", index="original1890")
 
 def load_normalized():
-    #load_jsonl("../data/transformed/indexation_decrets_normalized_1887.jsonl", index="nat")
+    load_jsonl("../data/transformed/indexation_decrets_normalized_1887.jsonl", index="nat")
     load_jsonl("../data/transformed/indexation_decrets_normalized_1890.jsonl", index="nat")
 
 
