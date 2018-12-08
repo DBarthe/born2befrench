@@ -1,4 +1,4 @@
-Mois,Numéro du document,Numéro de dossier,id,NOM,Prénom(s),Profession,Date de naissance,Date de naissance (texte libre),Ville de naissance,Département de naissance,Pays de naissance,Ville de résidence,Département de résidence,Pays de résidence,NOM2,Prénom(s)2,Date de naissance 2,Date de naissance (texte libre) 2,Pays de naissance 2,Ville de naissance 2,Département de naissance 2,Pays de naissance 2,Enfants
+Mois,Numéro du document,Numéro de dossier,id,NOM,Prénom(s),Profession,Date de naissance,Date de naissance (texte libre),Ville de naissance,Département de naissance,Pays de naissance,Ville de résidence,Département de résidence,Pays de résidence,NOM2,Prénom(s)2,Date de naissance 2,Date de naissance (texte libre) 2,Pays de naissance 2,Ville de naissance 2,Département de naissance 2,Date de naissance enfant,Enfants
 février,document 21,2772 X 82,fevrier_1890_1,GREGORY,Samuel Joseph,fabricant d'instruments de musique,13 décembre 1840,1840,Londres,,Angleterre,Vances,Seine,,,,,,,,,,Eugénie Louise Joséphine (19 avril 1870 Vanves) ; Jules Georges (26 juillet 1872 Vanves) ; Ernestine (10 septembre 1889 Vanves)
 février,document 21,2023 X 87,fevrier_1890_2,BAUER,Pierre,boulanger,17 novembre 1862,,Vigy,Moselle,France,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 21,4936 X 87,fevrier_1890_3,FERRARI,Pierre Constant,entrepreneur de fumisterie,15 août 1854,,Paris,,de père italien,Paris,Seine,,,,,,,,,,
@@ -13,13 +13,13 @@ février,document 21,8927 X 88,fevrier_1890_11,KLEISER,Louis,garçon boucher,29 
 février,document 21,10348 X 88,fevrier_1890_12,FULTE,Jules Hermann Gustave,tailleur,13 juin 1841,,Sagan,,Prusse,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 21,4063 X 87,fevrier_1890_13,GÈRARD,Joseph René,boulanger,11 juin 1858,,Kerprich-aux-bois,,France,Luneville,Meurthe-et-Moselle,,,,,,,,,,
 février,document 21,11117 X 88,fevrier_1890_14,GILARDI,Ange Michel Just,coiffeur,7 septembre 1852,,Chierri,,Italie,Paris,Seine,,,,,,,,,,Thérèse (29 juin 1881 Paris) ; Georgette (16 mars 1886 Paris)
-février,document 22,942 X 72,fevrier_1890_15,GUGLIELMINO,Joseph Louis,tanneur,1er mai 1841,,Pinasca,,Italie,Marseille,Bouches-du-Rhône,,BIANCA,Louise,4 septembre 1846,,,Villaperosa,,Italie,Marie Pauline (18 mars 1871) ; Marie Madeleine (15 aveil 1873) ; Josephine Marie (2 mai 1884) ; Simon (6 avril 1889)
-février,document 22,14490 X 89,fevrier_1890_16,BENOIT,Jean-Louis,sellier,29 juillet 1848,,Annecy,Haute-Savoie,de père suisse,Annecy,Haute-Savoie,,LONGERAY,Péronne,18 juillet 1850,,,Annecy,Haute-Savoie,France,Eugène (23 mai 1875) ; Aristide Laurent (11 sept 1876) ; Marie-Louise (12 avril 1878) ; Raoul-Ernest (22 amrs 1887)
+février,document 22,942 X 72,fevrier_1890_15,GUGLIELMINO,Joseph Louis,tanneur,1er mai 1841,,Pinasca,,Italie,Marseille,Bouches-du-Rhône,,BIANCA,Louise,4 septembre 1846,,Italie,Villaperosa,,,Marie Pauline (18 mars 1871) ; Marie Madeleine (15 aveil 1873) ; Josephine Marie (2 mai 1884) ; Simon (6 avril 1889)
+février,document 22,14490 X 89,fevrier_1890_16,BENOIT,Jean-Louis,sellier,29 juillet 1848,,Annecy,Haute-Savoie,de père suisse,Annecy,Haute-Savoie,,LONGERAY,Péronne,18 juillet 1850,,France,Annecy,Haute-Savoie,,Eugène (23 mai 1875) ; Aristide Laurent (11 sept 1876) ; Marie-Louise (12 avril 1878) ; Raoul-Ernest (22 amrs 1887)
 février,document 22,3287 X 83,fevrier_1890_17,FELDMANN,Henri Max,courtier en photographies,15 juillet 1890,,Letischeff,,Pologne russe,Paris,Seine,,,,,,,,,,Benoit (20 juillet 1878) ; Rose Alexandrine (17 aôut 1877) ;Thérèse Mathilde (31 mai 1880)
 février,document 22,5446 X 85,fevrier_1890_18,ETCHEPARE,Pierre,industriel,4 novembre 1839,,Lasse,Basses-Pyrénées,de père espagnol,Bruges,Basses-Pyrénées,,,,,,,,,,
-février,document 22,1362 X 87,fevrier_1890_19,DI FARA,Salvatore Candeloro,marin pêcheur,2 février 1852,,Bourg en Gaète,,Italie,Marseille,Bouches-du-Rhône,,LATTANZIO,Françoise,28 mars 1854,,,bourg de Gaète,,Italie,Vincent jean (10 juin 1887) ; Charlotte Fortunée (4 octobre 1889)
-février,document 22,1363 X 87,fevrier_1890_20,JEBALD;SEBALD,Louis Frédéric,marchand de comestibles,24 janvier 1850,,Orhringen,,Allemagne,Versailles,,,PFIZENMAYER,Emma,28 septembre 1801,,,Heilbronn,,Allemagne,Ludovic (21 mai 1884) ; Frédéric (21 aôut 1885) ; Georges (10 déc 1886) ;Auguste (18 mars 1888) ; Henri (21 fév 1889) ; Théodore (21 
-février,document 22,2215 X 87,fevrier_1890_21,LOZÉ,Auguste Paul Léon,ouvrier de chemin de fer,31 mars 1876,,Ostende,,Belgique,Bruay,Nord,,LAMBERT,Lucie Marie Joseph,13 mai 1862,,,Gosselies,,Belgique,Victor Auguste Guillaume (22 avril 1882) ; Auguste Philippe Robert (30 mars 1884) ; Mathilde Lucie Céline (14 fev 1887)
+février,document 22,1362 X 87,fevrier_1890_19,DI FARA,Salvatore Candeloro,marin pêcheur,2 février 1852,,Bourg en Gaète,,Italie,Marseille,Bouches-du-Rhône,,LATTANZIO,Françoise,28 mars 1854,,Italie,bourg de Gaète,,,Vincent jean (10 juin 1887) ; Charlotte Fortunée (4 octobre 1889)
+février,document 22,1363 X 87,fevrier_1890_20,JEBALD;SEBALD,Louis Frédéric,marchand de comestibles,24 janvier 1850,,Orhringen,,Allemagne,Versailles,,,PFIZENMAYER,Emma,28 septembre 1801,,Allemagne,Heilbronn,,,Ludovic (21 mai 1884) ; Frédéric (21 aôut 1885) ; Georges (10 déc 1886) ;Auguste (18 mars 1888) ; Henri (21 fév 1889) ; Théodore (21 
+février,document 22,2215 X 87,fevrier_1890_21,LOZÉ,Auguste Paul Léon,ouvrier de chemin de fer,31 mars 1876,,Ostende,,Belgique,Bruay,Nord,,LAMBERT,Lucie Marie Joseph,13 mai 1862,,Belgique,Gosselies,,,Victor Auguste Guillaume (22 avril 1882) ; Auguste Philippe Robert (30 mars 1884) ; Mathilde Lucie Céline (14 fev 1887)
 février,document 22,3334 X 87,fevrier_1890_22,WINTGENS,Jean Hubert Joseph,domestique,5 mai 1836,,Aubel,,Belgique,Condé,Meuse,,,,,,,,,,
 février,document 22,4732 X 87,fevrier_1890_23,FLIEGEL,Jean Ernest Guillaume,ébéniste,12 septembre 1801,,Cuzendorf,,Sibérie,Paris,,,,,,,,,,,
 février,document 22,5875 X 87,fevrier_1890_24,SIMON,Léopold,journalier,18 mai 1861,,Longjumeau,Seine-et-Oise,de père belge,Longjumeau,Seine-et-Oise,,,,,,,,,,
@@ -27,8 +27,8 @@ février,document 22,8159 X 87,fevrier_1890_25,STEMMLER,Daniel,voyageur de comme
 février,document 22,8344 X 87,fevrier_1890_26,SCHUGT,Jacques Charles,fabricant de meubles,6 août 1861,,Bonn,,Allemagne,paris,,,,,,,,,,,
 février,document 22,8740 X 87,fevrier_1890_27,KELHHEIMER,Moses,négociant,1er février 1835,,Konken,,Bavière,Paris,,,,,,,,,,,Cécile Hortense (7 octobre 1873) ; Lucien Arthur ( 18 décembre 1874) ; Marcel Raoul Anatole (18 décembre 1879)
 février,document 22,9138 X 87,fevrier_1890_28,ASTREGO,Jean-Baptiste,maître maçon,16 février 1856,,Pieve di Teco,,Italie,Toulon,Var,,,,,,,,,,
-février,document 22,9264 X 87,fevrier_1890_29,MARCHISIO,Jean Dominique,distillateur,9 mai 1851,,San Estefano Rovero,,Italie,Toulon,Var,,ROMANO,Thérèse marguerite Baptistine,31 juillet 1853,,,Toulon,Var,"France, de père italien",
-février,document 22,10738 X 87,fevrier_1890_30,RIGO,Marc Louis Étienne,négociant,7 mai 1848,,Trébizonde,,"Turquie, de père grec",Marseille,Bouches-du-Rhône,,LEITGEB,Catherine,5 mai 1857,,,Grubweg,,Bavière,Antoine Marc (21 octobre 1887) ; Henriette Joséphine (18 mars 1889)
+février,document 22,9264 X 87,fevrier_1890_29,MARCHISIO,Jean Dominique,distillateur,9 mai 1851,,San Estefano Rovero,,Italie,Toulon,Var,,ROMANO,Thérèse marguerite Baptistine,31 juillet 1853,,"France, de père italien",Toulon,Var,,
+février,document 22,10738 X 87,fevrier_1890_30,RIGO,Marc Louis Étienne,négociant,7 mai 1848,,Trébizonde,,"Turquie, de père grec",Marseille,Bouches-du-Rhône,,LEITGEB,Catherine,5 mai 1857,,Bavière,Grubweg,,,Antoine Marc (21 octobre 1887) ; Henriette Joséphine (18 mars 1889)
 février,document 22,11436 X 87,fevrier_1890_31,WEILL,Abraham,employé de commerce,3 juin 1851,,Paris,,de père autrichien,Paris,,,,,,,,,,,
 février,document 22,11958 X 87,fevrier_1890_32,BAERT,François,entrepreneur de travaux publics,8 mars 1855,,Morcenx,Landes,de père belge,Mans,Sarthe,,,,,,,,,,
 février,document 22,12247 X 87,fevrier_1890_33,KURZ,Théophile,tailleur,6 mars 1827,,Unterturkheim,,Wurtemberg,Paris,,,,,,,,,,,
@@ -42,9 +42,9 @@ février,document 22,14703 X 88,fevrier_1890_40,REVELLO,Michel Bathelemy,journal
 février,document 22,32 X 89,fevrier_1890_41,LEMASSON,Gustave,garçon coiffeur,31 janvier 1866,,Metz,Moselle,France,Lyon,Rhône,,,,,,,,,,
 février,document 22,189 X 89,fevrier_1890_42,TANTEL-BERTHAUD,Pierre,commis de librairie,15 juillet 1868,,Hambourg,Moselle,France,Paris,,,,,,,,,,,
 février,document 22,489 X 89,fevrier_1890_43,HAUCKE,Théodore Hilmar Oscar,négociant,5 mai 1843,,Daeschnitz,,Allemagne,Saint Etienne,,,,,,,,,,,Joseph Godefroid (24 juillet 1878) ; Louise Antoinette Hermine (5 avril 1880)
-février,document 22,1552 X 89,fevrier_1890_44,HUBERT,Michel,imprimeur,28 février 1848,,Paris,,de père luxembourgeois,Paris,,,BERWICK,Marguerite,12 octobre 1843,,,Dudelange,,Luxembourg,
-février,document 22,5225 X 89,fevrier_1890_45,OPPENHEIMER,Marcus,rentier,7 mai 1849,,Francfort-sur-le-Main,,Allemagne,Paris,,,NEUBURG,Franziska,5 février 1855,,,Soden,,Allemagne,Jeannette (12 septembre 1885) ; Hélène (14 fevrier 1887) ; Maurice (12 aôut 1889)
-février,document 22,5315 X 89,fevrier_1890_46,DEMARIA,François-Joseph,journalier,27 août 1842,,Dronero,,Italie,Toulon,Var,,ARMANDO,Marie,3 décembre 1844,,,Caraglio,,Italie,Thérèse Marie Alexandrine Joséphine (17 janvier 1881)
+février,document 22,1552 X 89,fevrier_1890_44,HUBERT,Michel,imprimeur,28 février 1848,,Paris,,de père luxembourgeois,Paris,,,BERWICK,Marguerite,12 octobre 1843,,Luxembourg,Dudelange,,,
+février,document 22,5225 X 89,fevrier_1890_45,OPPENHEIMER,Marcus,rentier,7 mai 1849,,Francfort-sur-le-Main,,Allemagne,Paris,,,NEUBURG,Franziska,5 février 1855,,Allemagne,Soden,,,Jeannette (12 septembre 1885) ; Hélène (14 fevrier 1887) ; Maurice (12 aôut 1889)
+février,document 22,5315 X 89,fevrier_1890_46,DEMARIA,François-Joseph,journalier,27 août 1842,,Dronero,,Italie,Toulon,Var,,ARMANDO,Marie,3 décembre 1844,,Italie,Caraglio,,,Thérèse Marie Alexandrine Joséphine (17 janvier 1881)
 février,document 22,7712 X 89,fevrier_1890_47,LOMBARDO,Vincent,cordonnier,27 août 1858,,Mombasiglio,,Italie,Toulon,Var,,,,,,,,,,Aimé Léon (2 mais 1879)
 février,document 22,8531 X 89,fevrier_1890_48,CHEVALIER née FOUREZ,Hélène,,30 janvier 1824,,Grand-Reng,,Belgique,Paris,,,,,,,,,,,
 février,document 22,8772 X 89,fevrier_1890_49,DIEBOLD,Thiebaut,épicier,9 juin 1857,,Mittelhausen,Bas-Rhin,,Paris,,,,,,,,,,,
@@ -57,14 +57,14 @@ février,document 22,11796 X 89,fevrier_1890_55,BERGER,Auguste Antoine,ouvrier c
 février,document 22,11837 X 89,fevrier_1890_56,VERMEERSCH,Jules,ajusteur,19 avril 1861,,Roulens,,Belgique,Hellemmes-Lille,Nord,,,,,,,,,,
 février,document 22,11862 X 89,fevrier_1890_57,FINALE,Antoine Marie,commis de commerce,3 novembre 1857,,Roboaro,,Italie,Toulon,Var,,,,,,,,,,
 février,document 22,11877 X 89,fevrier_1890_58,MACCARIO,Bernard,employé,9 janvier 1864,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,,,,,,,,,
-février,document 22,11949 X 89,fevrier_1890_59,LIBECCIO,Ludovic,décrotteur,9 février 1849,,Coni,,Italie,Marseille,Bouches-du-Rhône,,GIAVELLI,Marguerite,1er avril 1851,,,Bersegio,,Italie,Thérèse Philomène (13 avril 1872) ; Marie (15 novembre 1877) ; Ferdinand (7 juin 1879) ; Adrienne (11 juin1888)
+février,document 22,11949 X 89,fevrier_1890_59,LIBECCIO,Ludovic,décrotteur,9 février 1849,,Coni,,Italie,Marseille,Bouches-du-Rhône,,GIAVELLI,Marguerite,1er avril 1851,,Italie,Bersegio,,,Thérèse Philomène (13 avril 1872) ; Marie (15 novembre 1877) ; Ferdinand (7 juin 1879) ; Adrienne (11 juin1888)
 février,document 22,11956 X 89,fevrier_1890_60,DE GRAEVE,Ferdinand,ouvrier cordonnier,30 avril 1849,,Audename; Audenawe,,Belgique,Paris,,,,,,,,,,,
 février,document 22,12041 X 89,fevrier_1890_61,FELLER,Charles Clément,fondeur,27 mai 1855,,Saint-Léger,,Belgique,Paris,,,,,,,,,,,Georgette Stephanie (26 mai 1878) ; Gaston François (22 janvier 1881)
-février,document 22,12209 X 89,fevrier_1890_62,ONORATO,Amel Gaetan,pêcheur,12 octobre 1842,,Ischia,,Italie,Marseille,Bouches-du-Rhône,,CURCI,Angèle Marie,3 janvier 1840,,,Ischia,,Italie,Carmnie (25 juin 1870) ; Caroline (13 juillet 1877)
+février,document 22,12209 X 89,fevrier_1890_62,ONORATO,Amel Gaetan,pêcheur,12 octobre 1842,,Ischia,,Italie,Marseille,Bouches-du-Rhône,,CURCI,Angèle Marie,3 janvier 1840,,Italie,Ischia,,,Carmnie (25 juin 1870) ; Caroline (13 juillet 1877)
 février,document 22,12212 X 89,fevrier_1890_63,BELLONI,Jules Célestin,sculpteur statuaire,14 octobre 1839,,Paris,,de père italien,Lyon,Rhône,,,,,,,,,,
 février,document 22,12214 X 89,fevrier_1890_64,VAN DEN BERGH,François,ouvrier de scierie,10 septembre 1840,,Theralphère,,Belgique,Crépy-en-Valois,Oise,,,,,,,,,,Henri (6 juillet 1878) ; Oscar André (17 décembre 1883) ; Abel Louis (11 mai 1887)
 février,document 22,12249 X 89,fevrier_1890_65,GROSSO,Joseph Hyacinthe,négociant en passementerie,23 décembre 1819,,Turin,,Italie,Paris,,,,,,,,,,,Alphonsine Fernande (19 aôut 1875) ; Marguerite Elisabeth (9 novembre 1852)
-février,document 22,12417 X 89,fevrier_1890_66,WILLEMS,Léonard François Luis,ouvrier ébéniste,23 octobre 1839,,Bruges,,Belgique,Paris,,,STOOPS,Mathilde Florentine,20 octobre 1844,,,Gand,,Belgique,Gabriel (24 mai 1876) ; Jean (11 juin 1879) ; Jeanne (8 octobre 1887)
+février,document 22,12417 X 89,fevrier_1890_66,WILLEMS,Léonard François Luis,ouvrier ébéniste,23 octobre 1839,,Bruges,,Belgique,Paris,,,STOOPS,Mathilde Florentine,20 octobre 1844,,Belgique,Gand,,,Gabriel (24 mai 1876) ; Jean (11 juin 1879) ; Jeanne (8 octobre 1887)
 février,document 22,12466 X 89,fevrier_1890_67,SAOU,Firmin,peintre en batiments,9 septembre 1858,,Ribaute,Gard,de père espagnol,Alois,Gard,,,,,,,,,,
 février,document 22,12576 X 89,fevrier_1890_68,DE JONGHE,Maurice Émile,serrurier,5 septembre 1801,,Paris,,de père belge,Paris,,,,,,,,,,,
 février,document 22,12658 X 89,fevrier_1890_69,REISDORFER,Pierre,domestique,16 février 1847,,Otzenhausen,,Prusse rhénane,Ay; Aij,Marne,,,,,,,,,,Lucien Pierre (29 janvier 1888) ; André Henri ( 27 aôut 1889)
@@ -74,14 +74,14 @@ février,document 22,12897 X 89,fevrier_1890_72,WILHELM,Guillaume,comptable,3 ju
 février,document 22,13046 X 89,fevrier_1890_73,MORGENTHALLER,Joseph Alphonse,dessinateur,10 décembre 1858,,Hengwiller,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 22,13067 X 89,fevrier_1890_74,DUBLE,Jacques Désiré,employé,20 avril 1845,,Louvain,,Belgique,Sous le bois (Maubeuge),Nord,,,,,,,,,,Rose Marguerite (27 juin 1879) ; Gabrielle (4 juin 1885)
 février,document 22,13077 X 89,fevrier_1890_75,CLER,Louis Auguste,tourneur sur marbre,10 juin 1847,,Chaumont,,Italie,Marseille,,,,,,,,,,,Marie-Joseph Paul ( 26 janvier 1879)
-février,document 22,13241 X 89,fevrier_1890_76,RENDERS,Joseph François,conducteur de machines,5 septembre 1851,,Anvers,,Belgique,Lille,Nord,,D'HOAT,Colette,18 février 1835,,,Warteghem,,Belgique,
+février,document 22,13241 X 89,fevrier_1890_76,RENDERS,Joseph François,conducteur de machines,5 septembre 1851,,Anvers,,Belgique,Lille,Nord,,D'HOAT,Colette,18 février 1835,,Belgique,Warteghem,,,
 février,document 22,13983 X 89,fevrier_1890_77,RIGOLI,Ferdinand,cordonnier,20 avril 1848,,Bar-sur-Seine,Côte-d'or,de père italien,Ampilly-le-Sec,Côte-d'or,,,,,,,,,,
 février,document 22,13287 X 89,fevrier_1890_78,OLLIVIERO,Jean Baptiste,ouvrier mineur,23 décembre 1855,,Gravere,,Italie,La Motte d'Aveillans,Isère,,,,,,,,,,Marthe Louise (11 janvier 1883) ; Blanche Hélène (15 février 1887) ; Henri Jacques (14 septembre 1889)
 février,document 22,13329 X 89,fevrier_1890_79,LECLERCQ,Adolphe,serrurier-mécanicien,26 février 1850,,Tournai,,Belgique,Wterloo,Nord,,,,,,,,,,Elise Emilie (3 juin 1876) ; Gaston (3 mai 1878) ; Jules (17 mars 1880) ; Jean (27 décembre 1882) ; Albert Adolphe (14 aôut 1884)
 février,document 22,14304 X 89,fevrier_1890_80,VAN HEGHE,Frédéric,domestique,2 janvier 1849,,Josseten- Noode,,Belgique,Lomme,Nord,,,,,,,,,,Jules Frédéric (4 mars 1874) ; Jeanne Louise (18 décembre 1877) ; Louis Léon (6 décembre 1879) ; Léon Jean (28 octobre 1881) ; Gustave Alfred (20 octobre 1883) ; Marie Louise (7 novembre 1885) ; Lucie Léa (18 novembre 1889).
 février,document 22,14630 X 89,fevrier_1890_81,BOURSELETH,Balthasar,imprimeur lithographe,5 mai 1868,,Wickolsheim,Haut-Rhin,,Belfort,,,,,,,,,,,
 février,document 22,14857 X 89,fevrier_1890_82,BRAUER,Nicolas,homme de peine,9 juin 1855,,Ribeauvillé,Haut-Rhin,,Paris,,,,,,,,,,,
-février,document 22,15110 X 89,fevrier_1890_83,FABER,Mathias,cordonnier,10 septembre 1832,,Sarrebourg,,Prusse rhénane,Paris,,,BIVER,Marie,3 juillet 1832,,,Roeser,,Luxembourg,Jean-Jules (24 mars 1876)
+février,document 22,15110 X 89,fevrier_1890_83,FABER,Mathias,cordonnier,10 septembre 1832,,Sarrebourg,,Prusse rhénane,Paris,,,BIVER,Marie,3 juillet 1832,,Luxembourg,Roeser,,,Jean-Jules (24 mars 1876)
 février,document 22,15157 X 89,fevrier_1890_84,FISCHER,Adolphe,verrier,20 octobre 1868,,Abreschwiller,,,Fains,Meuse,,,,,,,,,,
 février,document 22,15248 X 89,fevrier_1890_85,DESRAT,Symphorien Alphonse,tailleur de pierre,29 juin 1868,,Metz,Moselle,,Villier-aux-Corneilles,Marne,,,,,,,,,,
 février,document 22,15507 X 89,fevrier_1890_86,ZUMINO,Jean-Baptiste Jacques,cammionneur,16 décembre 1848,,Munialdo,,Italie,Marseille,Bouches-du-Rhône,,GIANTI,Rosa Félicité,3 mai 1849,,,Caraglio,,,
@@ -92,18 +92,18 @@ février,document 22,12717 X 88,fevrier_1890_90,DEMBICKI,Ildefonse,prêtre,6 mai
 février,document 22,14131 X 88,fevrier_1890_91,EPHRAHIM dir NOWOZELSKI,Lazare,opticien,12 juillet 1854,,Metz,Moselle,de père russe,Paris,,,,,,,,,,,
 février,document 22,3241 X 89,fevrier_1890_92,RIEGEL,Joseph Georges,carrossier,20 décembre 1834,,Paris,,de père bavarois,Paris,,,,,,,,,,,
 février,document 22,11479 X 89,fevrier_1890_93,VACCARIO,François,ex-marin,27 août 1808,,Toulon,Var,de père italien,Marseille,Bouches-du-Rhône,,,,,,,,,,
-février,document 22,11320 X 89,fevrier_1890_94,VIERENDEELS,Pierre Philippe,journalier,5 octobre 1834,,Lacken,,Belgique,Havre,Seine-Inférieure,,CLOQUE,Adèle,13 avril 1834,,,Oetinghen,,Belgique,Colette Françoise (22 février 1872)
+février,document 22,11320 X 89,fevrier_1890_94,VIERENDEELS,Pierre Philippe,journalier,5 octobre 1834,,Lacken,,Belgique,Havre,Seine-Inférieure,,CLOQUE,Adèle,13 avril 1834,,Belgique,Oetinghen,,,Colette Françoise (22 février 1872)
 février,document 22,12370 X 89,fevrier_1890_95,DE VOS,Joseph Charles,vernisseur,6 août 1824,,Gand,,Belgique,Beaumont sur Oise,Seine-et-Oise,,,,,,,,,,
 février,document 22,14574 X 89,fevrier_1890_96,STRAUSS,Marie Charlotte,,9 décembre 1836,,Sachsenhausen,,Wurtemberg,Brie-Comte-Robert,Seine-et-Marne,,,,,,,,,,
 février,document 22,1107 X 81,fevrier_1890_97,LUFFREDO,Michel,,,,non précisé,,,Ajaccio,Corse,,,,,,,,,,
 février,document 22,3314 X 86,fevrier_1890_98,DREYFUS,Nathan,,,,non précisé,,,Vitry-le-François,Marne,,,,,,,,,,
-février,document 23,845 X 81,fevrier_1890_99,FALKENBURGER,Moise Hirsch,négociant,29 octobre 1831,,Pyritz,,Allemagne,Paris,,,HOFF,Eve,4 octobre 1835,,,Pleschen,,Allemagne,Thérèse (27 juin 1870) ; Claire (6 juillet 1873)
+février,document 23,845 X 81,fevrier_1890_99,FALKENBURGER,Moise Hirsch,négociant,29 octobre 1831,,Pyritz,,Allemagne,Paris,,,HOFF,Eve,4 octobre 1835,,Allemagne,Pleschen,,,Thérèse (27 juin 1870) ; Claire (6 juillet 1873)
 février,document 23,4555 X 81,fevrier_1890_100,BERGER,Karoly,négociant,3 mai 1859,,Buda-Pesth,,Hongrie,Paris,,,,,,,,,,,
 février,document 23,499 X 83,fevrier_1890_101,MATAGNE,Victore Joseph Ghislain,sous-chef d'exploitation des chemins de fer,25 octobre 1847,,Fraire,,Belgique,Bastia,Corse,,,,,,,,,,Victor Jean Baptiste François Léon (26 septembre 1881) ; Marie Julien Lambert (15 juin 1883)
 février,document 23,6138 X 84,fevrier_1890_102,CERRUTI,Étienne Joseph Antoine,fermier,9 août 1862,,Acqui,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Noelie Pauline Jeanne (25 dédembre 1887)
 février,document 23,4181 X 85,fevrier_1890_103,ALBANESI,Henri Joseph Antoine Philippe,tailleur,23 mai 1829,,Parme,,Italie,Paris,,,,,,,,,,,
 février,document 23,4866 X 85,fevrier_1890_104,MITTERUTZNER,Joseph Jean Baptiste Maria,professeur de langues vivantes,31 octobre 1847,,Bozon,,Tyrol autrichien,Marseille,Bouches-du-Rhône,,,,,,,,,,
-février,document 23,137 X 86,fevrier_1890_105,MASIMO,Étienne,employé au service municipal,9 juillet 1836,,Vinadio,,Italie,Paris,,,BAGNIS,Rosa,29 octobre 1801,,,Vinadio,,Italie,Marie Anne (27 décembre 1873)
+février,document 23,137 X 86,fevrier_1890_105,MASIMO,Étienne,employé au service municipal,9 juillet 1836,,Vinadio,,Italie,Paris,,,BAGNIS,Rosa,29 octobre 1801,,Italie,Vinadio,,,Marie Anne (27 décembre 1873)
 février,document 23,1701 X 84,fevrier_1890_106,OHREL,Eugène Joseph,ouvrier brasseur,5 mars 1858,,Still,Bas-Rhin,,Paris,,,,,,,,,,,Cunégonde Marie (24 juin 1879)
 février,document 23,6301 X 84,fevrier_1890_107,LEVY,Eugène,employé,5 septembre 1863,,Thann,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 23,1789 X 85,fevrier_1890_108,HABY,Jean François Emile,garçon receveur,18 mars 1861,,Sierentz,Bas-Rhin,,Paris,,,,,,,,,,,
@@ -127,12 +127,12 @@ février,document 23,3928 X 86,fevrier_1890_125,SIGRIST,Alfred,,7 mars 1856,,Riq
 février,document 23,4812 X 86,fevrier_1890_126,MEYER,Georges,tailleur,5 septembre 1861,,Reding,,Meurthe,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 23,4850 X 86,fevrier_1890_127,CASAS,Eustagnio Rafael,rentier,20 septembre 1837,,Pozo Amarzo,,Espagne,Paris,,,,,,,,,,,
 février,document 23,5483 X 86,fevrier_1890_128,MALAISE,Charles,employé de fabrique,29 mai 1859,,Neuviller-sur-Fave,Vosges,,Thaon,Vosges,,,,,,,,,,
-février,document 23,5981 X 86,fevrier_1890_129,GOLDSATDT,Benjamin,négociant,30 décembre 1857,,Paris,,de père polonais,Nice,Alpes-Maritimes,,KALETSKI,Fanny,20 mai 1862,,,Paris,,"France, de père polonais",
+février,document 23,5981 X 86,fevrier_1890_129,GOLDSATDT,Benjamin,négociant,30 décembre 1857,,Paris,,de père polonais,Nice,Alpes-Maritimes,,KALETSKI,Fanny,20 mai 1862,,"France, de père polonais",Paris,,,
 février,document 23,6270 X 86,fevrier_1890_130,DACHAUER,Louis,tailleur,4 novembre 1862,,Insming,,Meurthe,Paris,,,,,,,,,,,
 février,document 23,6661 X 86,fevrier_1890_131,JALKUT,Joseph,négociant,19 mars 1840,,Ratzki,,Pologne russe,Paris,,,,,,,,,,,
 février,document 23,7262 X 88,fevrier_1890_132,GRIMAUX,Charles,ouvrier de forges,15 mars 1862,,Corny,Moselle,,Champigneulles,Meurthe-et-Moselle,,,,,,,,,,
 février,document 23,7657 X 86,fevrier_1890_133,SCHERER,Joseph,garçon de café,16 septembre 1863,,Beniheim,Bas-Rhin,,Paris,,,,,,,,,,,
-février,document 23,127 X 86,fevrier_1890_134,RINALDI,Sauveur,pêcheur,3 décembre 1851,,Procida,,Italie,La Seyne,Var,,CRAVAREZZA,Marguerite,4 août 1853,,,Ponti d'Alexandrie,,Italie,Auguste Louis (14 janvier 1885) ; Auguste Victor (31 janvier 1888)
+février,document 23,127 X 86,fevrier_1890_134,RINALDI,Sauveur,pêcheur,3 décembre 1851,,Procida,,Italie,La Seyne,Var,,CRAVAREZZA,Marguerite,4 août 1853,,Italie,Ponti d'Alexandrie,,,Auguste Louis (14 janvier 1885) ; Auguste Victor (31 janvier 1888)
 février,document 23,7046 X 86,fevrier_1890_135,WALCK,Louis Gaston,ouvvier boulanger,6 mai 1861,,Poitiers,Vienne,de père badois,,,,,,,,,,,,
 février,document 23,7901 X 86,fevrier_1890_136,PELLIER,Daniel,ingénieur,19 octobre 1856,,Twann,,Suisse,Paris,,,,,,,,,,,
 février,document 24,6838 X 89,fevrier_1890_137,FISCHER veuve DANGEL,Marie Anne,,30 janvier 1814,,Aschbach,Bas-Rhin,,Paris,,,,,,,,,,,
@@ -151,12 +151,12 @@ février,document 24,15420 X 89,fevrier_1890_149,TAITE,Nicolas Alfred,employé d
 février,document 24,3029 X 81,fevrier_1890_150,DAVID,Adolphe,marchand de vêtements d'homme,19 décembre 1848,,Vergaville,,Meurthe,Lyon,Rhône,,LAZARD,Sara,12 octobre 1841,,,Courcelles-Chaussy,Moselle,,Alfred (23 mars 1874) ; Jules (23 juin 1875) ; Ernest (1 mars 1877)
 février,document 24,14864 X 89,fevrier_1890_151,LEVI,Hermann,employé de commerce,14 novembre 1861,,Strasbourg,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 24,14507 X 89,fevrier_1890_152,HENNEQUIN,Jean Louis,surnuméraire au douanes,21 août 1868,,Ars Laquenexy,Moselle,,Paris,,,,,,,,,,,
-février,document 24,12150 X 89,fevrier_1890_153,BAUR,Joseph Victor,,3 décembre 1821,,Gorze,Moselle,,Nancy,Meurthe-et-Moselle,,DUVAL,Gertrude Marie Thérèse,8 janvier 1824,,,Bayonville,,Meurthe,
+février,document 24,12150 X 89,fevrier_1890_153,BAUR,Joseph Victor,,3 décembre 1821,,Gorze,Moselle,,Nancy,Meurthe-et-Moselle,,DUVAL,Gertrude Marie Thérèse,8 janvier 1824,,Meurthe,Bayonville,,,
 février,document 24,12151 X 89,fevrier_1890_154,BAUR,Marie-Claire,,12 décembre 1857,,Metz,Moselle,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 24,12377 X 89,fevrier_1890_155,PUTZ,CHarles Auguste,mécanicien,6 novembre 1830,,Strasbourg,Bas-Rhin,,Pantin,Seine,,SCHNEIDER,Caroline Sophie,20 janvier 1830,,,Strasbourg,Bas-Rhin,,
 février,document 24,13045 X 89,fevrier_1890_156,FUCHS,Charles Adolphe,employé,27 février 1839,,Strasbourg,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 24,13049 X 89,fevrier_1890_157,FRISSE,François,journalier,2 juillet 1862,,Berig,Moselle,,Paris,,,SEIVERT,Eugénie,21 décembre 1867,,,Coin-sur-Seille,Moselle,,
-février,document 24,15776 X 89,fevrier_1890_158,FOURLEMANN,Jean-Baptiste,instituteur,25 avril 1842,,Lixheim,,Meurthe,Paris,,,STRAUB,Marie-Anne,29 décembre 1856,,,Lixheim,,Meurthe,Blanche Marie Félicie Christine (21 avril 1876)
+février,document 24,15776 X 89,fevrier_1890_158,FOURLEMANN,Jean-Baptiste,instituteur,25 avril 1842,,Lixheim,,Meurthe,Paris,,,STRAUB,Marie-Anne,29 décembre 1856,,Meurthe,Lixheim,,,Blanche Marie Félicie Christine (21 avril 1876)
 février,document 24,82 X 90,fevrier_1890_159,MATHIS,Georges,employé aux écritures,1er novembre 1868,,Brumath,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 24,572 X 90,fevrier_1890_160,SPECHT,Auguste,garçon brasseur,2 décembre 1858,,Sermersheim,Bas-Rhin,,Belfort,,,,,,,,,,,
 février,document 25,2772 X 82,fevrier_1890_161,GREGORY née LECOMTE,Anette Ernestine,,4 janvier 1862,,Paris,Seine,,Vanves,Seine,,,,,,,,,,
@@ -290,20 +290,20 @@ février,document 29,15656 X 89,fevrier_1890_288,MADOT,Édouard,cordonnier,20 ja
 février,document 29,15698 X 89,fevrier_1890_289,BÜRCK,Joseph,tailleur,7 mai 1857,,Bernardswiller,Bas-Rhin,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 29,10844 X 88,fevrier_1890_290,FADRINI,Pierre Antoine,ouvrier fumiste,,,non précisé,,,Paris,,,,,,,,,,,
 février,document 29,5902 X 88,fevrier_1890_291,DESTÉFANIE,Jean,cordonnier,,,non précisé,,,Chambéry,Savoie,,,,,,,,,,
-février,document 30,2451 X 84,fevrier_1890_292,LÉVY,David,marchand ambulant,21 avril 1846,,Dahm,,Bavière,Paris,,,ROHTBART,Sara,14 septembre 1848,,,Schnak,,Pologne,Léopold (15 novembre 1872) ; Maurice (30 cotobre 1874)
-février,document 30,2956 X 84,fevrier_1890_293,FIERNHOFER,Albert,mécanicien,16 mars 1850,,Hirtemberg,,Autriche,Paris,,,WEINERT,Jeanne,27 octobre 1841,,,Endershrün,,Bohême,Edwiige-Elisabeth (24 septembre 1873)
+février,document 30,2451 X 84,fevrier_1890_292,LÉVY,David,marchand ambulant,21 avril 1846,,Dahm,,Bavière,Paris,,,ROHTBART,Sara,14 septembre 1848,,Pologne,Schnak,,,Léopold (15 novembre 1872) ; Maurice (30 cotobre 1874)
+février,document 30,2956 X 84,fevrier_1890_293,FIERNHOFER,Albert,mécanicien,16 mars 1850,,Hirtemberg,,Autriche,Paris,,,WEINERT,Jeanne,27 octobre 1841,,Bohême,Endershrün,,,Edwiige-Elisabeth (24 septembre 1873)
 février,document 30,4015 X 85,fevrier_1890_294,HIRTZ,Samuel,,4 octobre 1854,,Ribeauvillé,Haut-Rhin,,Paris,,,,,,,,,,,
-février,document 30,1838 X 87,fevrier_1890_295,GRONDONA,Pie Bernard,pêcheur,10 septembre 1849,,Marguerite-Ligure,,Italie,Marseille,Bouches-du-Rhône,,COSTA,Louise Philippine,6 novembre 1857,,,Marguerite-Ligure,,Italie,Joseph Louis Jean ( 21 aôut 1878) ; Joseph Pierre (29 juin 1881) ; Louis Nicole (19 aôut 1886) ; Nicolas Louis (4 octobre 1888)
+février,document 30,1838 X 87,fevrier_1890_295,GRONDONA,Pie Bernard,pêcheur,10 septembre 1849,,Marguerite-Ligure,,Italie,Marseille,Bouches-du-Rhône,,COSTA,Louise Philippine,6 novembre 1857,,Italie,Marguerite-Ligure,,,Joseph Louis Jean ( 21 aôut 1878) ; Joseph Pierre (29 juin 1881) ; Louis Nicole (19 aôut 1886) ; Nicolas Louis (4 octobre 1888)
 février,document 30,4214 X 87,fevrier_1890_296,SCHMIDT,Henri Alfref,ingénieur civil,10 juillet 1851,,Winterthin,,Suisse,Paris,,,,,,,,,,,Yvonne Marguerite Maximilienne (21 janvier 1888)
 février,document 30,5093 X 87,fevrier_1890_297,BENEY,Charles Lucien,employé auxiliaire aux ministère des Finances,28 avril 1853,,Neufchâtel,,Suisse,Paris,,,,,,,,,,,
-février,document 30,5526 X 87,fevrier_1890_298,RÉARO,Jean-Baptiste François Eugène,débitant de vins,8 juillet 1849,,Borghetto,,Italie,Marseille,Bouches-du-Rhône,,SGHIRLA,Jerônime Françoise,16 avril 1850,,,Marseille,Bouches-du-Rhône,France d'un pére italien,
-février,document 30,5666 X 87,fevrier_1890_299,KIEGLER,Jean,comptable,14 novembre 1837,,Brebach,,Prusse rhénane,Pont à Mousson,Meurthe-et-Moselle,,RETTIG,Anne Marie Catherine,12 novembre 1842,,,Mayence,,Allemagne,
-février,document 30,6561 X 87,fevrier_1890_300,RASSENEUR,Paul Joseph,voyageur de commerce,24 avril 1855,,Paris,,de père belge,Paris,,,MARTIGNY,Catherine,1er juin 1858,,,Paris,,France d'un pére luxembourgeois,
-février,document 30,6696 X 87,fevrier_1890_301,VAGNER,Ferdinand,ouvrier mécanicien,21 février 1860,,Mondkail,Moselle,de père luxembourgeois,Paris,,,WOLFF,Marie Thérèse,17 août 1868,,,Paris,,France d'un pére luxembourgeois,
+février,document 30,5526 X 87,fevrier_1890_298,RÉARO,Jean-Baptiste François Eugène,débitant de vins,8 juillet 1849,,Borghetto,,Italie,Marseille,Bouches-du-Rhône,,SGHIRLA,Jerônime Françoise,16 avril 1850,,France d'un pére italien,Marseille,Bouches-du-Rhône,,
+février,document 30,5666 X 87,fevrier_1890_299,KIEGLER,Jean,comptable,14 novembre 1837,,Brebach,,Prusse rhénane,Pont à Mousson,Meurthe-et-Moselle,,RETTIG,Anne Marie Catherine,12 novembre 1842,,Allemagne,Mayence,,,
+février,document 30,6561 X 87,fevrier_1890_300,RASSENEUR,Paul Joseph,voyageur de commerce,24 avril 1855,,Paris,,de père belge,Paris,,,MARTIGNY,Catherine,1er juin 1858,,France d'un pére luxembourgeois,Paris,,,
+février,document 30,6696 X 87,fevrier_1890_301,VAGNER,Ferdinand,ouvrier mécanicien,21 février 1860,,Mondkail,Moselle,de père luxembourgeois,Paris,,,WOLFF,Marie Thérèse,17 août 1868,,France d'un pére luxembourgeois,Paris,,,
 février,document 30,6876 X 87,fevrier_1890_302,SCHNECKLÜD,Adolphe,artiste musicien,6 mai 1855,,Paris,,de père étranger,Paris,,,,,,,,,,,
 février,document 30,7134 X 87,fevrier_1890_303,L'EPLATTENIER,Charles Jules Dominique,fabricant de soieries,5 janvier 1851,,Lyon,Rhône,de père suisse,Lyon,Rhône,,,,,,,,,,
-février,document 30,7693 X 87,fevrier_1890_304,BRICO,Jean Guillaume Armand,comptable,5 avril 1831,,Anbel,,Belgique,Paris,,,BAYI,Henriette Joséphine,27 décembre 1844,,,Maestricht,,Hollande,Bayi Gustave Joseph (7 décembre 1879)
-février,document 30,8966 X 87,fevrier_1890_305,L'EPLATTENIER,Charles James Alfred,employé de commerce,9 novembre 1847,,Lyon,Rhône,de père suisse,Lyon,Rhône,,WOLFF,Emma Louise,9 octobre 1848,,,Yverdon,,Suisse,
+février,document 30,7693 X 87,fevrier_1890_304,BRICO,Jean Guillaume Armand,comptable,5 avril 1831,,Anbel,,Belgique,Paris,,,BAYI,Henriette Joséphine,27 décembre 1844,,Hollande,Maestricht,,,Bayi Gustave Joseph (7 décembre 1879)
+février,document 30,8966 X 87,fevrier_1890_305,L'EPLATTENIER,Charles James Alfred,employé de commerce,9 novembre 1847,,Lyon,Rhône,de père suisse,Lyon,Rhône,,WOLFF,Emma Louise,9 octobre 1848,,Suisse,Yverdon,,,
 février,document 30,11607 X 87,fevrier_1890_306,BLONDEEL,Joseph Maximilien,dentiste,14 mai 1844,,Paris,,de père belge,Bar-le Duc,Meuse,,,,,,,,,,
 février,document 30,12057 X 87,fevrier_1890_307,SCHOLZ,Césin Richard,employé de commerce,1er mars 1858,,Altstadt,,Autriche,Paris,,,,,,,,,,,
 février,document 30,12244 X 87,fevrier_1890_308,KAHN,William dit Willy,rentier,30 novembre 1853,,Leeds,,Angleterre,Paris,,,,,,,,,,,
@@ -311,36 +311,36 @@ février,document 30,164 X 88,fevrier_1890_309,RYAN,Jacques  Édouard,chef de ga
 février,document 30,805 X 88,fevrier_1890_310,FASOLA,Pascal,ouvrier platrier,3 août 1844,,Maggiore,,Italie,Rodez,,,,,,,,,,,Elisabeth Adélaïde (2 mai 1875)
 février,document 30,823 X 88,fevrier_1890_311,MIGLIORI,Laurent Antoinde Jean Baptiste,mécanicien,2 février 1854,,San Remo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Joseph Marius (14 juillet 1887) ; Jeanne Marie Catherine (11 mai 1889)
 février,document 30,1265 X 88,fevrier_1890_312,DE DEYN,Auguste,entrepreneur de travaux publics,20 juin 1833,,Dinderleeuw,,Belgique,Noroy-sur-Ourcq,Aisne,,,,,,,,,,Augustine marie Marguerite (2juillet 1873) ; Berthe Joséphine (29 avril 1876) ; Paul (11 décembre 1880)
-février,document 30,1310 X 88,fevrier_1890_313,RONDELLI,Jean Étienne,journalier,19 octobre 1850,,Rochette-Nervina,,Italie,Marseille,Bouches-du-Rhône,,TORNATORE,Marie Apollonie,8 décembre 1851,,,Dolceagua,,Italie,Jean-Baptiste (22 novembre 1875) ; Piette-Marius (23 février 1881) ; Joseph (27 mai 1882) ; Marie-Catherine (2 juin 1886)
-février,document 30,1362 X 88,fevrier_1890_314,BIANCHERI,Laurent Jean Baptiste,maître boulanger,4 janvier 1851,,Vallebona,,Italie,Toulon,Var,,ROSSI,Marie Catherine,13 mars 1854,,,Vallebona,,Italie,Baptistin Siméon (22 janvier 1883) ; Eugène Laurent (16 févirer 1886)
+février,document 30,1310 X 88,fevrier_1890_313,RONDELLI,Jean Étienne,journalier,19 octobre 1850,,Rochette-Nervina,,Italie,Marseille,Bouches-du-Rhône,,TORNATORE,Marie Apollonie,8 décembre 1851,,Italie,Dolceagua,,,Jean-Baptiste (22 novembre 1875) ; Piette-Marius (23 février 1881) ; Joseph (27 mai 1882) ; Marie-Catherine (2 juin 1886)
+février,document 30,1362 X 88,fevrier_1890_314,BIANCHERI,Laurent Jean Baptiste,maître boulanger,4 janvier 1851,,Vallebona,,Italie,Toulon,Var,,ROSSI,Marie Catherine,13 mars 1854,,Italie,Vallebona,,,Baptistin Siméon (22 janvier 1883) ; Eugène Laurent (16 févirer 1886)
 février,document 30,1485 X 88,fevrier_1890_315,BASSETTI,Antoine Vincent Henri Arthur,employé de commerce,15 novembre 1857,,Turin,,Italie,Paris,,,,,,,,,,,Pierre Antoine (18 octobre 1886)
 février,document 30,1801 X 88,fevrier_1890_316,PONZONE,Michel François,serrurier,3 juillet 1859,,Isola-Bella,,Italie,Cannes,Alpes-Maritimes,,,,,,,,,,Jean-Baptiste Vincent Paul (10 janvier 1888)
-février,document 30,1952 X 88,fevrier_1890_317,TESTA,Louis,photographe,30 mars 1838,,Turin,,Italie,Paris,,,GISMONDI,Maria Rosa Pia,6 mai 1848,,,Turin,,Italie,
+février,document 30,1952 X 88,fevrier_1890_317,TESTA,Louis,photographe,30 mars 1838,,Turin,,Italie,Paris,,,GISMONDI,Maria Rosa Pia,6 mai 1848,,Italie,Turin,,,
 février,document 30,2087 X 88,fevrier_1890_318,OP DE BEECK,François Henri,tailleur,24 avril 1844,,Malines,,Belgique,,,,,,,,,,,,Marie-Françoise (5 mars 1872) ; François (10 septembre 1875) ; Louise-Félicie (4 avril 1878) ; Louis Édouard (2 janvier 1882) ; Émile François (30 octobre 1883) ; Paul Émile (14 mai 1885) ; Jules (31 mars 1888)
-février,document 30,3484 X 88,fevrier_1890_319,GANDOLFO,Nicolas David,manœuvre,27 avril 1848,,Sestri-Levante,,Italie,La Ciotat,Bouches-du-Rhône,,RONCAGIOLO,Catherine,10 janvier 1853,,,Rapallo,,Italie,Marie Vic (10 septembre 1873) ; Anna Marie (11 mai 1878) ; Apollonie (21 décembre 1880) ; Augustine (16 avril 1884) ; Antonia (2 juin 1887
+février,document 30,3484 X 88,fevrier_1890_319,GANDOLFO,Nicolas David,manœuvre,27 avril 1848,,Sestri-Levante,,Italie,La Ciotat,Bouches-du-Rhône,,RONCAGIOLO,Catherine,10 janvier 1853,,Italie,Rapallo,,,Marie Vic (10 septembre 1873) ; Anna Marie (11 mai 1878) ; Apollonie (21 décembre 1880) ; Augustine (16 avril 1884) ; Antonia (2 juin 1887
 février,document 30,4091 X 88,fevrier_1890_320,BERETTA,Pierre,marin pêcheur,13 juillet 1853,,Saint-Gioacomo-di-Corte,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
-février,document 30,4507 X 88,fevrier_1890_321,DI LUISA,François Paul,employé de commerce,20 décembre 1845,,Naples,,Italie,Marseille,Bouches-du-Rhône,,NOCERA,Conception,9 août 1848,,,Naples,,Italie,
-février,document 30,4524 X 88,fevrier_1890_322,KEIRSBILEK,Constantin,preneur,31 juillet 1857,,Zugenkerke,,Belgique,Lille,Nord,,VANDERMEERSCH,Marie Julie,26 juillet 1858,,,Wazemmes,,Belgique,Héloise Marie (27 juillet 1881) ; Constant Guillaume (15 octobre 1882) ; Gabrielle-Cornélie (15 décembre 1883) ; Joseph Fernand (18 novembre 1887)
+février,document 30,4507 X 88,fevrier_1890_321,DI LUISA,François Paul,employé de commerce,20 décembre 1845,,Naples,,Italie,Marseille,Bouches-du-Rhône,,NOCERA,Conception,9 août 1848,,Italie,Naples,,,
+février,document 30,4524 X 88,fevrier_1890_322,KEIRSBILEK,Constantin,preneur,31 juillet 1857,,Zugenkerke,,Belgique,Lille,Nord,,VANDERMEERSCH,Marie Julie,26 juillet 1858,,Belgique,Wazemmes,,,Héloise Marie (27 juillet 1881) ; Constant Guillaume (15 octobre 1882) ; Gabrielle-Cornélie (15 décembre 1883) ; Joseph Fernand (18 novembre 1887)
 février,document 30,4836 X 88,fevrier_1890_323,LANTERI,Marie Madeleine,,31 décembre 1842,,Grasse,Alpes-Maritimes,de père italien,,,,,,,,,,,,
 février,document 30,4895 X 88,fevrier_1890_324,LUCCHESI,Jean Louis Séraphin,journalier,21 juillet 1854,,Verciano,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Joseph- Barthélémi (9 févier 1878) ; Abel-Henri (31 mars 1880)
 février,document 30,6338 X 88,fevrier_1890_325,FRANCHETTI,Jacques Antoine Bernard,entrepreneur,9 septembre 1839,,Muzzano,,Italie,Besancon,Doubs,,,,,,,,,,
 février,document 30,6893 X 88,fevrier_1890_326,MURAL,Joseph Emeric,ouvier chapelier,14 avril 1850,,Aoste,,Italie,Lyon,Rhône,,,,,,,,,,Joséphine (12 juin 1880) ; Ernestine (9 mars 1883) ; Clément (23 décembre 1884) ; Emile (8 aoput 1886) ; Henri (26 février 1888)
 février,document 30,7882 X 88,fevrier_1890_327,DESSART,Georges Joseph,tonnelier,5 novembre 1843,,Verviers,,Belgique,Paris,,,,,,,,,,,Emilie Mathilde (28 juillet 1882)
-février,document 30,8007 X 88,fevrier_1890_328,CICCARIELLO,Vincent François,journalier,13 février 1857,,bourg de Gaète,,Italie,Marseille,Bouches-du-Rhône,,RAMACCIO,Rose Philomène,28 novembre 1858,,,Marseille,Bouches-du-Rhône,France d'un pére italien,
-février,document 30,9209 X 88,fevrier_1890_329,FACCHINA,Jean Dominique,mosaiste,13 octobre 1826,,Sequalo,,Italie,Paris,,,DELLA SAVIA,Antonia Irène,3 avril 1850,,,Udine,,Italie,Robert Pierre (13 juin 1875) ; Thérèse (18 févirer 1877) ; Octave Antoine (18 juin 1878) ; Ernest Pierre (10 aveil 1880)
+février,document 30,8007 X 88,fevrier_1890_328,CICCARIELLO,Vincent François,journalier,13 février 1857,,bourg de Gaète,,Italie,Marseille,Bouches-du-Rhône,,RAMACCIO,Rose Philomène,28 novembre 1858,,France d'un pére italien,Marseille,Bouches-du-Rhône,,
+février,document 30,9209 X 88,fevrier_1890_329,FACCHINA,Jean Dominique,mosaiste,13 octobre 1826,,Sequalo,,Italie,Paris,,,DELLA SAVIA,Antonia Irène,3 avril 1850,,Italie,Udine,,,Robert Pierre (13 juin 1875) ; Thérèse (18 févirer 1877) ; Octave Antoine (18 juin 1878) ; Ernest Pierre (10 aveil 1880)
 février,document 30,10654 X 88,fevrier_1890_330,JACOBY,Paul,docteur en médecine,10 octobre 1842,,Kazan,,Russie,Paris,,,,,,,,,,,Jean Pierre Claude (29 juin 1880)
 février,document 30,11079 X 88,fevrier_1890_331,ECKERT,Oscar François,jardinier,15 juin 1848,,Vives-Eaux,Seine-et-Marne,de père badois,Sens,Yonne,,,,,,,,,,
 février,document 30,11240 X 88,fevrier_1890_332,HILDEBRAND,Émile,employé de commerce,7 décembre 1849,,Malain,Côte-d'or,de père allemand,La Garenne-Colombes,Seine,,,,,,,,,,
-février,document 30,11913 X 88,fevrier_1890_333,TACCHI,Georges Piere Antoine,potier d'étain,30 avril 1856,,Trasquera,,Italie,Paris,,,GILLET,Justine,18 juin 1859,,,Stalle; Stalte,,Belgique,Juliette Angèle (18 janvier 1885)
+février,document 30,11913 X 88,fevrier_1890_333,TACCHI,Georges Piere Antoine,potier d'étain,30 avril 1856,,Trasquera,,Italie,Paris,,,GILLET,Justine,18 juin 1859,,Belgique,Stalle; Stalte,,,Juliette Angèle (18 janvier 1885)
 février,document 30,12516 X 88,fevrier_1890_334,DUMONT,Léon Édouard,tourneur,8 novembre 1866,,Saint-Louis,Haut-Rhin,,Frouard,Meurthe-et-Moselle,,,,,,,,,,
 février,document 30,12913 X 88,fevrier_1890_335,VILANOVA,Joseph Jean Baptiste Mathurin,entrepreneur de débarquement,6 août 1850,,Marseille,Bouches-du-Rhône,de père étranger,Havre,Seine-Inférieure,,,,,,,,,,
 février,document 30,13654 X 88,fevrier_1890_336,REDOTTO,Auguste Pierre,courtier,10 décembre 1853,,Marseille,Bouches-du-Rhône,de père étranger,Marseille,,,,,,,,,,,
 février,document 30,13962 X 88,fevrier_1890_337,FRÜH,Henri,sellier,12 mars 1843,,Ysni,,Bavière,Paris,,,,,,,,,,,Marie Marguerite (6 juin 1879)
 février,document 30,48 X 89,fevrier_1890_338,BOUR,Jean Michel,polisseur sur métaux,3 décembre 1865,,Slering,Moselle,,Paris,,,,,,,,,,,
 février,document 30,1338 X 89,fevrier_1890_339,HERBORN,Gaspard Xavier Robert,professeur de mathématiques,24 mars 1858,,Groszlinden,,Hesse,Nancy,Meurthe-et-Moselle,,,,,,,,,,Charles Joseph Maurice (5 mai 1886)
-février,document 30,1417 X 89,fevrier_1890_340,PASSALACQUA,Étienne,pêcheur,9 mai 1836,,Saint-Martin de Noceto,,Italie,Toulon,Var,,RICCARDI,Philomène Marie Pelligrina,6 avril 1845,,,Port Maurice,,Italie,Elisabeth Marie (23 mars 1869) ; Marie Joséphine (17 décembre 1871) ; Louis Claude  (21 novembre 1874) ; Baptiste  et Maurice (28  janvier 1884)
+février,document 30,1417 X 89,fevrier_1890_340,PASSALACQUA,Étienne,pêcheur,9 mai 1836,,Saint-Martin de Noceto,,Italie,Toulon,Var,,RICCARDI,Philomène Marie Pelligrina,6 avril 1845,,Italie,Port Maurice,,,Elisabeth Marie (23 mars 1869) ; Marie Joséphine (17 décembre 1871) ; Louis Claude  (21 novembre 1874) ; Baptiste  et Maurice (28  janvier 1884)
 février,document 30,2221 X 89,fevrier_1890_341,ABELS,Edmond Louis,voyageur de commerce,21 juillet 1844,,Paris,,de père hollandais,Arceuil,Seine,,,,,,,,,,
-février,document 30,1610 X 89,fevrier_1890_342,WATTIEZ,Pierre Joseph,tailleur de pierre,17 août 1852,,Baseeles,,Belgique,Paris,,,BLIN,Marie,1er juillet 1860,,,Paturage,,Belgique,Florentine Lucie (1er mars 1880) ; Joseph (25 octobre 1882) ; Ernestine Marie (5 novembre 1884) ; Emilia Joséphine (1er janvier 1888)
+février,document 30,1610 X 89,fevrier_1890_342,WATTIEZ,Pierre Joseph,tailleur de pierre,17 août 1852,,Baseeles,,Belgique,Paris,,,BLIN,Marie,1er juillet 1860,,Belgique,Paturage,,,Florentine Lucie (1er mars 1880) ; Joseph (25 octobre 1882) ; Ernestine Marie (5 novembre 1884) ; Emilia Joséphine (1er janvier 1888)
 février,document 30,2645 X 89,fevrier_1890_343,LACORTE,Vincent Antoine Marins,étameur,27 septembre 1853,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 30,3041 X 89,fevrier_1890_344,CLERDAIN,Télesphore Floribert,ouvier au chemin de fer du Nord,30 mai 1859,,Verviers,,Belgique,Paris,,,,,,,,,,,Louise Lucie Suzanne (17 août 1882) ; Yvonne Anne Marie (20 mai 1886) ; Angèle Jeanne Pauline (19 juin 1887)
 février,document 30,3363 X 89,fevrier_1890_345,BIANCHI,Paul Henry,ouvier charpentier,9 mars 1857,,Vizille,Isère,de père italien,Pellerin,Loire-Inférieure,,,,,,,,,,
@@ -350,7 +350,7 @@ février,document 30,5439 X 89,fevrier_1890_348,BRAISSANT,Jean Louis Daniel,épi
 février,document 30,5600 X 89,fevrier_1890_349,SANTI,Toussaint Louis Gonzague Lucien,employé,24 septembre 1864,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 30,5744 X 89,fevrier_1890_350,BUSSONE,Georges Baptiste,peintre en batiments,2 janvier 1853,,Castlemoro,,Italie,Hyères,Var,,,,,,,,,,
 février,document 30,7367 X 89,fevrier_1890_351,BIANCARDI,Henri Jean Thomas,balancier,27 janvier 1853,,San Angelo Ladigiano,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Léonard Henry Camille (13 novembre 1884)
-février,document 30,8652 X 89,fevrier_1890_352,ARMANDO,Joseph Dominique,poseur aux chemins de fer,26 avril 1848,,Fronasco,,Italie,Aix,Bouches-du-Rhône,,FERRATO,Madeleine,5 août 1855,,,Sanfroni,,Italie,Cattherine Anne (18 septembre 1876) ; Michel Edouard (23 mai 1878) ; Jean Baptiste Clément (4 septembre 1887)
+février,document 30,8652 X 89,fevrier_1890_352,ARMANDO,Joseph Dominique,poseur aux chemins de fer,26 avril 1848,,Fronasco,,Italie,Aix,Bouches-du-Rhône,,FERRATO,Madeleine,5 août 1855,,Italie,Sanfroni,,,Cattherine Anne (18 septembre 1876) ; Michel Edouard (23 mai 1878) ; Jean Baptiste Clément (4 septembre 1887)
 février,document 30,8635 X 89,fevrier_1890_353,PANNEELS,François,terrassier,10 octobre 1826,,Rhode Saint-Genèse,,Belgique,Gennevilliers,Seine,,,,,,,,,,Henriette Théodomie (11 avril 1871) ; Georges Emile (10 février 1874)
 février,document 30,10651 X 89,fevrier_1890_354,CANTON,Jean Joseph Henri,voyageur de commerce,6 février 1861,,Usseaux,,Italie,Lyon,Rhône,,,,,,,,,,
 février,document 30,10775 X 89,fevrier_1890_355,VISTE,Marie Philomène,religieuse,16 juillet 1866,,Lille,Nord,de père belge,Portieux,Vosges,,,,,,,,,,
@@ -375,18 +375,18 @@ février,document 30,10944 X 89,fevrier_1890_373,STOPPIA dit MACHETTO,Amédée,p
 février,document 30,10945 X 89,fevrier_1890_374,STOPPIA dit MACHETTO,Jean Baptiste,,23 novembre 1862,,Eaux-Vives,,Suisse,Saint Julien,Haute-Saône,,,,,,,,,,
 février,document 30,11210 X 89,fevrier_1890_375,VICTOR,Jean Félix,négociant en vins,6 mai 1856,,Loivre,Marne,de père belge,Paris,,,,,,,,,,,
 février,document 30,11863 X 89,fevrier_1890_376,TAGGIASCO,Joseph,tailleur de pierre,6 février 1854,,Bajardo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
-février,document 30,11977 X 89,fevrier_1890_377,WAUTELET,Joseph Ghislain,chaudronnier,30 novembre 1864,,Florennes,,Belgique,Paris,,,MÜLLER,Marguerite,8 août 1866,,,Berg Gomünden,,Luxembourg,Henriette Fernande ( 4 mai 1889)
+février,document 30,11977 X 89,fevrier_1890_377,WAUTELET,Joseph Ghislain,chaudronnier,30 novembre 1864,,Florennes,,Belgique,Paris,,,MÜLLER,Marguerite,8 août 1866,,Luxembourg,Berg Gomünden,,,Henriette Fernande ( 4 mai 1889)
 février,document 30,12213 X 89,fevrier_1890_378,KAHN,Daniel,garçon de bureau,1er mars 1829,,Drefften,,Prusse,Paris,,,,,,,,,,,Amélie (3 janvier 1870) ; Jeanne ( 15 janvier 1872)
 février,document 30,12480 X 89,fevrier_1890_379,DOLEZAL,Joseph,cordonnier,16 octobre 1849,,Krasna Hora,,Autriche,Paris,,,,,,,,,,,
 février,document 30,12495 X 89,fevrier_1890_380,LUPPENS,Charles,ouvrier marbrier,3 mai 1847,,Molenbeck Saint-Jean,,Belgique,Paris,,,,,,,,,,,
 février,document 30,12568 X 89,fevrier_1890_381,BALON,François Joseph,garçon de recettes,30 mars 1838,,Juseret,,Belgique,Paris,,,,,,,,,,,Albert Auguste (31 janvier 1873) ; Marie Charlotte (19 février 1874) ; Marie Juliette (30 aôut 1878)
-février,document 30,12659 X 89,fevrier_1890_382,ROSZAK,Valentin,tailleur,18 janvier 1838,,Kawoszew,,Pologne russe,Rouen,Seine-Inférieure,,GANTOIS,Louise Emma,7 août 1849,,,Rouen,Seine-Inférieure,France de pére belge,Emmannuel Charles (20 octobre 1876) ; Marie Emma Adèle (23 juillet 1878) ; Charles Louis (15 aôut 1882)
+février,document 30,12659 X 89,fevrier_1890_382,ROSZAK,Valentin,tailleur,18 janvier 1838,,Kawoszew,,Pologne russe,Rouen,Seine-Inférieure,,GANTOIS,Louise Emma,7 août 1849,,France de pére belge,Rouen,Seine-Inférieure,,Emmannuel Charles (20 octobre 1876) ; Marie Emma Adèle (23 juillet 1878) ; Charles Louis (15 aôut 1882)
 février,document 30,12671 X 89,fevrier_1890_383,WACKER,Wumibald,journalier,29 octobre 1831,,Kleinschoenach,,Bade,Paris,,,,,,,,,,,
 février,document 30,12691 X 89,fevrier_1890_384,CORRADI,Étienne Jean Baptise,journalier,30 janvier 1843,,Berre,Bouches-du-Rhône,de père italien,Berre,Bouches-du-Rhône,,,,,,,,,,
 février,document 30,12792 X 89,fevrier_1890_385,GARNERIO,Jean Baptiste,ouvrier chaudronnier,14 août 1851,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 30,12804 X 89,fevrier_1890_386,MONTEL,Salomon Raphael,mécanicien,5 mars 1845,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 30,12809 X 89,fevrier_1890_387,DOGLIANI,Jean Baptiste,,26 octobre 1832,,Berre,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Marie Jeanne Constance (17 septembre 1885)
-février,document 30,12811 X 89,fevrier_1890_388,RAIMOND MONATO dit AUGUSTE,Joseph,chapelier,31 août 1854,,Savigliano,,Italie,Aix,Bouches-du-Rhône,,GIRANDO; GIRAUDO,Anne,6 décembre 1854,,,Sampeyres,,Italie,Auguste Joseph (22 février 1880) ; Marie Monato (4 octobre 1875)
+février,document 30,12811 X 89,fevrier_1890_388,RAIMOND MONATO dit AUGUSTE,Joseph,chapelier,31 août 1854,,Savigliano,,Italie,Aix,Bouches-du-Rhône,,GIRANDO; GIRAUDO,Anne,6 décembre 1854,,Italie,Sampeyres,,,Auguste Joseph (22 février 1880) ; Marie Monato (4 octobre 1875)
 février,document 30,12900 X 89,fevrier_1890_389,HUEBER,François Joseph,tisserand,19 mars 1853,,Ossenbach,Haut-Rhin,,Saulxures s/ Moselette,Vosges,,,,,,,,,,
 février,document 30,12907 X 89,fevrier_1890_390,DEMICH,Henry Jules,ferblantier,19 juillet 1852,,Arad,,Hongrie,Paris,,,,,,,,,,,
 février,document 30,13069 X 89,fevrier_1890_391,CHAMART,Théodore François Joseph,employé,1er février 1843,,Ath,,Belgique,Paris,,,,,,,,,,,Marguerite Joséphine Marie (12 mars 1877)
@@ -396,8 +396,8 @@ février,document 30,13278 X 89,fevrier_1890_394,MOSSAIS,François Ferdinand,app
 février,document 30,13372 X 89,fevrier_1890_395,WYNS,Jean Guillaume,ébéniste,17 janvier 1841,,Anvers,,Belgique,Paris,,,,,,,,,,,Marie (15 aôut 1868)
 février,document 30,13800 X 89,fevrier_1890_396,HENNERIC,Eugène Henri,meunuisier,1er août 1851,,Avize,Marne,de père étranger,Avize,Marne,,,,,,,,,,
 février,document 30,13728 X 89,fevrier_1890_397,MAERE,Désiré,journalier,17 septembre 1858,,Malkgem,,Belgique,Sannois,Seine-et-Oise,,,,,,,,,,Elie Camille (26 aôut 1883) ; Elisa Françoise Claire Désirée ( 5 octobre 1885)
-février,document 30,13930 X 89,fevrier_1890_398,GASCIARINI,Honoré Martin François,maçon,25 juillet 1860,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,GUELFI,Louise,8 février 1862,,,Marseille,Bouches-du-Rhône,France d'un pére italien,
-février,document 30,13931 X 89,fevrier_1890_399,GASCIARINI,Jean Baptiste Victor Antoine,maçon,19 novembre 1857,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,PIARRA,Françoise Nicolette,7 août 1862,,,Marseille,Bouches-du-Rhône,France d'un pére italien,
+février,document 30,13930 X 89,fevrier_1890_398,GASCIARINI,Honoré Martin François,maçon,25 juillet 1860,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,GUELFI,Louise,8 février 1862,,France d'un pére italien,Marseille,Bouches-du-Rhône,,
+février,document 30,13931 X 89,fevrier_1890_399,GASCIARINI,Jean Baptiste Victor Antoine,maçon,19 novembre 1857,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,PIARRA,Françoise Nicolette,7 août 1862,,France d'un pére italien,Marseille,Bouches-du-Rhône,,
 février,document 30,14221 X 89,fevrier_1890_400,CHARON,Charles Marie Louis,ouvrier peintre,3 novembre 1861,,Metz,Moselle,,Belleville,Meuse,,,,,,,,,,
 février,document 30,14944 X 89,fevrier_1890_401,CAFFIERO,Paul Marie,maître tripier,31 octobre 1831,,Marseille,Bouches-du-Rhône,de père italien,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 30,15163 X 89,fevrier_1890_402,VANHOMERSLAEGHER,Ludowisk Alexander,ouvier imprimeur,17 décembre 1835,,Tournai,,Belgique,Paris,,,,,,,,,,,Marie Alice Valentine (27 mars 1875)
@@ -405,30 +405,30 @@ février,document 30,15384 X 89,fevrier_1890_403,VELTEN,Jean Charles,ouvrier éb
 février,document 30,15718 X 89,fevrier_1890_404,FASSINO,Laurent,ouvrier serrurier,4 septembre 1851,,Turin,,Italie,Bourg,Ain,,,,,,,,,,
 février,document 30,795 X 90,fevrier_1890_405,LEMARCQ,Jean Baptiste,journalier,13 décembre 1835,,Fratures-lès-Buissenal,,Belgique,Nogent-sur-Seine,,,,,,,,,,,Virginie Augustine (20 aôut 1873)
 février,document 30,12641 X 89,fevrier_1890_406,MARRAS,Godefroi Ange Adolphe,employé de commerce,8 août 1858,,Costigliole,,Italie,Lyon,Rhône,,,,,,,,,,
-février,document 30,15152 X 89,fevrier_1890_407,TONETTI,Victor Amédée,tolier,9 avril 1849,,Zornasco,,Italie,Paris,,,BIHLMAIER,Pauline,19 juillet 1857,,,Aalen,,Allemagne,Charles Maurice Amédée (4 novembre 1885)
+février,document 30,15152 X 89,fevrier_1890_407,TONETTI,Victor Amédée,tolier,9 avril 1849,,Zornasco,,Italie,Paris,,,BIHLMAIER,Pauline,19 juillet 1857,,Allemagne,Aalen,,,Charles Maurice Amédée (4 novembre 1885)
 février,document 31,2776 X 71,fevrier_1890_408,ROSENBUCH,Manuel,rentier,26 décembre 1823,,Schwebheim,,Bavière,Paris,,,,,,,,,,,
 février,document 31,14932 X 89,fevrier_1890_409,ROSENBUCH,Céleste,,1er juin 1841,,Paris,,,Paris,,,,,,,,,,,
-février,document 31,3894 X 79,fevrier_1890_410,WATHIER, Frédéric Alexandre Anastase,médecin,12 février 1851,,Paris,,de père belge,Lyons-la-Forêt,Eure,,DESUTTER,Suzanne Catherine,4 juillet 1850,,,Reninghelst,,Belgique,
+février,document 31,3894 X 79,fevrier_1890_410,WATHIER, Frédéric Alexandre Anastase,médecin,12 février 1851,,Paris,,de père belge,Lyons-la-Forêt,Eure,,DESUTTER,Suzanne Catherine,4 juillet 1850,,Belgique,Reninghelst,,,
 février,document 31,736 X 80,fevrier_1890_411,SCHNEIDER,Georges,porteur aux Halles,26 avril 1858,,Haguenau,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 31,4528 X 81,fevrier_1890_412,GÉRARD,François Joseph,employé aux chemins de fer,6 juillet 1844,,Blaton,,Belgique,Somain,Nord,,,,,,,,,,Lydie Albertine (4 mai 1869) ; Zélie Rosalie (29 décembre 1873) ; Albert François (8 aôut 1882) ; Berthe Rosalie (23 septembre 1884
-février,document 31,4783 X 81,fevrier_1890_413,BENVENUTO,François Laurent Agne,serrurier,14 janvier 1850,,Marseille,Bouches-du-Rhône,de père italien,,,,BROSETA,Joséphine,19 décembre 1854,,,Marseille,Bouches-du-Rhône,France d'un pére espagnol,
+février,document 31,4783 X 81,fevrier_1890_413,BENVENUTO,François Laurent Agne,serrurier,14 janvier 1850,,Marseille,Bouches-du-Rhône,de père italien,,,,BROSETA,Joséphine,19 décembre 1854,,France d'un pére espagnol,Marseille,Bouches-du-Rhône,,
 février,document 31,650 X 83,fevrier_1890_414,DEGALLAIX,François,employé aux chemins de fer,2 août 1853,,Vezon,,Belgique,Somain,Nord,,,,,,,,,,
 février,document 31,3669 X 84,fevrier_1890_415,WINKLER,Charles Adolphe Frédéric,desservant,2 septembre 1850,,Nantua,Ain,de père étranger,Virieu-le-Petit,Ain,,,,,,,,,,
 février,document 31,4041 X 85,fevrier_1890_416,HAEGY,Xavier,valet de chambre,28 novembre 1863,,Orschwiller,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 31,5468 X 85,fevrier_1890_417,GIHR,Joseph Louis,professeur de langues vivantes,12 décembre 1863,,Oberhaslach,Bas-Rhin,,Versailles,Seine-et-Oise,,,,,,,,,,
 février,document 31,5489 X 85,fevrier_1890_418,SIMON,Charles,coiffeur,25 septembre 1863,,Gries,Bas-Rhin,,Toul,Meurthe-et-Moselle,,,,,,,,,,
-février,document 31,1359 X 86,fevrier_1890_419,MARINO,Jean,cantonnier au service municipal,17 février 1841,,Vinadio,,Italie,Paris,,,GIODANO,Marie Madeleine,28 juin 1846,,,Vinadio,,Italie,Henri André (12 mai 1888)
-février,document 31,2079 X 86,fevrier_1890_420,GRÜNWALD,Charles,limonadier,29 décembre 1855,,Budapest,,Hongrie,Paris,,,BACHNER,Marie,28 novembre 1852,,,Grossgerungs,,Autriche,
+février,document 31,1359 X 86,fevrier_1890_419,MARINO,Jean,cantonnier au service municipal,17 février 1841,,Vinadio,,Italie,Paris,,,GIODANO,Marie Madeleine,28 juin 1846,,Italie,Vinadio,,,Henri André (12 mai 1888)
+février,document 31,2079 X 86,fevrier_1890_420,GRÜNWALD,Charles,limonadier,29 décembre 1855,,Budapest,,Hongrie,Paris,,,BACHNER,Marie,28 novembre 1852,,Autriche,Grossgerungs,,,
 février,document 31,2115 X 86,fevrier_1890_421,ADELÉ,Louis Élie,marchand de vins,23 juillet 1857,,Guermange,,Meurthe,Aubervilliers,Seine,,,,,,,,,,
-février,document 31,2215 X 86,fevrier_1890_422,DOUSEDAN,Pierre Camille Gustave,typographe,3 mars 1849,,Châtelet,,Belgique,Paris,,,LECOCQ,Marie Thérèse,16 novembre 1845,,,Namur,,Belgique,Gustave Alfred François (28 juillet 1877) ; Marthe Julie Sidonie (7 novembre 1882)
+février,document 31,2215 X 86,fevrier_1890_422,DOUSEDAN,Pierre Camille Gustave,typographe,3 mars 1849,,Châtelet,,Belgique,Paris,,,LECOCQ,Marie Thérèse,16 novembre 1845,,Belgique,Namur,,,Gustave Alfred François (28 juillet 1877) ; Marthe Julie Sidonie (7 novembre 1882)
 février,document 31,2403 X 86,fevrier_1890_423,BALMER,Pierre,ouvrier tailleur,28 septembre 1860,,Griesbach,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 31,3433 X 86,fevrier_1890_424,BOUTTEKEIN,Paul Édouard,employé de commerce,7 août 1859,,Paris,Seine,de père belge,,,,,,,,,,,,
-février,document 31,3970 X 86,fevrier_1890_425,MARX,Israel,maître boucher,11 décembre 1857,,Montenach,Moselle,,Vitry-le-François,Marne,,DUBLON,Regina,13 janvier 1852,,,Schweich,,Prusse,
+février,document 31,3970 X 86,fevrier_1890_425,MARX,Israel,maître boucher,11 décembre 1857,,Montenach,Moselle,,Vitry-le-François,Marne,,DUBLON,Regina,13 janvier 1852,,Prusse,Schweich,,,
 février,document 31,4210 X 86,fevrier_1890_426,HISELY,Charles Alfred,chef de district à la compagnie de l'Est,2 avril 1858,,Neuveville,,Suisse,Auxon,Aube,,,,,,,,,,
-février,document 31,4633 X 86,fevrier_1890_427,BELLONE,Paul,chauffeur,17 février 1837,,Montalto-Ligue,,Italie,Marseille,Bouches-du-Rhône,,FRONTERI,Domenica,25 février 1848,,,Montalto-Ligure,,Italie,
+février,document 31,4633 X 86,fevrier_1890_427,BELLONE,Paul,chauffeur,17 février 1837,,Montalto-Ligue,,Italie,Marseille,Bouches-du-Rhône,,FRONTERI,Domenica,25 février 1848,,Italie,Montalto-Ligure,,,
 février,document 31,4843 X 86,fevrier_1890_428,TRAVERSO,Jean,,1er décembre 1853,,San Remo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 31,4952 X 86,fevrier_1890_429,WEISS,Jean Georges Henri,ouvrier lithographe,6 août 1868,,Strasbourg,Bas-Rhin,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
-février,document 31,6733 X 86,fevrier_1890_430,WARINGER,Philippe,commercant en marchandises,17 octobre 1844,,Presbourg,,Hongrie,Paris,,,GWIS,Adélaïde Maria,17 octobre 1844,,,Brunn,,Autriche,Emilie (14 janvier 1870)
+février,document 31,6733 X 86,fevrier_1890_430,WARINGER,Philippe,commercant en marchandises,17 octobre 1844,,Presbourg,,Hongrie,Paris,,,GWIS,Adélaïde Maria,17 octobre 1844,,Autriche,Brunn,,,Emilie (14 janvier 1870)
 février,document 31,14553 X 89,fevrier_1890_431,WARINGER,Adèle Philippine,,19 octobre 1868,,Stein,,Autriche,Paris,,,,,,,,,,,
 février,document 31,6792 X 86,fevrier_1890_432,LINET,Philippe Alexandre,publiciste,12 décembre 1863,,Charleroi,,Belgique,Maxéville,Meurthe-et-Moselle,,,,,,,,,,
 février,document 31,224 X 87,fevrier_1890_433,BECKER,Jules Nicolas,garçon marchand de vins,20 décembre 1860,,Teting,Moselle,,Paris,,,,,,,,,,,
@@ -442,10 +442,10 @@ février,document 31,1449 X 86,fevrier_1890_440,RICHY,Lazare Haim,négociant,185
 février,document 31,2194 X 86,fevrier_1890_441,EBERLÉ,Antoine,ébéniste,9 janvier 1863,,Marlenheim,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 31,2263 X 86,fevrier_1890_442,OTTMANN,Léon Victor,comptable,27 juin 1855,,Strasbourg,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 31,3370 X 86,fevrier_1890_443,MAGNETTI née BOSIO,Joséphine Eugénie,,24 juin 1863,,Toulon,Var,de parents italiens,Paris,,,,,,,,,,,Catherine (6 mai 1884) ; Joseph (8 juillet 1888)
-février,document 31,3801 X 86,fevrier_1890_444,VERMAERE,Jules Bernard Thèrèse,employé aux archives départemantales,20 mars 1860,,Gand,,Belgique,Madeleine,Nord,,VERHARGHE,Marie Clémentine,18 mars 1863,,,Lille,Nord,France de pére belge,Germaine Marie (20 novembre 1884) ; Maurice Louis Pierre (30 about 1888)
+février,document 31,3801 X 86,fevrier_1890_444,VERMAERE,Jules Bernard Thèrèse,employé aux archives départemantales,20 mars 1860,,Gand,,Belgique,Madeleine,Nord,,VERHARGHE,Marie Clémentine,18 mars 1863,,France de pére belge,Lille,Nord,,Germaine Marie (20 novembre 1884) ; Maurice Louis Pierre (30 about 1888)
 février,document 31,3833 X 86,fevrier_1890_445,LOHR,Jacques,charron,7 août 1844,,Freinchweiler,,Bavière,Paris,,,,,,,,,,,Alfred (29 aôut 1878) ; Jeanne Marie (17 décembre 1867)
 février,document 31,4955 X 86,fevrier_1890_446,PIETRINI,Louis Antoine,ouvrier,20 octobre 1858,,Venana,,Italie,Paris,,,,,,,,,,,
-février,document 31,4683 X 86,fevrier_1890_447,BELMONDO,Louis Étienne,journalier au service de la ville,15 décembre 1846,,Pietra-Porzio,,Italie,Paris,,,BRUNA,Marie Marguerite Elisabeth,3 avril 1850,,,Pietra-Porzio,,Italie,Marie Marguerite Madeleine (12 aôut 1875) ; Pierre Jean Baptiste (30 mars 1877)
+février,document 31,4683 X 86,fevrier_1890_447,BELMONDO,Louis Étienne,journalier au service de la ville,15 décembre 1846,,Pietra-Porzio,,Italie,Paris,,,BRUNA,Marie Marguerite Elisabeth,3 avril 1850,,Italie,Pietra-Porzio,,,Marie Marguerite Madeleine (12 aôut 1875) ; Pierre Jean Baptiste (30 mars 1877)
 février,document 31,5300 X 86,fevrier_1890_448,SCHNEIDER,Valentin,tisserand,14 février 1865,,Rohrwiller,Bas-Rhin,,Elbeuf,Seine-Inférieure,,,,,,,,,,
 février,document 31,5548 X 86,fevrier_1890_449,HAUSSER,Philippe,tourneur sur métaux,29 août 1859,,Saverne,Bas-Rhin,,Saint Denis,Seine,,,,,,,,,,
 février,document 31,1149 X 84,fevrier_1890_450,STEIN,Léopold,voyageur de commerce,6 janvier 1860,,Oberschaeffolsheim,Bas-Rhin,,Asnières,Seine,,,,,,,,,,
@@ -453,12 +453,12 @@ février,document 31,5564 X 85,fevrier_1890_451,MICHAELSEN,Émile,négociant,13 
 février,document 31,283 X 88,fevrier_1890_452,KISEL,Ernest,dessinateur,3 avril 1865,,Mulhouse,Haut-Rhin,,Belfort,,,,,,,,,,,Lucie Marie Ernestine (29 septembre 1887)
 février,document 31,4730 X 88,fevrier_1890_453,MASSUL,Jules,docteur en médecine,3 septembre 1835,,Bouillon,,Belgique,Chaumont-Porcien,Ardennes,,,,,,,,,,
 février,document 31,6793 X 88,fevrier_1890_454,VIGLIANCO,Antoine Thomas,,25 avril 1846,,Bagnolo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Mathieu Laurent Justin (11 aôut 1883) ; Antoine Pierre Noel (25 décembre 1884) ; Justin Bernard Noel (25 décembre 1885)
-février,document 32,12185 X 88,fevrier_1890_455,FINGUENESSE,Christophe,journalier,29 juillet 1846,,Conthil,,Meurthe,Nancy,Meurthe-et-Moselle,,KLEIN,Elisabeth,20 novembre 1846,,,Vilsberg,,Meurthe,Auguste (18 mai 1874) ; Marie Clémence ( 30 aôut 1876) ; Marie Julien (8 decembre 1879)
+février,document 32,12185 X 88,fevrier_1890_455,FINGUENESSE,Christophe,journalier,29 juillet 1846,,Conthil,,Meurthe,Nancy,Meurthe-et-Moselle,,KLEIN,Elisabeth,20 novembre 1846,,Meurthe,Vilsberg,,,Auguste (18 mai 1874) ; Marie Clémence ( 30 aôut 1876) ; Marie Julien (8 decembre 1879)
 février,document 32,15445 X 88,fevrier_1890_456,BAER,Moise,voyageur de commerce,6 septembre 1865,,Guenwiller,Haut-Rhin,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 32,11801 X 89,fevrier_1890_457,SCHMIDT,Henri,tonnelier,21 novembre 1838,,Ingwiller,Bas-Rhin,,Melun,Seine-et-Marne,,HUSER,Catherine,8 décembre 1839,,,Weiterswiller,Bas-Rhin,,Georges (2 janvier 1869) ; Charles (10 mars 1872) ; Louise (18 avril 1874) ; Sophie (7 avril 1876) ; Caroline (7 avril 1879) ; Henri (31 mai 1883)
 février,document 32,6735 X 88,fevrier_1890_458,ROSS,Théodore,voyageur de commerce,6 juillet 1864,,Romanswiller,Bas-Rhin,,Delle,Territoire de Belfort,,,,,,,,,,
 février,document 32,11804 X 89,fevrier_1890_459,LEININGER,Jacques Philippe,colporteur de journaux,6 avril 1849,,Wolfisheim,Bas-Rhin,,Paris,,,,,,,,,,,
-février,document 32,11917 X 89,fevrier_1890_460,OBERLING,Frédédric,journalier,1er janvier 1832,,Gosselning,,Meurthe,Luneville,Meurthe-et-Moselle,,PÉTÉ,Catherine,30 janvier 1849,,,Berthelming,,Meurthe,Florian (6 novembre 1876) ; Pierre (18 avril 1882) ; Dominique (27 juin 1884)
+février,document 32,11917 X 89,fevrier_1890_460,OBERLING,Frédédric,journalier,1er janvier 1832,,Gosselning,,Meurthe,Luneville,Meurthe-et-Moselle,,PÉTÉ,Catherine,30 janvier 1849,,Meurthe,Berthelming,,,Florian (6 novembre 1876) ; Pierre (18 avril 1882) ; Dominique (27 juin 1884)
 février,document 32,12593 X 89,fevrier_1890_461,WULLIAM,Édouard Dominique,employé de commerce,8 octobre 1861,,Altkirch,Haut-Rhin,,Lyon,Rhône,,DURATON,Marie Antoinette,21 décembre 1857,,,Annonay,Ardèche,,
 février,document 32,12634 X 89,fevrier_1890_462,MORHAIN,Marie Adeline,,10 août 1862,,Chareau Brehin,,Meurthe,Paris,,,,,,,,,,,Marie Denise (18 décembre 1883)
 février,document 32,12708 X 89,fevrier_1890_463,SAMUEL,François Prosper,caporal au 26e de ligne,19 juillet 1868,,Mecleuves,,Alsace-Lorraine,Nancy,Meurthe-et-Moselle,,,,,,,,,,
@@ -567,14 +567,14 @@ février,document 34,2866 X 85,fevrier_1890_565,CINGOTTI,Jacques Antoine Marius,
 février,document 34,5794 X 85,fevrier_1890_566,ROTH,Laurent,journalier,19 juillet 1861,,Haguenau,Bas-Rhin,,Luneville,Meurthe-et-Moselle,,,,,,,,,,
 février,document 34,986 X 86,fevrier_1890_567,RIGHETTI,François Antoine,peintre,12 mars 1848,,Cama,,Suisse,Etain,Meuse,,,,,,,,,,Martinn Marie(8 février 1875)
 février,document 34,1599 X 86,fevrier_1890_568,HEMMLER,Jules,sculpteur,20 juin 1864,,Strasbourg,Bas-Rhin,,Paris,,,,,,,,,,,
-février,document 34,2454 X 86,fevrier_1890_569,SCHNEIDER,Pierre,typographe,23 octobre 1860,,Koerich,,Luxembourg,Paris,,,GEND,Catherine Eugénie,10 février 1858,,,La Villette,Seine,France d'un pére luxembourgeois,Olivier Noel Nicolas (25 décembre 1882) ; Gaston Maurice (29 avril 1885)
+février,document 34,2454 X 86,fevrier_1890_569,SCHNEIDER,Pierre,typographe,23 octobre 1860,,Koerich,,Luxembourg,Paris,,,GEND,Catherine Eugénie,10 février 1858,,France d'un pére luxembourgeois,La Villette,Seine,,Olivier Noel Nicolas (25 décembre 1882) ; Gaston Maurice (29 avril 1885)
 février,document 34,2658 X 86,fevrier_1890_570,BILLAUDÉ,Jean,ouvrier tourneur en fer,16 novembre 1859,,Ars-sur-Moselle,Moselle,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
-février,document 34,3948 X 86,fevrier_1890_571,OERTHEL,Joseph,tailleur,10 avril 1856,,Walff,Bas-Rhin,,Paris,,,OSWALD,Emilie Ida Mina,2 avril 1861,,,Gotha-Cobourg,,Saxe,
+février,document 34,3948 X 86,fevrier_1890_571,OERTHEL,Joseph,tailleur,10 avril 1856,,Walff,Bas-Rhin,,Paris,,,OSWALD,Emilie Ida Mina,2 avril 1861,,Saxe,Gotha-Cobourg,,,
 février,document 34,3444 X 86,fevrier_1890_572,BLUM,Jacques,employé au consistoire israélite,25 août 1856,,Brumath,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 34,3594 X 86,fevrier_1890_573,ENGEL,Nicolas,entrepreneur de maçonnerie,14 octobre 1857,,Betzdorff,,Luxembourg,Paris,,,,,,,,,,,
 février,document 34,4349 X 86,fevrier_1890_574,VERGINÉ,Édouard,ouvrier mécanicien,14 octobre 1861,,Cernay,Haut-Rhin,,Boulogne,Seine,,,,,,,,,,Edouard Adrien Jean (4 mars 1885)
 février,document 34,5103 X 86,fevrier_1890_575,WURMSER,Samuel,voyageur de commerce,6 janvier 1861,,Uffholtz,Bas-Rhin,,Boulogne-sur-Seine,Seine,,,,,,,,,,
-février,document 34,5249 X 86,fevrier_1890_576,KIEFER,François,journalier,10 janvier 1861,,Mandern,Moselle,,Paris,,,KNEIP,Marguerite,4 novembre 1864,,,La Rochette,,Luxembourg,
+février,document 34,5249 X 86,fevrier_1890_576,KIEFER,François,journalier,10 janvier 1861,,Mandern,Moselle,,Paris,,,KNEIP,Marguerite,4 novembre 1864,,Luxembourg,La Rochette,,,
 février,document 34,5378 X 86,fevrier_1890_577,LEYNDECKER,François,journalier,24 février 1863,,Vilsberg,,Meurthe,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 34,5889 X 86,fevrier_1890_578,DOLL,Charles Martin,garçon de café,19 juin 1853,,Haguenau,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 34,5932 X 86,fevrier_1890_579,LEVY,Michel Henry,employé de commerce,20 mai 1861,,Masbourg,Bas-Rhin,,Issy,Seine,,,,,,,,,,
@@ -587,7 +587,7 @@ février,document 34,7204 X 86,fevrier_1890_585,ERNST,Louis,cuisinier,1er octobr
 février,document 34,7230 X 86,fevrier_1890_586,RIEFFLY,François,employé au Gaz,23 juillet 1860,,Cernay,Haut-Rhin,,Paris,,,,,,,,,,,
 février,document 34,710 X 79,fevrier_1890_587,FLERSHEIM née ANSBACHER,Régine,,19 janvier 1861,,Fuerth,,Bavière,Paris,,,,,,,,,,,
 février,document 34,3302 X 86,fevrier_1890_588,MINON,Arthur Joseph,modeleur sculpteur,9 février 1852,,Roubaix,Nord,de père belge,Enghien,Seine-et-Oise,,,,,,,,,,
-février,document 34,5125 X 86,fevrier_1890_589,GRETHLER,François Joseph,ouvrier boulanger,14 février 1857,,Biengen,,Bade,Pae,,,HOET,Ida Catherine,13 octobre 1852,,,Staufen,,Bade,François Léon (16 mai 1880) ; Louise Rose (1 juin 1882) ; Ida Caroline (3 novembre 1884) ; Emile Charles (6 novembre 1889)
+février,document 34,5125 X 86,fevrier_1890_589,GRETHLER,François Joseph,ouvrier boulanger,14 février 1857,,Biengen,,Bade,Pae,,,HOET,Ida Catherine,13 octobre 1852,,Bade,Staufen,,,François Léon (16 mai 1880) ; Louise Rose (1 juin 1882) ; Ida Caroline (3 novembre 1884) ; Emile Charles (6 novembre 1889)
 février,document 34,5493 X 86,fevrier_1890_590,PORTWIG,Henri Auguste,gérant,26 avril 1836,,Neubourg,,Hanovre,Paris,,,,,,,,,,,
 février,document 34,7145 X 86,fevrier_1890_591,REITHER,Louis Jean Théodore,tailleur,20 juillet 1864,,Molsheim,Bas-Rhin,de père hessois,Neuilly-sur-Seine,Seine,,,,,,,,,,
 février,document 34,820 X 88,fevrier_1890_592,SCHNEIDER,Louis Léopold Ferdinand,employé,29 mars 1843,,Plagwitz,,Allemagne,Paris,,,,,,,,,,,
@@ -597,7 +597,7 @@ février,document 35,5461 X 84,fevrier_1890_595,WILHELM,Joseph,journalier,15 fé
 février,document 35,3794 X 87,fevrier_1890_596,AMBRUNN,Salvador,fabricant d'articles de voyage,18 septembre 1855,,Paris,,de père bavarois,Paris,,,,,,,,,,,
 février,document 35,6405 X 87,fevrier_1890_597,APERGHI,André,employé,15 novembre 1843,,Smyrne,,"Turquie d'Asie, d'un père italien",Bordeaux,Gironde,,,,,,,,,,
 février,document 35,14172 X 89,fevrier_1890_598,MADDALENA,Rafaele Giovanni,professeur d'italien,16 mars 1824,,Paola,,Italie,Toulouse,Haute-Garonne,,,,,,,,,,
-février,document 35,8119 X 87,fevrier_1890_599,KENDZIERSKI,Stanislas,employé à la compagnie d'èclairage à huile,27 juin 1841,,Koniecpol,,Pologne,Paris,,,SCHMIDT,Thérèse,8 octobre 1850,,,Buhlesthal,,Bavière,
+février,document 35,8119 X 87,fevrier_1890_599,KENDZIERSKI,Stanislas,employé à la compagnie d'èclairage à huile,27 juin 1841,,Koniecpol,,Pologne,Paris,,,SCHMIDT,Thérèse,8 octobre 1850,,Bavière,Buhlesthal,,,
 février,document 35,10134 X 87,fevrier_1890_600,CHARLIER,Émile Charles Joseph Victor,marchand de vins en gros,19 octobre 1846,,Clermont,Oise,d'origine belge,Creil,Oise,,,,,,,,,,
 février,document 35,11170 X 87,fevrier_1890_601,WULLIAM,Henri Martin,employé de commerce,12 novembre 1859,,Altkirch,Haut-Rhin,,Lyon,Rhône,,,,,,,,,,
 février,document 35,13259 X 87,fevrier_1890_602,BETERMIEZ,Zéphir Joachim Antoine,employé aux chemins de fer,25 novembre 1864,,Vaulx,,Belgique,Fives-Lille,Nord,,,,,,,,,,
@@ -607,7 +607,7 @@ février,document 35,5151 X 88,fevrier_1890_605,SERRA,Marcellin Alexandre Cléme
 février,document 35,5152 X 88,fevrier_1890_606,SERRA,Jean Hyacinthe,entrepreneur de travaux publics,6 juin 1844,,Bioglio,,Italie,Grenoble,Isère,,,,,,,,,,Joseph (3 novembre 1877) ; Lucia (3 septembre 1879) ; Louise Amélie (24 janvier 1883) ; Joséphine Julie (24 janvier 1883)
 février,document 35,5665 X 88,fevrier_1890_607,BASSI,Pierre,,23 février 1841,,Lodi,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 35,5860 X 88,fevrier_1890_608,AHR,Nicolas,ouvrier de fabrique,14 mai 1848,,Courcelles-lès-Gisors,Oise,de père prussien,Saint Rémy-sur-Avre,Eure-et-Loir,,,,,,,,,,
-février,document 35,7276 X 88,fevrier_1890_609,TOESCA,Jacques,chaudronnier,19 août 1837,,Tende,,Italie,La Ciotat,Bouches-du-Rhône,,MICHELETTI,Dominique,16 mai 1841,,,Foglizzo,,Italie,
+février,document 35,7276 X 88,fevrier_1890_609,TOESCA,Jacques,chaudronnier,19 août 1837,,Tende,,Italie,La Ciotat,Bouches-du-Rhône,,MICHELETTI,Dominique,16 mai 1841,,Italie,Foglizzo,,,
 février,document 35,7635 X 88,fevrier_1890_610,SANSIL,Joseph,placeur de marchandises,23 juillet 1850,,Turin,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 35,9871 X 88,fevrier_1890_611,VAN SMEWOORDE,Émile Vital,boulanger,10 avril 1863,,Lille,Oise,de père belge,Fives-Lille,Nord,,,,,,,,,,
 février,document 35,10794 X 88,fevrier_1890_612,BUCHHOLZ,Jules Léon,gymnasiarque,18 novembre 1862,,Paris,,de père allemand,Paris,,,,,,,,,,,
@@ -631,7 +631,7 @@ février,document 35,5573 X 88,fevrier_1890_629,NOTHELFER,Mathias,,19 septembre 
 février,document 35,8888 X 88,fevrier_1890_630,GERMANET,Jean Frédéric,négociant,4 septembre 1857,,Marseille,Bouches-du-Rhône,de père italien,Salon,Bouches-du-Rhône,,CLOT,Marie Antoinette Clothilde,2 avril 1859,,,Marseille,Bouches-du-Rhône,,
 février,document 35,10294 X 88,fevrier_1890_631,FORTUNER,Joseph Alphonse Eugène,ouvrier  lithographe,27 avril 1857,,Paris,,de père luxembourgeois,Paris,,,,,,,,,,,
 février,document 35,13052 X 88,fevrier_1890_632,BIVOIT,Joseph Aimé,forgeron,28 décembre 1843,,Braux,Ardennes,de père belge,Braux,Ardennes,,,,,,,,,,
-février,document 35,2543 X 89,fevrier_1890_633,VISCONTI,Alphonse Gaetan Félix Alexandre,peintre décorateur,1er janvier 1857,,Milan,,Italie,Paris,,,MALAY,Marie Joséphine,29 mai 1850,,,Jalhay,,Belgique,
+février,document 35,2543 X 89,fevrier_1890_633,VISCONTI,Alphonse Gaetan Félix Alexandre,peintre décorateur,1er janvier 1857,,Milan,,Italie,Paris,,,MALAY,Marie Joséphine,29 mai 1850,,Belgique,Jalhay,,,
 février,document 35,2626 X 89,fevrier_1890_634,LUTHERER,Alfred,,30 octobre 1862,,Rixheim,Haut-Rhin,,Blonville,Calvados,,,,,,,,,,
 février,document 35,3502 X 89,fevrier_1890_635,TROMBINI,Charles Joseph,chef de chantiers,4 septembre 1852,,Torre de Pienardi,,Italie,Pont-a-Buey,Aisne,,,,,,,,,,
 février,document 35,4583 X 89,fevrier_1890_636,TALASKA,Jean,garçon de salle,6 mai 1852,,Polnisch-Cekzin,,Pologne prussienne,Paris,,,,,,,,,,,Félix Léon Stanislas (26 décembre 1881) ; Maurice René (2 septembre 1888)
@@ -656,26 +656,26 @@ février,document 35,12890 X 89,fevrier_1890_654,DUTRANCY,Louis Sébastien,ouvri
 février,document 35,13053 X 89,fevrier_1890_655,CORNELIS,Théophile Auguste Joseph,marchand de fourrages,19 septembre 1846,,Ferrières,,Belgique,Romagnes-sous-les-Côtes,Meuse,,,,,,,,,,Marie Aline (10 mars 1871) ; Henry Hubert (13 février 1873) ; Joseph henri (7 avril 1878) ; Octovie (28 juin 1888)
 février,document 35,13084 X 89,fevrier_1890_656,GEYLER,Gustave Hermann,limonadier,29 mai 1836,,Colditz,,Saxe,Beauvais,Oise,,,,,,,,,,
 février,document 35,13117 X 89,fevrier_1890_657,BRUNENGO,Jean Joseph,cordier,28 février 1856,,Turin,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Irma (16 octobre 1878)
-février,document 35,13127 X 89,fevrier_1890_658,RIFFELMACHER,Philippe,garçon vendeur de vins,8 septembre 1853,,Niedersteinbach,Bas-Rhin,,Havre,Seine-Inférieure,,WEBERS,Marie Lambertine,11 novembre 1851,,,Veuray,,Hollande,Albertine Marie (26 mars 1878)
+février,document 35,13127 X 89,fevrier_1890_658,RIFFELMACHER,Philippe,garçon vendeur de vins,8 septembre 1853,,Niedersteinbach,Bas-Rhin,,Havre,Seine-Inférieure,,WEBERS,Marie Lambertine,11 novembre 1851,,Hollande,Veuray,,,Albertine Marie (26 mars 1878)
 février,document 35,13128 X 89,fevrier_1890_659,WOHANKA,François,chef d'orchestre,12 mars 1842,,Lischtian,,Bohême,Paris,,,,,,,,,,,
 février,document 35,13232 X 89,fevrier_1890_660,RIBOT dit PARERA,Jules Auguste Louis,économe,20 août 1856,,Marseille,Bouches-du-Rhône,de père espagnol,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 35,13251 X 89,fevrier_1890_661,VOS,Eugène Antoine,ouvrier verrier,31 juillet 1862,,Paris,Seine,de père belge,Paris,,,,,,,,,,,
 février,document 35,13310 X 89,fevrier_1890_662,BESANA,Dominique,fumiste,6 juin 1851,,Villette,,Italie,Melun,Seine-et-Marne,,,,,,,,,,Madeleine Honorine (26 décembre 1878)
-février,document 35,13335 X 89,fevrier_1890_663,LANTERI,Étienne Vincent,poseur aux chemins de fer,13 février 1847,,Falicone,,Italie,Aix,Bouches-du-Rhône,,LANZA,Françoise,7 février 1847,,,Biot,Alpes-Maritimes,France d'un pére italien,Joseph (29 juin 1873) ; Eugènie Marie (8 décembre 1876)
+février,document 35,13335 X 89,fevrier_1890_663,LANTERI,Étienne Vincent,poseur aux chemins de fer,13 février 1847,,Falicone,,Italie,Aix,Bouches-du-Rhône,,LANZA,Françoise,7 février 1847,,France d'un pére italien,Biot,Alpes-Maritimes,,Joseph (29 juin 1873) ; Eugènie Marie (8 décembre 1876)
 février,document 35,13339 X 89,fevrier_1890_664,RANISE,Marcel Cicéron,chauffeur,17 juillet 1850,,Dolcédo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
-février,document 35,13358 X 89,fevrier_1890_665,GOLDSCHMIDT,Meyer,rentier,17 décembre 1833,,Assenheim,,Hesse,Paris,,,LOEWESTEIN,Madeleine,20 juillet 1840,,,Fourbourg,Bas-Rhin,France d'un père bavarois,Léontine (2 janvier 1877)
+février,document 35,13358 X 89,fevrier_1890_665,GOLDSCHMIDT,Meyer,rentier,17 décembre 1833,,Assenheim,,Hesse,Paris,,,LOEWESTEIN,Madeleine,20 juillet 1840,,France d'un père bavarois,Fourbourg,Bas-Rhin,,Léontine (2 janvier 1877)
 février,document 35,13401 X 89,fevrier_1890_666,DUMOULIN,Adolphe,cocher,30 mars 1847,,Velaines,,Belgique,Paris,,,,,,,,,,,
 février,document 35,13558 X 59,fevrier_1890_667,LOSSON,Jean François,ébéniste,19 janvier 1864,,Waldweistroff,Moselle,,Paris,,,,,,,,,,,
 février,document 35,13714 X 89,fevrier_1890_668,DIALOT,Joseph Petronio,chaudronnier,15 mars 1854,,Turin,,Italie,Monetier,Hautes-Alpes,,,,,,,,,,Marie Alphonsine Sabine (18 novembre 1877) ; Romain Adome (23 septembre 1879) ; Marie Joséphine Thérèse (4 octobre 1881) ; Marie Clémence Adélaïde (15 avril 1883) ; Marie Sophie Alexandrine (20 septembre 1884)
 février,document 35,13915 X 89,fevrier_1890_669,LEVIE,Abraham,négociant,12 décembre 1849,,Bois-le-Duc,,Hollande,Paris,,,,,,,,,,,
-février,document 35,13927 X 89,fevrier_1890_670,AUXIERA,Jean Baptiste Vincent Marie,marin,8 juin 1846,,Vintimiglia,,Italie,La Ciotat,Bouches-du-Rhône,,FOGLIARINO,Martine,12 septembre 1855,,,San-Remo,,Italie,
+février,document 35,13927 X 89,fevrier_1890_670,AUXIERA,Jean Baptiste Vincent Marie,marin,8 juin 1846,,Vintimiglia,,Italie,La Ciotat,Bouches-du-Rhône,,FOGLIARINO,Martine,12 septembre 1855,,Italie,San-Remo,,,
 février,document 35,14226 X 89,fevrier_1890_671,GACHER,Jean Joseph,manouvrier,9 mars 1867,,Thionville,Moselle,,Reims,Marne,,,,,,,,,,
 février,document 35,14554 X 89,fevrier_1890_672,COOHOON,Louis Henri,propriétaire,12 mars 1831,,Montdidier,Somme,de père irlandais,Montdider,Somme,,,,,,,,,,
 février,document 35,14851 X 89,fevrier_1890_673,MICHELS,Eugène Jean,employé de commerce,10 avril 1863,,Metz,Moselle,,Paris,,,,,,,,,,,
 février,document 35,10 X 90,fevrier_1890_674,KRAUTH,Marie Sylvie,,1er décembre 1859,,Paris,Seine,de père badois,,,,,,,,,,,,
 février,document 35,1067 X 90,fevrier_1890_675,CORVI,Ferdinand Antoine Louis,directeur de cirque,22 septembre 1853,,Paris,Seine,de père italien,,,,,,,,,,,,
-février,document 35,13977 X 89,fevrier_1890_676,VANDEVYVER,Léopold Constant,ouvrier chapelier,28 janvier 1851,,Bruxelles,,Belgique,Paris,,,WILDE,Jeannette,28 mars 1852,,,Gand,,Belgique,Ange (2 dec 1872) ; Pauline (3 sept 1875) ; Albert (1 jan 1878) ; Lucie (17 juil 1882) ; Gustave (25 nov 1884) ; René (26 aôut 1889)
-février,document 35,14990 X 89,fevrier_1890_677,LEQUIME,Alexandre,employé aux chemins de fer  du Nord,8 juillet 1845,,Cuesmes,,Belgique,Paris,,,DUBRAY,Joséphine Rose Eléonore,26 juin 1841,,,Maubeuge,Nord,France de pére belge,
+février,document 35,13977 X 89,fevrier_1890_676,VANDEVYVER,Léopold Constant,ouvrier chapelier,28 janvier 1851,,Bruxelles,,Belgique,Paris,,,WILDE,Jeannette,28 mars 1852,,Belgique,Gand,,,Ange (2 dec 1872) ; Pauline (3 sept 1875) ; Albert (1 jan 1878) ; Lucie (17 juil 1882) ; Gustave (25 nov 1884) ; René (26 aôut 1889)
+février,document 35,14990 X 89,fevrier_1890_677,LEQUIME,Alexandre,employé aux chemins de fer  du Nord,8 juillet 1845,,Cuesmes,,Belgique,Paris,,,DUBRAY,Joséphine Rose Eléonore,26 juin 1841,,France de pére belge,Maubeuge,Nord,,
 février,document 35,14176 X 89,fevrier_1890_678,SELLA-PIAZZA,Charles Bonaventure,entrepreneur de travaux publics,14 juillet 1837,,Plaines de Serravalle,,Italie,Aix-les-Bains,,,,,,,,,,,Caroline (6 décembre 1869) ; Peronne (6 mai 1872) ; Josépihine (18 mai 1874) ; Joseph Barthélemy (25 avril 1878)
 février,document 35,15004 X 89,fevrier_1890_679,ARNOLD,Ignace,cuivreur,30 novembre 1857,,Saverne,Bas-Rhin,,Saint Max,Meurthe-et-Moselle,,,,,,,,,,
 février,document 35,3 X 90,fevrier_1890_680,COPELLO,Arthur Joseph,clerc d'avoué,14 janvier 1861,,Marseille,Bouches-du-Rhône,de père italien,Nice,Alpes-Maritimes,,,,,,,,,,
@@ -694,7 +694,7 @@ février,document 36,13516 X 89,fevrier_1890_692,ROBERT,Jean François,raboteur 
 février,document 36,15090 X 89,fevrier_1890_693,KRUMEICH,Félicité,cuisinière,9 décembre 1857,,Oberbetschdorff,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 36,15706 X 89,fevrier_1890_694,GARTHMANN,Julie Ida,,8 novembre 1837,,Strasbourg,Bas-Rhin,,Nice,Alpes-Maritimes,,,,,,,,,,Charles Emile (20 septembre 1869)
 février,document 36,17 X 90,fevrier_1890_695,STEGER,Laurence Mathilde,giletière,2 juillet 1862,,Mulhouse,Haut-Rhin,,Paris,,,,,,,,,,,
-février,document 36,39 X 90,fevrier_1890_696,ROLLIN,Joseph Louis,tailleur de pierre,15 novembre 1850,,Hattigny,,Meurthe,Epinal,Vosges,,CHRISTMANN,Clara,7 août 1855,,,Eichbaracken-Phalsbourg,,Meurthe,
+février,document 36,39 X 90,fevrier_1890_696,ROLLIN,Joseph Louis,tailleur de pierre,15 novembre 1850,,Hattigny,,Meurthe,Epinal,Vosges,,CHRISTMANN,Clara,7 août 1855,,Meurthe,Eichbaracken-Phalsbourg,,,
 février,document 36,96 X 90,fevrier_1890_697,AUBERTIN,Joseph Marie,peintre,3 février 1864,,Metz,Moselle,,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 36,108 X 90,fevrier_1890_698,KRALL,Charles Antoine,journalier,31 octobre 1868,,Obernai,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 36,120 X 90,fevrier_1890_699,TOURMANN,Jean Pierre,meunuisier,24 janvier 1865,,Colmen,Moselle,,Paris,,,,,,,,,,,
@@ -807,13 +807,13 @@ février,document 38,5049 X 88,fevrier_1890_805,VILLA née GILET,Jeanne,,1838,18
 février,document 39,4416 X 88,fevrier_1890_806,TONG-THIENG dit TAA HING,,négociant,21 janvier 1857,,Canton,,Chine,Hanoi,,Tonkin,,,,,,,,,
 février,document 39,646 X 90,fevrier_1890_807,LE VAN LOI,,sergent au 1er régiment de tirailleurs tonkinois,1848,1848,Tien Hoa,,"canton de Ti Duc, Cochinchine",,,,,,,,,,,,
 février,document 39,648 X 90,fevrier_1890_808,SCHROEDER,Albert Lowenhierz Karl,négociant,2 décembre 1851,,Londres,,Angleterre,Hanoi,,Tonkin,,,,,,,,,
-février,document 40,2323 X 77,fevrier_1890_809,SCOTTO di VETTINO,Pofirio Louis,marin,23 octobre 1838,,Procida,,Italie,Marseille,Bouches-du-Rhône,,GALATA,Marie Françoise,14 juin 1849,,,Naples,,Italie,Dominique Joseph (13 mars 1881) ; Joseph Dominique (17 aôut 1886)
-février,document 40,504 X 83,fevrier_1890_810,ADMANT,Charles-second,professeur d'italien,29 septembre 1838,,Florence,,Italie,Lyon,Rhône,,MORO,Marie Antoinette Pauline Clémence,5 février 1832,,,Gènes,,Italie,Caroline Zaire Sophie (1 juin 1870)
+février,document 40,2323 X 77,fevrier_1890_809,SCOTTO di VETTINO,Pofirio Louis,marin,23 octobre 1838,,Procida,,Italie,Marseille,Bouches-du-Rhône,,GALATA,Marie Françoise,14 juin 1849,,Italie,Naples,,,Dominique Joseph (13 mars 1881) ; Joseph Dominique (17 aôut 1886)
+février,document 40,504 X 83,fevrier_1890_810,ADMANT,Charles-second,professeur d'italien,29 septembre 1838,,Florence,,Italie,Lyon,Rhône,,MORO,Marie Antoinette Pauline Clémence,5 février 1832,,Italie,Gènes,,,Caroline Zaire Sophie (1 juin 1870)
 février,document 40,4674 X 85,fevrier_1890_811,SCHULLER,François,aide-rural,27 mars 1857,,Chanville,Moselle,,Vilcey sur Trey,Meurthe-et-Moselle,,,,,,,,,,
-février,document 40,991 X 86,fevrier_1890_812,CRAPEZ,Jean Pierre,ébéniste,1er septembre 1858,,Grosbliederstroff,Moselle,,Paris,Seine,,NAEGELÉ,Barbe,23 novembre 1853,,,Bimingen,,Bade,
+février,document 40,991 X 86,fevrier_1890_812,CRAPEZ,Jean Pierre,ébéniste,1er septembre 1858,,Grosbliederstroff,Moselle,,Paris,Seine,,NAEGELÉ,Barbe,23 novembre 1853,,Bade,Bimingen,,,
 février,document 40,1508 X 86,fevrier_1890_813,BOESEN,Charles,voyageur de commerce,19 août 1858,,Ennery,Moselle,,Paris,,,,,,,,,,,
 février,document 40,1558 X 86,fevrier_1890_814,JAEGER,Joseph,cuisinier,16 novembre 1855,,Sarbourg,Bas-Rhin,,Paris,,,,,,,,,,,
-février,document 40,1850 X 86,fevrier_1890_815,LUCAS,Antoine,cantonnier,17 novembre 1843,,Eschweiler,,Luxembourg,Paris,,,SCHAUB,Elisabeth,9 décembre 1854,,,Nochir,,Luxembourg,Louise Antoinette (5 janvier 1884)
+février,document 40,1850 X 86,fevrier_1890_815,LUCAS,Antoine,cantonnier,17 novembre 1843,,Eschweiler,,Luxembourg,Paris,,,SCHAUB,Elisabeth,9 décembre 1854,,Luxembourg,Nochir,,,Louise Antoinette (5 janvier 1884)
 février,document 40,3089 X 86,fevrier_1890_816,GIORDANO,André Laurent,employé au service municipal,9 novembre 1860,,Vinadio,,Italie,Paris,,,,,,,,,,,
 février,document 40,3223 X 86,fevrier_1890_817,GEBHART,François Joseph,comptable,4 juillet 1858,,Kaysersberg,Haut-Rhin,,Versailles,Seine-et-Oise,,,,,,,,,,Joséphine (30 avril 1879)
 février,document 40,5165 X 86,fevrier_1890_818,DROUAN,Théophile,boulanger,12 septembre 1858,,Meisengott,Bas-Rhin,,Comemrcy,Meuse,,,,,,,,,,
@@ -822,12 +822,12 @@ février,document 40,5774 X 86,fevrier_1890_820,BRANDEBOURGER,Jean Michel Eugèn
 février,document 40,6081 X 86,fevrier_1890_821,SCHAAL,Eugène,cordonnier,25 avril 1862,,Fegersheim,Bas-Rhin,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 février,document 40,1214 X 86,fevrier_1890_822,GERWECK,Jean,tailleur,21 août 1851,,Büchig,,Bade,Vesoul,Haute-Saône,,,,,,,,,,Emile (16 juillet 1877) ; Anne Marie (1 décembre 1880)
 février,document 40,4213 X 86,fevrier_1890_823,RIVOIRE,Jean Barthélemi,aubergiste,26 octobre 1853,,Rosa,,Italie,Cognat-Lyonne,,,,,,,,,,,Pierre (1 novembre 1880) ; Maria Fannny (29 octobre 1884)
-février,document 40,5065 X 86,fevrier_1890_824,ADT,Jacques Fridolin,caissier,8 mars 1841,,Ensheim,,Bavière,Pont-à-Mousson,Meurthe-et-Moselle,,CUSTER,Emilie,12 mai 1846,,,Saint-Ingbert,,Bavière,Louis Gustave (20 décembre 1880)
+février,document 40,5065 X 86,fevrier_1890_824,ADT,Jacques Fridolin,caissier,8 mars 1841,,Ensheim,,Bavière,Pont-à-Mousson,Meurthe-et-Moselle,,CUSTER,Emilie,12 mai 1846,,Bavière,Saint-Ingbert,,,Louis Gustave (20 décembre 1880)
 février,document 40,1330 X 86,fevrier_1890_825,DECURTINS,Jean Antoine,rentier,13 novembre 1833,,Tavetsch,,Suisse,Paris,,,,,,,,,,,
 février,document 40,8783 X 9,fevrier_1890_826,FAUST,Guillaume Théphile Robert,fourreur,4 mars 1830,,Breslau,,Allemagne,Paris,,,,,,,,,,,
 février,document 40,827 X 90,fevrier_1890_827,FAUST,Marie Albert,employé,23 février 1860,,Paris,,de père allemand,Paris,,,,,,,,,,,
-février,document 40,4138 X 86,fevrier_1890_828,REYNOLDS,Willian Auguste,professeur au lycée Saint-Louis,20 août 1833,,New Harven,,Amérique,Paris,,,BÉLEM,Rosalie Constance,13 septembre 1827,,,Altona,,Holstein,
-février,document 40,4407 X 86,fevrier_1890_829,BOSIO,Jean Baptiste,marin pêcheur,17 février 1833,,Borgo-d'Ale,,Italie,Marseille,Bouches-du-Rhône,,SIFFREDI,Marie,20 septembre 1844,,,Pompeiana,,Italie,Anasthasie Catherine (30 juin 1879) ; César Marcus (17 octobre 1884)
+février,document 40,4138 X 86,fevrier_1890_828,REYNOLDS,Willian Auguste,professeur au lycée Saint-Louis,20 août 1833,,New Harven,,Amérique,Paris,,,BÉLEM,Rosalie Constance,13 septembre 1827,,Holstein,Altona,,,
+février,document 40,4407 X 86,fevrier_1890_829,BOSIO,Jean Baptiste,marin pêcheur,17 février 1833,,Borgo-d'Ale,,Italie,Marseille,Bouches-du-Rhône,,SIFFREDI,Marie,20 septembre 1844,,Italie,Pompeiana,,,Anasthasie Catherine (30 juin 1879) ; César Marcus (17 octobre 1884)
 février,document 40,33 X 87,fevrier_1890_830,KURTZ,Victor,peintre en voitures,9 mai 1862,,Strasbourg,Bas-Rhin,,Paris,,,,,,,,,,,
 février,document 41,3864 X 87,fevrier_1890_831,LÉOPOLD,Berthold,maître d'hôtel,25 mai 1859,,Halle-sur-Saale,,Allemagne,Paris,,,,,,,,,,,Thérèse Anne (22 août 1888)
 février,document 41,7453 X 87,fevrier_1890_832,ZAYER,Jacques Joseph,ouvrier serrurier,10 juin 1866,,Metz,Moselle,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
@@ -864,27 +864,27 @@ février,document 43,12293 X 89,fevrier_1890_862,LÉVY dit SICHEL,Alphonse,négo
 février,document 43,15286 X 89,fevrier_1890_863,D'ANDRÉA,Salvador Joseph,journalier,18 novembre 1863,,Alger,Alger,de parents italiens,Alger,Alger,,,,,,,,,,
 février,document 43,15293 X 89,fevrier_1890_864,TASSARA,Louis Antoi,pêcheur,17 janvier 1862,,Alger,Alger,de parents italiens,Alger,Alger,,,,,,,,,,
 février,document 43,15324 X 89,fevrier_1890_865,FENECH,François Henri,entrepreneur de peinture,20 novembre 1860,,Alger,Alger,de parents anglo-maltais,Alger,Alger,,,,,,,,,,
-février,document 44,1380 X 87,fevrier_1890_866,RUELLE,Florent Charles,peseur de fer,23 octobre 1850,,Frameries,,Belgique,Hautmont,Nord,,DESCAMPS,pauline Florence Zoé,3 janvier 1861,,,Hautmont,Nord,France de pére belge,
+février,document 44,1380 X 87,fevrier_1890_866,RUELLE,Florent Charles,peseur de fer,23 octobre 1850,,Frameries,,Belgique,Hautmont,Nord,,DESCAMPS,pauline Florence Zoé,3 janvier 1861,,France de pére belge,Hautmont,Nord,,
 février,document 44,1959 X 87,fevrier_1890_867,GILLIS,Virginie,institutrice religieuse,7 février 1845,,Tournai,,Belgique,Chatou,Seine-et-Oise,,,,,,,,,,
 février,document 44,5941 X 87,fevrier_1890_868,BAX,Henri Jean,vétérinaire,10 mai 1855,,Rotterdam,,Hollande,Jonzac,Charente-Inférieure,,,,,,,,,,
 février,document 44,2665 X 88,fevrier_1890_869,JANONSCHEK,François,,23 mars 1844,,Petrowitz,,Bohême,Rouen,Seine-Inférieure,,,,,,,,,,François Paul (3 nonvembre 1882)
 février,document 44,4285 X 88,fevrier_1890_870,GOTELLI,Vincent,ajusteur,21 septembre 1819,,Varese,,Italie,Troyes,Aube,,,,,,,,,,
-février,document 44,6128 X 88,fevrier_1890_871,AVENA,Honoré Grégoire,poseur aux chemins de fer,12 mars 1846,,Roccavione,,Italie,Arles,Bouches-du-Rhône,,MASSA,Marie Madeleine,8 mai 1848,,,Roccavione,,Italie,Marie Madeleine (28 février 1870)
+février,document 44,6128 X 88,fevrier_1890_871,AVENA,Honoré Grégoire,poseur aux chemins de fer,12 mars 1846,,Roccavione,,Italie,Arles,Bouches-du-Rhône,,MASSA,Marie Madeleine,8 mai 1848,,Italie,Roccavione,,,Marie Madeleine (28 février 1870)
 février,document 44,6415 X 88,fevrier_1890_872,CAVIGLIA,Jean Baptiste Dominique,,14 décembre 1853,,Marseille,Bouches-du-Rhône,de père italien,Bordeaux,Gironde,,,,,,,,,,René Jean Baptiste (3 janvier 1888)
-février,document 44,7117 X 88,fevrier_1890_873,DÉSIR,Camille Joseph,négociant,5 décembre 1843,,Tournai,,Belgique,Paris,,,VANDOMEL,Julie Henriette,27 mai 1845,,,Tournai,,Belgique,
+février,document 44,7117 X 88,fevrier_1890_873,DÉSIR,Camille Joseph,négociant,5 décembre 1843,,Tournai,,Belgique,Paris,,,VANDOMEL,Julie Henriette,27 mai 1845,,Belgique,Tournai,,,
 février,document 44,10111 X 88,fevrier_1890_874,SOAVE,Louis Dominique,marin,17 novembre 1855,,Turin,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 février,document 44,10228 X 88,fevrier_1890_875,DAGASSO,Martin Louis,marchand de chaussures,12 novembre 1849,,Delouze,Meuse,,Bar-le Duc,Meuse,,,,,,,,,,
 février,document 44,10305 X 88,fevrier_1890_876,GASSMANN,Joseph,marbrier,6 octobre 1868,,Wissembourg,Bas-Rhin,,Eulmont,Meurthe-et-Moselle,,,,,,,,,,
-février,document 44,10347 X 88,fevrier_1890_877,HARTOG,Alphonse,administrateur de société financière,26 avril 1832,,Amsterdam,,Hollande,Paris,,,HARTOG,Valérie Jeannette Rosette,10 avril 1843,,,Haarlem,,Hollande,
+février,document 44,10347 X 88,fevrier_1890_877,HARTOG,Alphonse,administrateur de société financière,26 avril 1832,,Amsterdam,,Hollande,Paris,,,HARTOG,Valérie Jeannette Rosette,10 avril 1843,,Hollande,Haarlem,,,
 février,document 44,15191 X 88,fevrier_1890_878,BECCHIO,Jacques Philippe,meunuisier,18 août 1853,,Mondovi,,Italie,La Ciotat,Bouches-du-Rhône,,,,,,,,,,Victoria Elisa Emilie (1 aôut 1885)
 février,document 44,609 X 89,fevrier_1890_879,BIOLETTO,Jean Pierre,chef mineur,25 avril 1849,,Ignol,Cher,de père italien,Caluire-et-Curie,Rhône,,,,,,,,,,
 février,document 44,861 X 89,fevrier_1890_880,SASSOÉ,Jacques,journalier,25 octobre 1828,,Collareto-Castelnuovo,,Italie,Leay,Ain,,,,,,,,,,
-février,document 44,1159 X 89,fevrier_1890_881,GANCIA,Jean,chanfrenier,19 mars 1851,,Narzole,,Italie,La Ciotat,Bouches-du-Rhône,,LUPO,Catehrine,15 décembre 1851,,,Moriondo,,Italie,Marguerite Anna Jeanne Eugénie  (21 octobre 1882) ; Anne Thérèse Victorine (13 févier 1885) ;Louis jean Victore (3 novembre 1887)
+février,document 44,1159 X 89,fevrier_1890_881,GANCIA,Jean,chanfrenier,19 mars 1851,,Narzole,,Italie,La Ciotat,Bouches-du-Rhône,,LUPO,Catehrine,15 décembre 1851,,Italie,Moriondo,,,Marguerite Anna Jeanne Eugénie  (21 octobre 1882) ; Anne Thérèse Victorine (13 févier 1885) ;Louis jean Victore (3 novembre 1887)
 février,document 44,1416 X 89,fevrier_1890_882,FAIELLO,Angelo Carlo,piqueur de sel,23 octobre 1844,,Millesimo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Étienne Eugène Marius (15 aôut 1876)
 février,document 44,2255 X 89,fevrier_1890_883,SCARONI,Charles Antoine,carrier,2 octobre 1852,,Cassolmaggiore,,Italie,,,,,,,,,,,,Angel Félicien (8 mars 1883) ; Marie Augustine (27 juin 1884) ;Joseph Nestor (14 mai 1886)
 février,document 44,2725 X 89,fevrier_1890_884,JUNG,Henri,garçon limonadier,7 juillet 1846,,Hefersweriler,,Allemagne,Bar-le Duc,Meuse,,,,,,,,,,
 février,document 44,2819 X 89,fevrier_1890_885,PIERRE,Joseph Séraphin,aiguilleur,19 mars 1843,,Yvoir,,Belgique,Charleville,Ardennes,,,,,,,,,,
-février,document 44,3055 X 89,fevrier_1890_886,BERIO,Henri Joseph,bourrelier,8 novembre 1861,,La Crau,Var,de père italien,Hyères,Var,,VIGNA,Julie Elisa Olympe,29 novembre 1861,,,Hyères,Var,France d'un pére italien,
+février,document 44,3055 X 89,fevrier_1890_886,BERIO,Henri Joseph,bourrelier,8 novembre 1861,,La Crau,Var,de père italien,Hyères,Var,,VIGNA,Julie Elisa Olympe,29 novembre 1861,,France d'un pére italien,Hyères,Var,,
 février,document 44,4775 X 89,fevrier_1890_887,VILLA née VIOLA,Elisabeth Clémentine,,5 octobre 1840,,Marseille,Bouches-du-Rhône,de père italien,Marseille,,,,,,,,,,,
 février,document 44,4776 X 89,fevrier_1890_888,OTTONE née VIOLA,Marie Magdeleine Philippine,,7 mars 1843,,Marseille,Bouches-du-Rhône,de père italien,Marseille,,,,,,,,,,,
 février,document 44,4776 X 89,fevrier_1890_889,OTTONE née VIOLA,Marie Magdeleine Philippine,,7 mars 1843,,Marseille,Bouches-du-Rhône,de père italien,Marseille,,,,,,,,,,,
@@ -901,12 +901,12 @@ février,document 44,11563 X 89,fevrier_1890_899,MACCHI,Charles François,maçon
 février,document 44,11569 X 89,fevrier_1890_900,STAEFFEN,Jacques,terrassier,3 décembre 1840,,Biblisheim,Bas-Rhin,,Montreuil-sous-Bois,,,,,,,,,,,
 février,document 44,11819 X 89,fevrier_1890_901,COLOMBO,Tomaso,vannier,20 décembre 1854,,Vigeano,,Italie,Lyon,Rhône,,,,,,,,,,Louis Jean (9 mars 1886) ; Aline (14 avril 1888)
 février,document 44,11970 X 89,fevrier_1890_902,MICHOTTE,Frédédric Auguste,mécanicien,14 décembre 1863,,Paris,Seine,de père belge,Rouen,Seine-Inférieure,,,,,,,,,,
-février,document 44,11819 X 89,fevrier_1890_903,ALTSCHUL,Léopold Paul,fourreur,8 mars 1854,,Szöllös,,Hongrie,Lyon,Rhône,,SCHLOEGL,Amélie,27 avril 1851,,,Hacklberg,,Bavière,Paul(13 mai 1878) ; Marie Georgette (3 févier 1881) ; Marcel (30 juillet 1888) ;Irène Léontine (25 septembre 1889)
+février,document 44,11819 X 89,fevrier_1890_903,ALTSCHUL,Léopold Paul,fourreur,8 mars 1854,,Szöllös,,Hongrie,Lyon,Rhône,,SCHLOEGL,Amélie,27 avril 1851,,Bavière,Hacklberg,,,Paul(13 mai 1878) ; Marie Georgette (3 févier 1881) ; Marcel (30 juillet 1888) ;Irène Léontine (25 septembre 1889)
 février,document 44,11939 X 89,fevrier_1890_904,GROSSI,Egide Germain Marie,journalier,15 septembre 1856,,Aquin,,Italie,Paris,,,,,,,,,,,Alphonse Victor (25 avril 1886) ;Cécile Joséphine (14 novembre 1888)
 février,document 44,12179 X 89,fevrier_1890_905,VAN SCHOORISSE,Désiré,domestique,19 août 1823,,Bevere,,Belgique,Lille,Nord,,,,,,,,,,
 février,document 44,12228 X 89,fevrier_1890_906,WEIL,Gustave,employé,27 mai 1836,,Haguenau,Bas-Rhin,de père autrichien,Paris,,,,,,,,,,,
 février,document 44,12341 X 89,fevrier_1890_907,STROZZI,Amilcar Edmons Amédée Cyprien,,30 avril 1857,,Parme,,Italie,Versailles,Seine-et-Oise,,,,,,,,,,Hermine Suzanne Augustine (1 décembre 1887)
-février,document 44,12559 X 87,fevrier_1890_908,RICIBIELLO,François,chauffeur,31 janvier 1850,,Borgo Gaeta,,Italie,La Ciotat,Bouches-du-Rhône,,DI CECCA,Nathalie Philomène Raphaèle,15 décembre 1860,,,bourg de Gaète,,Italie,Sauveur Raphael (6 octobre 1885) ;
+février,document 44,12559 X 87,fevrier_1890_908,RICIBIELLO,François,chauffeur,31 janvier 1850,,Borgo Gaeta,,Italie,La Ciotat,Bouches-du-Rhône,,DI CECCA,Nathalie Philomène Raphaèle,15 décembre 1860,,Italie,bourg de Gaète,,,Sauveur Raphael (6 octobre 1885) ;
 février,document 44,12620 X 89,fevrier_1890_909,ATTANASIO,Dominique Charles,layetier,14 juin 1851,,Borgo Gaeta,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Pierre Joseph (24 novembre 1887)
 février,document 44,12643 X 89,fevrier_1890_910,DE GIETER,Jacques Joseph,imprimeur sur étoffes,13 novembre 1844,,Bruxelles,,Belgique,Saint Denis,Seine,,,,,,,,,,Joséphine Petronille (22 juillet 1871) ; Alice Lucie (1 février 1883)
 février,document 44,12957 X 89,fevrier_1890_911,DÉORSOLA,François,ouvrier glacier,12 février 1852,,Pignerol,,Italie,Paris,,,,,,,,,,,Louis Albert (14 janvier 1880) ; Renée Pauline (12 janvier 1884) ; Anna Gabrielle (8 aôut 1887)
@@ -932,18 +932,18 @@ février,document 44,15772 X 89,fevrier_1890_930,BOUR,Auguste,journalier,20 fév
 février,document 44,15941 X 89,fevrier_1890_931,ANTEQUERA,Diego Joseph,employé à la compagnie générale des allumettes,20 décembre 1850,,Adra,,Espagne,Marseille,Bouches-du-Rhône,,,,,,,,,,Marius Joseph (11 février 1877) ; Marie Louise Joséphine (23 juillet 1880) ; Hippolyte Marius (19 mai 1885)
 février,document 44,15953 X 89,fevrier_1890_932,HASEL,Charles,employé de commerce,7 décembre 1854,,Badon près de Vienne,,Autriche,Epernay,Marne,,,,,,,,,,Catherine Clémence (17 avril 1880) ; Louis Edouard (13 décembre 1882)
 février,document 30,376 X 90,fevrier_1890_933,CAPELLE,Lievin Désiré,négociant,16 juillet 1853,,Dinoent,,Belgique,Paris,,,,,,,,,,,Thérèse Marie (22 mars 1877) ; Louis Victor (4 décembre 1878) ; Marthe Antoinette (24 juin 1881) ; Marie Joséphine(14 janvier 1883)  ;Pierre Raymond (22 novembre 1884) ; Joseph Édouard (31 janvier 1886)
-février,document 44,978 X 90,fevrier_1890_934,GISCOSA,Joseph Michel,commercant,20 janvier 1838,,San Secondo,,Italie,Nice,Alpes-Maritimes,,NICOLA TERESA,Teresa,8 mars 1846,,,Villafranca,,Italie,Jacques (18 jancier 1870) ; Jacques Jean Baptiste (21 aôut 1871)
+février,document 44,978 X 90,fevrier_1890_934,GISCOSA,Joseph Michel,commercant,20 janvier 1838,,San Secondo,,Italie,Nice,Alpes-Maritimes,,NICOLA TERESA,Teresa,8 mars 1846,,Italie,Villafranca,,,Jacques (18 jancier 1870) ; Jacques Jean Baptiste (21 aôut 1871)
 février,document 44,7089 X 88,fevrier_1890_935,HITSCHMANN,Salomon,négociant en perles pour couronnes mortuaires,20 avril 1844,,Polna,,Autriche,Paris,,,,,,,,,,,Henriette (29 janvier 1875)
 février,document 44,4558 X 89,fevrier_1890_936,GUMB,Joseph,cordonnier,29 octobre 1847,,Weinheim,,grand-duché de Bade,Paris,,,,,,,,,,,
-février,document 44,5022 X 89,fevrier_1890_937,ROSALAZ,Jules Eugène,garçon boucher,24 octobre 1839,,Neuchatel,,Suisse,Paris,,,GINTREM,Marie Anne,2 novembre 1851,,,Roehlingen,,Suisse,Léon Eugène (6 avril 1877)
+février,document 44,5022 X 89,fevrier_1890_937,ROSALAZ,Jules Eugène,garçon boucher,24 octobre 1839,,Neuchatel,,Suisse,Paris,,,GINTREM,Marie Anne,2 novembre 1851,,Suisse,Roehlingen,,,Léon Eugène (6 avril 1877)
 février,document 44,762 X 86,fevrier_1890_938,HIRTZLIN,Aloyse,teinturier,3 juillet 1863,,Bisel,Haut-Rhin,,Troyes,Aube,,,,,,,,,,
-février,document 44,5664 X 87,fevrier_1890_939,KIMMERLING,Jean Victor,directeur de la société lyonnaise de dépôts et comptes-courants,25 février 1840,,Genève,,Suisse,Lyon,Rhône,,MARTIN,Marie Louise Henriette,4 février 1853,,,Neuchâtel,,Suisse,Sophie Thérèse Marie (26 février 1873) ; Charles Albert (14 février 1875) ; Marie Louise (15 novembre 1876) ; Jeanne Emma (29 octobre 1878) ; Albert Louis (22 juin 1882)
+février,document 44,5664 X 87,fevrier_1890_939,KIMMERLING,Jean Victor,directeur de la société lyonnaise de dépôts et comptes-courants,25 février 1840,,Genève,,Suisse,Lyon,Rhône,,MARTIN,Marie Louise Henriette,4 février 1853,,Suisse,Neuchâtel,,,Sophie Thérèse Marie (26 février 1873) ; Charles Albert (14 février 1875) ; Marie Louise (15 novembre 1876) ; Jeanne Emma (29 octobre 1878) ; Albert Louis (22 juin 1882)
 février,document 44,290 X 89,fevrier_1890_940,DE BIE,Jean Baptiste Joseph Victor,corroyeur,27 mai 1864,,Vosselaer,,Belgique,Paris,,,,,,,,,,,Jean Baptiste Joseph (3 octobre 1885) ; Gabrielle Henriette (7 avril 1887)
 février,document 44,689 X 89,fevrier_1890_941,BAPTISTE,Auguste,domestique,22 septembre 1867,,Foulcrey,,Meurthe,Ancerviller,Meurthe-et-Moselle,,,,,,,,,,
 février,document 44,5096 X 89,fevrier_1890_942,VAN MINDEN,Philip,opticien,1er juin 1825,,Utrecht,,Hollande,Laon,Aisne,,,,,,,,,,
 février,document 44,13004 X 89,fevrier_1890_943,RISSELIN,Joseph,sculpteur,31 mars 1848,,Ellezelles,,Belgique,Notre Dame du Thil,Oise,,,,,,,,,,Mathilde Elisa Julia (3 décembre 1873)
 février,document 44,13051 X 89,fevrier_1890_944,REIBEL,Jean,charcutier,20 juillet 1863,,Nordhausen,Bas-Rhin,,Paris,,,,,,,,,,,
-février,document 44,13509 X 89,fevrier_1890_945,GRAU,Octave Antoine Aubin,chef de comptabilité aux chemins de fer départementaux,13 juin 1835,,Audenanle,,Belgique,Paris,,,DHONT,Zénobie Marie Catherine,5 septembre 1836,,,Liège,,Belgique,Eugène Léon (2 janvier 1874)
+février,document 44,13509 X 89,fevrier_1890_945,GRAU,Octave Antoine Aubin,chef de comptabilité aux chemins de fer départementaux,13 juin 1835,,Audenanle,,Belgique,Paris,,,DHONT,Zénobie Marie Catherine,5 septembre 1836,,Belgique,Liège,,,Eugène Léon (2 janvier 1874)
 février,document 44,11962 X 87,fevrier_1890_946,GRAU,Marie Émilie Eilhelmine,institutrice,15 mai 1863,,Bruxelles,,Belgique,Paris,,,,,,,,,,,
 février,document 44,11963 X 87,fevrier_1890_947,GRAU,Gabrielle Antoinette Octavie Zénobie,institutrice,21 octobre 1865,,Bruxelles,,Belgique,Paris,,,,,,,,,,,
 février,document 44,822 X 90,fevrier_1890_948,GRAU,Charles Antoine Octave,employé aux chemins de fer,16 août 1866,,Schaerbeck,,Belgique,Paris,,,,,,,,,,,Gabrielle Léonie Charlotte (12 mai 1889)
@@ -2112,8 +2112,8 @@ août,document 33,4868 X 90,aout_1890_46,LORANGÉ,Louis Gustave,directeur de mé
 août,document 33,4917 X 90,aout_1890_47,AHMED BEN HADJ EL MADHI BEN AKNAN,non précisé,négociant,1857,en 1857,Maroc,,Maroc,Saint Louis,,Sénégal,,,,,,,,,
 août,document 33,5514 X 90,aout_1890_48,SCHMIDT,Charles Edmond,brasseur,21 août 1864,,Bischwiller,Bas-Rhin,,Arcis-sur-Aube,Aube,,,,,,,,,,
 août,document 33,12046 X 89,aout_1890_49,VYT,Pierre jean,menuisier-ébéniste,4 février 1865,,Lokeren,,Belgique,Paris,,,,,,,,,,,
-août,document 34,3187 X 85,aout_1890_50,RAVOTTI,Giacomo Gaudenzio,entrepreneur de travaux publics,26 juillet 1846,,Roburent,,Italie,Tunis,,,MARRONE,Rosa Maria,4 mai 1864,,,Trapani,,Italie,
-août,document 34,13530 X 89,aout_1890_51,ALLEGRO,Joseph,receveur des douanes,29 octobre 1848,,"Tunis, de parents espagnols",,,Bordj El Hammam,,Tunisie,ALLEGRO,Marie Zoé,21 juin 1862,,,Bône,Constantine,"Algérie, de parents espagnols",
+août,document 34,3187 X 85,aout_1890_50,RAVOTTI,Giacomo Gaudenzio,entrepreneur de travaux publics,26 juillet 1846,,Roburent,,Italie,Tunis,,,MARRONE,Rosa Maria,4 mai 1864,,Italie,Trapani,,,
+août,document 34,13530 X 89,aout_1890_51,ALLEGRO,Joseph,receveur des douanes,29 octobre 1848,,"Tunis, de parents espagnols",,,Bordj El Hammam,,Tunisie,ALLEGRO,Marie Zoé,21 juin 1862,,"Algérie, de parents espagnols",Bône,Constantine,,
 août,document 34,13531 X 89,aout_1890_52,NESTLER,Charles Hermann,commerçant,18 septembre 1852,,Bonn,,Allemagne,Sousse,,Tunisie,,,,,,,,,
 août,document 34,13535 X 89,aout_1890_53,CARPENA,Edouard,employé à la municipalité de Bizerte,2 mai 1860,,Tripoli,,,Bizerte,,Tunisie,,,,,,,,,
 août,document 34,4478 X 88,aout_1890_54,CHATTA,Mohamed ben Touani,boulanger,juin 1857,en juin 1855,Laghouat,Alger,Algérie,Tunis,,,,,,,,,,,
@@ -2134,8 +2134,8 @@ août,document 35,4083 X 90,aout_1890_68,NARDON,Joseph,journalier,2 mars 1849,,C
 août,document 35,482 X 90,aout_1890_69,DUKACINSKI,Julien,dessinateur,1er novembre 1847,,Belesta,Ariège,"France, de père polonais",Bordeaux,Gironde,,,,,,,,,,
 août,document 35,1424 X 83,aout_1890_70,LIÉVENS,Léopold Ernest,tourneur sur métaux,23 mai 1860,,Hermes,Oise,"France, de père belge",Alfortville,Seine,,,,,,,,,,
 août,document 35,8560 X 88,aout_1890_71,TORRENT,Barthélemy François Jean,marin,28 novembre 1865,,Camallera,,Espagne,Marseille,Bouches-du-Rhône,,,,,,,,,,
-août,document 35,15426 X 89,aout_1890_72,SCUDO,François Sébastien,chanfreineur,30 janvier 1838,,Ivrée,,Italie,La Ciotat,Bouches-du-Rhône,,ZUBIENA,Thérèse Catherine,7 août 1840,,,Perosa-Canavese,,Italie,
-août,document 35,7428 X 87,aout_1890_73,ROBBEZIN,Jules Désiré,entrepreneur de travaux publics,12 décembre 1855,,Tourcoing,Nord,"France, de père belge",Tourcoing,Nord,,DEDRYVER,Elise Maris,7 avril 1862,,,Tourcoing,Nord,"France, de père belge",
+août,document 35,15426 X 89,aout_1890_72,SCUDO,François Sébastien,chanfreineur,30 janvier 1838,,Ivrée,,Italie,La Ciotat,Bouches-du-Rhône,,ZUBIENA,Thérèse Catherine,7 août 1840,,Italie,Perosa-Canavese,,,
+août,document 35,7428 X 87,aout_1890_73,ROBBEZIN,Jules Désiré,entrepreneur de travaux publics,12 décembre 1855,,Tourcoing,Nord,"France, de père belge",Tourcoing,Nord,,DEDRYVER,Elise Maris,7 avril 1862,,"France, de père belge",Tourcoing,Nord,,
 août,document 35,9698 X 87,aout_1890_74,BIPPUS,Jean Théophile,chemisier,7 septembre 1857,,Bayonne,Basses-Pyrénées,"France, de père wurtembergeois",Bayonne,Basses-Pyrénées,,,,,,,,,,
 août,document 35,14950 X 88,aout_1890_75,LAVELLO,Rodolphe,compositeur de musique,12 novembre 1842,,Naples,,Italie,Paris,,,,,,,,,,,Thérèse (10 janvier 1875) ; Jeanne (18 mars 1877) ; Gaston (9 juin 1879)
 août,document 35,3859 X 90,aout_1890_76,LORENTZ,Louis André,journalier,5 juillet 1861,,Coucy,Ardennes,"France, de père luxembourgeois",Coucy,Ardennes,,,,,,,,,,
@@ -2144,7 +2144,7 @@ août,document 35,4106 X 90,aout_1890_78,KUBITSCHEK,Joseph Edouard,ébéniste,15
 août,document 35,4307 X 90,aout_1890_79,WILZEK,Joseph,boulanger,5 mai 1851,,Baumgarten,,Autriche,Paris,,,,,,,,,,,Charles Joseph (11 septembre 1881) ; Amélie Anna (11 avril 1886) ; Emile (3 juillet 1888)
 août,document 35,5430 X 90,aout_1890_80,KOESTLER,Wenzl Ignace,ébéniste,27 août 1830,,Grosskoerbitz,,Bohême,Paris,,,,,,,,,,,Berthe (3 novembre 1874)
 août,document 35,2299 X 86,aout_1890_81,WARIN,Jean baptiste Eugène,garde barrière au chemin de fer,15 octobre 1846,,Chuffilly et Roche,Ardennes,"France, de père belge",Vouziers,Ardennes,,,,,,,,,,
-août,document 35,12400 X 88,aout_1890_82,DE MOOR,Vitus,journalier,24 février 1830,,Masmen-Western,,Belgique,Marolles en Hurepoix,Seine-et-Oise,,ROELANDT,Antoinette,1er décembre 1834,,,Caleken,,Belgique,Marie (25 octobre 1872)
+août,document 35,12400 X 88,aout_1890_82,DE MOOR,Vitus,journalier,24 février 1830,,Masmen-Western,,Belgique,Marolles en Hurepoix,Seine-et-Oise,,ROELANDT,Antoinette,1er décembre 1834,,Belgique,Caleken,,,Marie (25 octobre 1872)
 août,document 35,3565 X 90,aout_1890_83,DE MOOR,Pierre François,garçon marchand de vins,28 décembre 1864,,Paris,,"France, de père belge",Paris,,,,,,,,,,,
 août,document 35,3566 X 90,aout_1890_84,DE MOOR,Joseph,journalier,10 novembre 1861,,Paris,,"France, de père belge",Marolles en Hurepoix,Seine-et-Oise,,,,,,,,,,
 août,document 35,3567 X 90,aout_1890_85,DE MOOR,Louis,jardinier,7 juin 1863,,Paris,,"France, de père belge",Bellevue,Seine-et-Oise,,,,,,,,,,
@@ -2155,20 +2155,20 @@ août,document 35,5148 X 90,aout_1890_89,WARLOP,Armand Louis,négociant,25 janvi
 août,document 35,5681 X 90,aout_1890_90,MURRAY,Paul,docteur médecin,9 avril 1865,,Neuilly sur Seine,Seine,"France, de père irlandais",Paris,,,,,,,,,,,
 août,document 35,3712 X 90,aout_1890_91,TADÉONI,Louise Madeleine,institutrice,31 juillet 1866,,Paris,,"France, de père étranger",Paris,,,,,,,,,,,
 août,document 35,1420 X 90,aout_1890_92,VANSEVENDONCK née DE WINNE,Marie Anne,,11 avril 1835,,Malines,,Belgique,Lille,Nord,,,,,,,,,,
-août,document 35,4179 X 90,aout_1890_93,MORLIGHEM,Fortuné,plafonneur,12 novembre 1855,,Rumes,,Belgique,Hellemes-Lille,Nord,,LEFEBVRE,Clémence Mélanie,20 décembre 1861,,,Hellemes-Lille,,"France, de père belge",Hélène Marie (21 août 1885) ; Marie Louise (25 janvier 1889)
+août,document 35,4179 X 90,aout_1890_93,MORLIGHEM,Fortuné,plafonneur,12 novembre 1855,,Rumes,,Belgique,Hellemes-Lille,Nord,,LEFEBVRE,Clémence Mélanie,20 décembre 1861,,"France, de père belge",Hellemes-Lille,,,Hélène Marie (21 août 1885) ; Marie Louise (25 janvier 1889)
 août,document 35,4180 X 90,aout_1890_94,MORLIGHEM,Casimir,plafonneur,4 mars 1858,,Taintegnies,,Belgique,Hellemes-Lille,Nord,,,,,,,,,,Marie Louise (7 janvier 1885) ; Germaine Berthe (25 avril 1888) ; Sidonie Suzanne (7 février 1890)
 août,document 35,5255 X 90,aout_1890_95,OOSTERLYNCK née BAUTERS,Marie Josephe,,13 octobre 1821,,Wanneghem-Lede,,Belgique,Lys-les-Lannoy,Nord,,,,,,,,,,
 août,document 36,3842 X 86,aout_1890_96,FISCHER,Chrétien,raffineur,27 décembre 1860,,Siersthal,Moselle,,Aubervilliers,Seine,,,,,,,,,,
 août,document 36,5008 X 86,aout_1890_97,NIMESKERN,Gaspard,ferblantier,13 avril 1859,,Longeville les Saint Avold,Moselle,,Champigneulles,Meurthe-et-Moselle,,,,,,,,,,
 août,document 36,7731 X 86,aout_1890_98,GREVEN,Jean Adolphe,infirmier à l'hôpital suburbain,20 avril 1859,,Aumetz,Moselle,,Montpellier,Hérault,,,,,,,,,,
 août,document 36,7861 X 86,aout_1890_99,HUMBERT,Charles,forgeron,23 avril 1862,,Dieuze,Meurthe,,Varangéville,Meurthe-et-Moselle,,,,,,,,,,
-août,document 36,2888 X 73,aout_1890_100,FURST,Ignace,passementier,25 novembre 1826,,Altofen,,Hongrie,Paris,,,STRAUSS,Rosalie,15 octobre 1844,,,Sommershausen,,Bavière,
-août,document 36,341 X 87,aout_1890_101,MULLER,Henri,cantonnier de la ville de Paris,16 décembre 1851,,Beuern,,Grand Duché de Hesse,Paris,,,LINKER,Catherine,11 mai 1850,,,Hoch-Weisel,,Hesse,Balthazar (15 juin 1877)
-août,document 36,3699 X 87,aout_1890_102,HASSLER,Charles Paul,négociant,14 août 1861,,La Chaux de Fonds,,Suisse,Delle,Territoire de Belfort,,TONDEUR,Anne Marie Stéphanie,16 octobre 1864,,,Porrentruy,,Suisse,Georges Lucien Louis (9 juillet 1889)
+août,document 36,2888 X 73,aout_1890_100,FURST,Ignace,passementier,25 novembre 1826,,Altofen,,Hongrie,Paris,,,STRAUSS,Rosalie,15 octobre 1844,,Bavière,Sommershausen,,,
+août,document 36,341 X 87,aout_1890_101,MULLER,Henri,cantonnier de la ville de Paris,16 décembre 1851,,Beuern,,Grand Duché de Hesse,Paris,,,LINKER,Catherine,11 mai 1850,,Hesse,Hoch-Weisel,,,Balthazar (15 juin 1877)
+août,document 36,3699 X 87,aout_1890_102,HASSLER,Charles Paul,négociant,14 août 1861,,La Chaux de Fonds,,Suisse,Delle,Territoire de Belfort,,TONDEUR,Anne Marie Stéphanie,16 octobre 1864,,Suisse,Porrentruy,,,Georges Lucien Louis (9 juillet 1889)
 août,document 36,7786 X 87,aout_1890_103,KUBITSCHEK,Simon Charles,sculpteur,11 septembre 1852,,Paris,,"France, de père autrichien",Paris,,,,,,,,,,,
 août,document 36,7799 X 87,aout_1890_104,BURCKHARD,Louise,,24 juillet 1810,,Gommersheim,,Bavière Rhénane,Paris,,,,,,,,,,,
 août,document 36,4136 X 86,aout_1890_105,ZÉNONE,Dominique,entrepreneur de fumisterie,25 août 1851,,Auressio,,Suisse,Paris,,,,,,,,,,,Charles Georges (7 février 1888) ; Marcel Philippe (29 septembre 1889)
-août,document 36 ,5977 X 86,aout_1890_106,DALLACQUA,Célestin,mineur,6 avril 1848,,Lessona,,Italie,Marbach,Meurthe-et-Moselle,,NOC,Marie Euphrasie,21 janvier 1855,,,Marbach,Meurthe-et-Moselle,"France, de père anglais",
+août,document 36 ,5977 X 86,aout_1890_106,DALLACQUA,Célestin,mineur,6 avril 1848,,Lessona,,Italie,Marbach,Meurthe-et-Moselle,,NOC,Marie Euphrasie,21 janvier 1855,,"France, de père anglais",Marbach,Meurthe-et-Moselle,,
 août,document 36 ,7854 X 86,aout_1890_107,GOOSENS,Jules Tranquille,directeur d'un théâtre forain,6 juillet 1849,,Saint Josse ten Noode,,Belgique,Le Parc Saint Maur,Seine,,,,,,,,,,Francine Amélie (4 mars 1876) ; Adrienne Eléonore (31 août 1877)
 août,document 36 ,4360 X 87,aout_1890_108,MACKEL,Charles Léandre,représentant de commerce,26 janvier 1860,,Valmy,Marne,"France, d'une mère luxembourgeoise",Reims,Marne,,,,,,,,,,
 août,document 36 ,4062 X 81,aout_1890_109,ORIA,Dominica Marie Christine,directrice d'école maternelle,2 décembre 1859,,Turin,,Italie,Bourg,Ain,,,,,,,,,,
@@ -2228,24 +2228,24 @@ août,document 38,2110 X 87,aout_1890_162,HESSE née HEFFINGER,Marie Madeleine,,
 août,document 38,1537 X 86,aout_1890_163,BAIGNE née MARGOT,Marie,,17 août 1859,,Saint Léger sur Dheuve,Saône-et-Loire,,Paris,,,,,,,,,,,
 août,document 38,4770 X 89,aout_1890_164,DRIESSENS née MINETTE,Irma,,24 septembre 1851,,Marle,Aisne,,Saint Ouen,Seine,,,,,,,,,,
 août,document 39,3753 X 87,aout_1890_165,CHEVALIER,Pierre Joseph,ouvrier auxiliaire des routes départementales ,7 février 1827,,Elst,,Belgique,Orchies,Nord,,,,,,,,,,
-août,document 39,4123 X 88,aout_1890_166,COSTA,Antonio Philoméno,journalier arrimeur,22 octobre 1836,,Procida,,Italie,Marseille,Bouches-du-Rhône,,UCCELLA,Hippolyte Philomène,27 novembre 1838,,,Procida,,Italie,
-août,document 39,4947 X 90,aout_1890_167,COSTA,Pascal Jean,ferblantier,1er mars 1867,,Naples,,Italie,Marseille,Bouches-du-Rhône,,RUSSO,Jeanne,5 janvier 1868,,,Vico-Equense,,Italie,Pauline (14 février 1890)
+août,document 39,4123 X 88,aout_1890_166,COSTA,Antonio Philoméno,journalier arrimeur,22 octobre 1836,,Procida,,Italie,Marseille,Bouches-du-Rhône,,UCCELLA,Hippolyte Philomène,27 novembre 1838,,Italie,Procida,,,
+août,document 39,4947 X 90,aout_1890_167,COSTA,Pascal Jean,ferblantier,1er mars 1867,,Naples,,Italie,Marseille,Bouches-du-Rhône,,RUSSO,Jeanne,5 janvier 1868,,Italie,Vico-Equense,,,Pauline (14 février 1890)
 août,document 39,8037 X 88,aout_1890_168,DI LUNA,Pascal Sauveur,pêcheur,16 avril 1836,,Gaëte,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,Julie Madeleine (11 juin 1882) ; Jeanne Joséphine Thérèse (15 décembre 1884) ; Marius François (15 août 1887)
 août,document 39,11704 X 88,aout_1890_169,JUNCK,Eugène Félicimme,ouvrier de fabrique,15 décembre 1848,,Foucaucourt,Meuse,,Troyes,Aube,,,,,,,,,,
-août,document 39,14613 X 88,aout_1890_170,SUBIRA,Joseph Gabriel,marin,9 novembre 1841,,Bosost,,Espagne,Marseille,Bouches-du-Rhône,,BARBE,Vincente Marie,21 janvier 1850,,,Bosost,,Espagne,Edouard Gabriel (6 août 1883) ; François Gabriel (14 novembre 1885) ; Marie Justine (4 juin 1875)
-août,document 39,7513 X 89,aout_1890_171,REBOA,Joseph Augustin Louis,marin,23 octobre 1844,,Portovenere,,Italie,Toulon,Var,,BONATI,Anonciade Joséphine,16 novembre 1855,,,Spézia,,Italie,Joseph (20 janvier 1872) ; Clarice (27 décembre 1873) ; Gemma Marie Magenta (1 janvier 1876) ; Armand (14 novembre 1880)
+août,document 39,14613 X 88,aout_1890_170,SUBIRA,Joseph Gabriel,marin,9 novembre 1841,,Bosost,,Espagne,Marseille,Bouches-du-Rhône,,BARBE,Vincente Marie,21 janvier 1850,,Espagne,Bosost,,,Edouard Gabriel (6 août 1883) ; François Gabriel (14 novembre 1885) ; Marie Justine (4 juin 1875)
+août,document 39,7513 X 89,aout_1890_171,REBOA,Joseph Augustin Louis,marin,23 octobre 1844,,Portovenere,,Italie,Toulon,Var,,BONATI,Anonciade Joséphine,16 novembre 1855,,Italie,Spézia,,,Joseph (20 janvier 1872) ; Clarice (27 décembre 1873) ; Gemma Marie Magenta (1 janvier 1876) ; Armand (14 novembre 1880)
 août,document 39,15637 X 89,aout_1890_172,GIAJÉRO dit JAHIER,Barthélémy,journalier,3 octobre 1829,,Pramollo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 août,document 39,15640 X 89,aout_1890_173,GIAJÉRO dit JAHIER,Jean Barthélémy,journalier,25 octobre 1865,,Pramollo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 août,document 39,3243 X 90,aout_1890_174,GiAJÉRO dite JAHIER,Marie Madeleine,,11 décembre 1866,,Pramollo,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 août,document 39,988 X 90,aout_1890_175,SAMPIETRO,Silverio,pêcheur,6 mai 1832,,Ponza,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 août,document 39,2807 X 90,aout_1890_176,GROSS,George,employé d'agent de change,3 septembre 1859,,New York,,Etats Unis,Paris,Seine,,,,,,,,,,
 août,document 39,4303 X 88,aout_1890_177,CUNEO,Gaspard,commerçant,21 juin 1845,,Capraja,,Italie,Bastia,Corse,,,,,,,,,,
-août,document 39,4755 X 88,aout_1890_178,GALLEANO,Dominique Jean Baptiste,contre-maître,14 mars 1854,,Marseille,Bouches-du-Rhône,,Marseille,Bouches-du-Rhône,,VIALE,Marguerite,31 août 1854,,,Vintimille,,Italie,
+août,document 39,4755 X 88,aout_1890_178,GALLEANO,Dominique Jean Baptiste,contre-maître,14 mars 1854,,Marseille,Bouches-du-Rhône,,Marseille,Bouches-du-Rhône,,VIALE,Marguerite,31 août 1854,,Italie,Vintimille,,,
 août,document 39,5641 X 88,aout_1890_179,PEIRANO,Angelo,pêcheur,18 février 1853,,Zoagli,,Italie,Hyères,Var,,,,,,,,,,Alexandre Joseph François (3 avril 1890)
 août,document 39,9451 X 88,aout_1890_180,MARCHI,Eugène Joseph Marie,journalier,24 novembre 1859,,Cadine,,Autriche,Paris,,,,,,,,,,,
 août,document 39,8892 X 89,aout_1890_181,ISTAS,Arthur,ferblantier,1er novembre 1857,,Paris,Seine,"France, de père belge",Paris,,,,,,,,,,,
 août,document 39,8907 X 89,aout_1890_182,CEREGHETTI,Daniel Jean Georges,courtier de commerce,9 février 1850,,Muggio,,Suisse,Paris,,,,,,,,,,,Blanche (3 juin 1876) ; Louis Eugène (18 mai 1879) ; Georges François (14 mai 1882)
-août,document 39,12642 X 89,aout_1890_183,SACCOCCIO,Jean Baptiste Pascal Antoine,pêcheur,4 août 1857,,Borgo-de-Gaëte,,Italie,Grau-du-Roi,Gard,,FERRARA,Marie Françoise,25 janvier 1862,,,Borgo-de-Gaëte,,Italie,Jeanne (15 avril 1883) ; Philippe François (26 janvier 1886)
+août,document 39,12642 X 89,aout_1890_183,SACCOCCIO,Jean Baptiste Pascal Antoine,pêcheur,4 août 1857,,Borgo-de-Gaëte,,Italie,Grau-du-Roi,Gard,,FERRARA,Marie Françoise,25 janvier 1862,,Italie,Borgo-de-Gaëte,,,Jeanne (15 avril 1883) ; Philippe François (26 janvier 1886)
 août,document 39,14598 X 88,aout_1890_184,AGNETTI,Luccio,maçon,10 mars 1827,,Berceto,,Italie,Olivese,Corse,,,,,,,,,,
 août,document 39,8477 X 89,aout_1890_185,PIEILLER,André Joseph,sabotier,17 septembre 1858,,Fenis,,Italie,Villers les Bois,Jura,,,,,,,,,,Alfred Henri Gustave (19 avril 1887) ; André Armand (11 juillet 1889)
 août,document 39,4382 X 90,aout_1890_186,BENART,Maxime,photographe,15 mai 1845,,Kieff,,Russie,Paris,,,,,,,,,,,Esther (13 janvier 1880) ; Benjamin (20 novembre 1886)
@@ -2253,20 +2253,20 @@ août,document 39,6354 X 90,aout_1890_187,KOHLER,Joseph Auguste,ouvrier de fabri
 août,document 39,6418 X 90,aout_1890_188,KAPPLER,Louis Ferdinand,ouvrier de fabrique,27 juin 1869,,Pfastatt,Haut-Rhin,,Troyes,Aube,,,,,,,,,,
 août,document 39,3772 X 87,aout_1890_189,BOHN,Alexandre,journalier,17 novembre 1863,,Scherwiller,Bas-Rhin,,Clichy-la-Garenne,Seine,,,,,,,,,,
 août,document 39,4837 X 87,aout_1890_190,DIETSCH,Xavier,ouvrier de fabrique,1er mai 1859,,Battenheim,Haut-Rhin,,Audincourt,Doubs,,,,,,,,,,
-août,document 39,1597 X 88,aout_1890_191,MOLINARI,Giovani Antonio,fumiste,1er avril 1857,,Toceno,,Italie,Paris,,,POLINO,Anne Marie Celestine Elise,6 janvier 1857,,,Paris,,France de père Italien,Francesco Dominique Lucien (2 août 1881) ; Marguerite Antoinette (18 juillet 1888)
+août,document 39,1597 X 88,aout_1890_191,MOLINARI,Giovani Antonio,fumiste,1er avril 1857,,Toceno,,Italie,Paris,,,POLINO,Anne Marie Celestine Elise,6 janvier 1857,,France de père Italien,Paris,,,Francesco Dominique Lucien (2 août 1881) ; Marguerite Antoinette (18 juillet 1888)
 août,document 39,1705 X 88,aout_1890_192,BIEVER,Jean,ouvrier aux ateliers du chemin de fer de l'Est,11 mars 1844,,Goesdorf,,Grand Duché de Luxembourg,Epernay,Marne,,,,,,,,,,Augustine (27 septembre 1874) ; Léontine (29 juillet 1876) ; Jean Pierre (19 novembre 1878)
 août,document 39,5708 X 88,aout_1890_193,COUVREUR,Pierre Jean,employé,21 juin 1837,,Givet,Ardennes,,Montereau,Seine-et-Marne,,,,,,,,,,
 août,document 39,8874 X 89,aout_1890_194,LEMESLE,Léon Louis,ouvrier patissier,2 décembre 1865,,Metz,Moselle,,Troyes,Aube,,,,,,,,,,
 août,document 39,12333 X 89,aout_1890_195,MENAINDESSE,Alexandre,cultivateur,17 novembre 1838,,Poilly,Loiret,,Sully sur Loire,Loiret,,,,,,,,,,
 août,document 39,4829 X 90,aout_1890_196,REGGIANI,Adolphe Henri Gaetano Maria,cordonnier,11 juillet 1854,,Brescello,,Italie,Golbey,Vosges,,,,,,,,,,Paul Adolphe (3 avril 1886) ; Berthe Marie Justine (3 février 1888)
 août,document 39,4989 X 90,aout_1890_197,BATTAJOLA,Pierre,marchand,20 janvier 1840,,Bardi,,Italie,Bayecourt,Vosges,,,,,,,,,,
-août,document 39,6704 X 90,aout_1890_198,BALUGANI,Gemello,militaire retraité,12 octobre 1840,,Modène,,Italie,Nice,Alpes-Maritimes,,MOLLINARO,Seraphine,20 août 1850,,,Torre Bormida,,Italie,
+août,document 39,6704 X 90,aout_1890_198,BALUGANI,Gemello,militaire retraité,12 octobre 1840,,Modène,,Italie,Nice,Alpes-Maritimes,,MOLLINARO,Seraphine,20 août 1850,,Italie,Torre Bormida,,,
 août,document 39,6740 X 90,aout_1890_199,LEJEUNE,Jean Baptiste,journalier,27 septembre 1822,,Familleureux,,Belgique,Thin le Moutier,Ardennes,,,,,,,,,,
 août,document 39,6512 X 88,aout_1890_200,BOTTERO,Joseph Mathieu,,,non précisé,non précisé,,,Saint Denis,Seine,,,,,,,,,,
 août,document 40,217 X 78,aout_1890_201,DUANY,Joseph,docteur en médecine,14 avril 1844,,Santiago de Cuba,,Antilles,La Rochelle,Charente-Inférieure,,,,,,,,,,
 août,document 40,1877 X 86,aout_1890_202,HECKLER,Joseph,ouvrier tanneur,22 mars 1862,,Niederstinzel,Meurthe,,Malzéville,Meurthe-et-Moselle,,,,,,,,,,
 août,document 40,1386 X 87,aout_1890_203,THOMAS,François Joseph,charron,23 décembre 1853,,Arlon,,Belgique,Saint Ouen,Seine,,,,,,,,,,
-août,document 40,1891 X 87,aout_1890_204,HEISSEL,Jacques,journalier,30 janvier 1839,,Weiten,,Prusse,Paris,,,DISSELDORF,Marie,15 août 1838,,,Cahren,,Prusse,
+août,document 40,1891 X 87,aout_1890_204,HEISSEL,Jacques,journalier,30 janvier 1839,,Weiten,,Prusse,Paris,,,DISSELDORF,Marie,15 août 1838,,Prusse,Cahren,,,
 août,document 40,3036 X 87,aout_1890_205,WEYGAERTS,Jean Baptiste,ébéniste,7 avril 1831,,Lierre,,Belgique,Montreuil-sous-Bois,Seine,,,,,,,,,,
 août,document 40,7683 X 87,aout_1890_206,HÉRÉBOUT,Jean Désiré,journalier,14 février 1852,,Bruxelles,,Belgique,Saint Denis,Seine,,,,,,,,,,
 août,document 40,1936 X 85,aout_1890_207,GEISEL,Edouard Guillaume,chirurgien dentiste,15 novembre 1857,,Heimsheim,,Wurtemberg,Bordeaux,Gironde,,,,,,,,,,
@@ -2288,7 +2288,7 @@ août,document 40,3266 X 87,aout_1890_222,DEMMEL,Victor Alexis,menuisier,23 déc
 août,document 40,3276 X 87,aout_1890_223,KRAEMER,Jean,garçon marchand de vins,13 janvier 1860,,Pfastatt,Haut-Rhin,,Epinal,Vosges,,,,,,,,,,
 août,document 40,668 X 87,aout_1890_224,KUBLER,François Xavier,garçon boucher,4 mai 1862,,Villé,Bas-Rhin,,Paris,Seine,,,,,,,,,,
 août,document 40  ,1537 X 86,aout_1890_225,BAIGNE,Armand Jean Théodore,gazier,2 juillet 1858,,Genève,,Suisse,Paris,,,,,,,,,,,Alfred Armand (22 novembre 1887)
-août,document 40  ,6914 X 86,aout_1890_226,NOVARO,Etienne Jérome,chauffeur,2 août 1829,,Diano Castello,,Italie,Marseille,Bouches-du-Rhône,,GIMELLI,Philomène,11 août 1837,,,Sainte Marguerite,,Italie,Lucie (7 décembre 1870) ; Joséphine (14 décembre 1875)
+août,document 40  ,6914 X 86,aout_1890_226,NOVARO,Etienne Jérome,chauffeur,2 août 1829,,Diano Castello,,Italie,Marseille,Bouches-du-Rhône,,GIMELLI,Philomène,11 août 1837,,Italie,Sainte Marguerite,,,Lucie (7 décembre 1870) ; Joséphine (14 décembre 1875)
 août,document 40  ,2110 X 87,aout_1890_227,HESSE,Georges,ferblantier,24 août 1863,,Crentzvald,Moselle,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 août,document 40  ,4703 X 87,aout_1890_228,KUHN,Charles,serrurier,3 janvier 1859,,Gambsheim,Bas-Rhin,,Paris,,,,,,,,,,,
 août,document 40  ,4754 X 87,aout_1890_229,MÜLLER,Charles,tailleur de pierre,1er mars 1863,,Nehwiller,Bas-Rhin,,Troyes,Aube,,,,,,,,,,
@@ -2417,7 +2417,7 @@ août,document 48,1906 X 76,aout_1890_351,BASTINI,Angelo Giovanni,voyageur de co
 août,document 48,1324 X 86,aout_1890_352,GODEFROID,Léon Nicolas,comptable,1er août 1857,,Nouzon,Ardennes,"France, de père belge",Nouzon,Ardennes,,,,,,,,,,
 août,document 48,10019 X 87,aout_1890_353,DIEDERICH,Pierre,mécanicien au P.L.M.,9 août 1846,,Berdoff,,Grand Duché de Luxembourg,Châlette,Loiret,,,,,,,,,,Marie Julia (5 juillet 1876)
 août,document 48,13083 X 87,aout_1890_354,DUBREUCQ,Henri,ajusteur mécanicien,12 mars 1857,,Chambly,Oise,"France, de père belge",Saint Denis,Seine,,,,,,,,,,
-août,document 48,9808 X 88,aout_1890_355,ALFASSA,Moïse Maurice,employé de banque,5 juillet 1843,,Andrinople,,Turquie,Paris,,,ISMALUM,Mathilde,26 août 1856,,,Alexandrie,,Egypte,Mathieu Maurice (13 juillet 1876) ; Blanche Rachel Mirra (21 février 1878)
+août,document 48,9808 X 88,aout_1890_355,ALFASSA,Moïse Maurice,employé de banque,5 juillet 1843,,Andrinople,,Turquie,Paris,,,ISMALUM,Mathilde,26 août 1856,,Egypte,Alexandrie,,,Mathieu Maurice (13 juillet 1876) ; Blanche Rachel Mirra (21 février 1878)
 août,document 48,6821 X 89,aout_1890_356,ZULINESKI,Edouard,comptable au chemin de fer d'Orléans,3 octobre 1843,,Romanow,,Pologne Russe,Tours,Indre-et-Loire,,,,,,,,,,Jean Edouard Stéphane (24 janvier 1874)
 août,document 48,1606 X 90,aout_1890_357,TOGNALI,Pierre,homme d'équipe au chemin de fer du nord,19 novembre 1852,,Cittdella ; Cittadella,,Italie,Paris,,,,,,,,,,,
 août,document 48,4098 X 90,aout_1890_358,FROMONT,Victor Joseph,Typographe,25 mars 1853,,Paris,,"France, de père belge",Paris,,,,,,,,,,,
@@ -2425,7 +2425,7 @@ août,document 48,4672 X 90,aout_1890_359,ROGGO,Joseph Fidèle,ouvrier lithograp
 août,document 48,4751 X 90,aout_1890_360,MARCOU,Ernest Auguste,charretier,6 janvier 1858,,La Haute Maison,Seine-et-Marne,"France, de père belge",Giremoutiers,Seine-et-Marne,,,,,,,,,,
 août,document 48,10884 X 87,aout_1890_361,CAFFO,Michel André,employé à la compagnie P.L.M.,30 novembre 1838,,Ferrera,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 août,document 48,2689 X 88,aout_1890_362,BAUVRE,Désiré,éclusier,20 mars 1839,,Gouy-lez-Piéton,,Belgique,Sissy,Aisne,,,,,,,,,,
-août,document 48,3234 X 88,aout_1890_363,CANESI,Fortuné Louis,marchand,12 août 1826,,Madrignano,,Italie,Ajaccio,Corse,,MAGNANI,Marie Assomption,25 juin 1832,,,Sarzana,,Italie,
+août,document 48,3234 X 88,aout_1890_363,CANESI,Fortuné Louis,marchand,12 août 1826,,Madrignano,,Italie,Ajaccio,Corse,,MAGNANI,Marie Assomption,25 juin 1832,,Italie,Sarzana,,,
 août,document 48,8141 X 88,aout_1890_364,JUNGERS,Jean,journalier,14 juin 1861,,Attert,,Belgique,Paris,,,,,,,,,,,Eugène Aristide (31 janvier 1833) ; Georges (14 avril 1855) ; Louis André (22 juin 1887) ; Henri (21 septembre 1889)
 août,document 48,10474 X 88,aout_1890_365,MEYRAT,Emile Eugène,directeur d'usine,10 août 1858,,Hérimoncourt,Doubs,"France, de père suisse",Hérimoncourt,Doubs,,,,,,,,,,
 août,document 48,12569 X 88,aout_1890_366,SIVORI,Eugène Bernard,fondeur,8 juillet 1853,,Bastia,Corse,"France, de père italien ",Bastia,Corse,,,,,,,,,,
@@ -2442,7 +2442,7 @@ août,document 48,3986 X 90,aout_1890_376,MARTINO,Pierre,ouvrier forgeron,30 oct
 août,document 48,4994 X 90,aout_1890_377,WELSMAN,Robert William,dentiste,28 juin 1847,,Londres,,Angleterre,Paris,,,,,,,,,,,Marie (1 mars 1874)
 août,document 48,5717 X 90,aout_1890_378,OSTROROG,Léon Valérien,étudiant en droit,20 juin 1867,,Varsovie,,Pologne Russe,Paris,,,,,,,,,,,
 août,document 48,4890 X 88,aout_1890_379,DI CAMPO,François Xavier,journalier,16 novembre 1839,,Bourg-de-Gaëte,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
-août,document 48,2795 X 88,aout_1890_380,AUGUSTO,César Maurice,fabricant de pâtes alimentaires,19 juillet 1849,,San Remo,,Italie,Marseille,Bouches-du-Rhône,,AVOGRADO,Ernestine Thérèse,17 juillet 1861,,,Lonato,,Italie,Léonarde Ernestine (22 octobre 1883) ; Paul Léonard (7 juillet 1889)
+août,document 48,2795 X 88,aout_1890_380,AUGUSTO,César Maurice,fabricant de pâtes alimentaires,19 juillet 1849,,San Remo,,Italie,Marseille,Bouches-du-Rhône,,AVOGRADO,Ernestine Thérèse,17 juillet 1861,,Italie,Lonato,,,Léonarde Ernestine (22 octobre 1883) ; Paul Léonard (7 juillet 1889)
 août,document 48,4895 X 88 bis,aout_1890_381,LUCCHESI,Jean Joseph,journalier,8 mai 1861,,Lucques,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 août,document 48,2303 X 87,aout_1890_382,SCHAEFER,Christian,cordonnier,9 juillet 1848,,Pirmasens,,Bavière,Saumur,Maine-et-Loire,,,,,,,,,,Georges André (22 juin 1879) ; Christiane Marthe (1 septembre 1885)
 août,document 48,40 X 88,aout_1890_383,PENIN,Pierre Joseph,employé au chemin de fer,15 octobre 1856,,Habay-la-Vieille,,Belgique,Dizy-Magenta,Marne,,,,,,,,,,Gabriel (7 mars 1881)
@@ -2451,10 +2451,10 @@ août,document 48,7562 X 88,aout_1890_385,KOCH,Oscar Joseph Georges,caissier,28 
 août,document 48,4951 X 86,aout_1890_386,BRANDO,Jean Augustin,ferblantier,31 août 1845,,Puget-Theniers,Alpes-Maritimes,"France, de père italien ",Puget-Theniers,Alpes-Maritimes,,,,,,,,,,Marie Françoise (15 juin 1875) ; Françoise Andreline Joséphine (30 octobre 1877) ; Charles Joseph (11 mars 1882)
 août,document 48,824 X 88,aout_1890_387,GARABIOL,Tony Barthélemy,entrepreneur,10 mars 1854,,Grand-Lemps,Isère,"France, de père suisse",Grand-Lemps,Isère,,,,,,,,,,
 août,document 48,10091 X 88,aout_1890_388,CASELLA,Charles Georges,boulanger,28 octobre 1864,,Savigné,Indre-et-Loire,"France, de père italien",Paris,,,,,,,,,,,
-août,document 48,12341 X 88,aout_1890_389,DYKE,William,placier,12 mars 1853,,Paris,,"France, de père anglais",Paris,,,TAYLOR,Marguerite Sarah Louise,30 avril 1855,,,Paris,,"France, de père anglais",
+août,document 48,12341 X 88,aout_1890_389,DYKE,William,placier,12 mars 1853,,Paris,,"France, de père anglais",Paris,,,TAYLOR,Marguerite Sarah Louise,30 avril 1855,,"France, de père anglais",Paris,,,
 août,document 48,748 X 89,aout_1890_390,KAHN,Charles,commis voyageur,14 octobre 1862,,Saverne,Bas-Rhin,,Le Hâvre,Seine-Inférieure,,,,,,,,,,
 août,document 48,2693 X 89,aout_1890_391,FISLERU,Moïse Itzic,tailleur d'habits,10 mai 1856,,Bouzes,,Roumanie,Paris,,,,,,,,,,,Alice Julie (19 juin 1887)
-août,document 48,3776 X 89,aout_1890_392,DE KELPER,Engelbert,serrurier,13 mars 1841,,Schaerbeck,,Belgique,Paris,,,DANAU,Marie,5 avril 1843,,,Bruxelles,,Belgique,
+août,document 48,3776 X 89,aout_1890_392,DE KELPER,Engelbert,serrurier,13 mars 1841,,Schaerbeck,,Belgique,Paris,,,DANAU,Marie,5 avril 1843,,Belgique,Bruxelles,,,
 août,document 48,8891 X 89,aout_1890_393,FRÈRE,Louis Joseph,boulanger,7 décembre 1836,,Bergnicourt,Ardennes,"France, de père belge",Longueval,Aisne,,,,,,,,,,
 août,document 48,11561 X 89,aout_1890_394,VISCONTINI,Gaëtan,sculpteur,16 août 1840,,Viggiu,,Italie,Lyon,Rhône,,,,,,,,,,Eugénie Charlotte (29 novembre 1873)
 août,document 48,2975 X 90,aout_1890_395,HEYDINGER,Nicolas Mathias,ouvrer polisseur,20 août 1865,,Freyming,Moselle,,Paris,,,,,,,,,,,
@@ -2466,7 +2466,7 @@ août,document 48,11938 X 87,aout_1890_400,ANFOSSO,Louis,journalier,5 janvier 18
 août,document 48,12221 X 87,aout_1890_401,CAVIGLIA,Louis Jean,pêcheur,29 mars 1844,,Noli,,Italie,Marseille,Bouches-du-Rhône,,,,,,,,,,
 août,document 48,6977 X 88,aout_1890_402,BILTGEN,Michel,ébéniste,28 mars 1858,,Roussy-le-Village,Moselle,"France, de père luxembourgeois",Montreuil-sous-Bois,Seine,,,,,,,,,,
 août,document 48,3601 X 89,aout_1890_403,RÜTTIG,Aloïs,ouvrier tailleur,13 décembre 1847,,Bilien,,Autriche Hongrie,Paris,,,,,,,,,,,
-août,document 48,12381 X 89,aout_1890_404,JANNONE,Cosme Damien,marin,24 janvier 1864,,Gaëte,,Italie,Martigues,Bouches-du-Rhône,,BUTTERO,Antoinette Marie Clémentine,12 avril 1866,,,Martigues,Bouches-du-Rhône,"France, de père italien",Philippe Marius Antonin (17 janvier 1888)
+août,document 48,12381 X 89,aout_1890_404,JANNONE,Cosme Damien,marin,24 janvier 1864,,Gaëte,,Italie,Martigues,Bouches-du-Rhône,,BUTTERO,Antoinette Marie Clémentine,12 avril 1866,,"France, de père italien",Martigues,Bouches-du-Rhône,,Philippe Marius Antonin (17 janvier 1888)
 août,document 48,1538 X 90,aout_1890_405,BASSIBEI,Louis Joseph,employé au chemin de fer du nord,24 mai 1834,,Lessines,,Belgique,Plaine Saint Denis,Seine,,,,,,,,,,
 août,document 48,1572 X 90,aout_1890_406,BONIFACE,Jean Louis Onézime,manouvrier,16 octobre 1856,,Barby,Ardennes,"France, de père belge",Sery,Ardennes,,,,,,,,,,
 août,document 48,2976 X 90,aout_1890_407,LAGNEAU,Louis Joseph,journalier,21 novembre 1854,,Flobecq,,Belgique,Villeneuve-le-roi,Seine-et-Oise,,,,,,,,,,Léonie Marie (20 août 1882) ; Albertine Henriette (28 février 1884) ; Elise Augustine (8 août 1888)
@@ -2474,7 +2474,7 @@ août,document 48,4136 X 90,aout_1890_408,BRUNA,Antoine,ouvrier graveur,16 févr
 août,document 48,4295 X 90,aout_1890_409,SCHWEITZER,Jean Eugène,coiffeur,22 avril 1850,,Baccarat,Meurthe-et-Moselle,"France, de père badois",Saint Denis,Seine,,,,,,,,,,
 août,document 48,4324 X 90,aout_1890_410,CARAMAIN,Aimé Napoléon Gillain,ouvrier ajusteur,2 décembre 1861,,Couillet,,Belgique,Paris,,,,,,,,,,,Lucien (18 février 1889)
 août,document 48,7248 X 88,aout_1890_411,VAN CAMPENHOUD,Joseph,ouvrier cordonnier,5 juillet 1846,,Bruxelles,,Belgique,Peroy-les-Gombries,Oise,,,,,,,,,,
-août,document 48,6625 X 88,aout_1890_412,OBLACH,Titien Romulus,,15 janvier 1830,,Civitale,,Italie,Le Hâvre,Seine-Inférieure,,SANDERS,Anna Catherine,31 janvier 1837,,,Elsfleth,,Prusse,
+août,document 48,6625 X 88,aout_1890_412,OBLACH,Titien Romulus,,15 janvier 1830,,Civitale,,Italie,Le Hâvre,Seine-Inférieure,,SANDERS,Anna Catherine,31 janvier 1837,,Prusse,Elsfleth,,,
 août,document 48,13380 X 88,aout_1890_413,KRIEG,Frédéric Guillaume,ouvrier potier,22 mai 1861,,Laveyron,Drôme,"France, de père allemand",Laveyron,Drôme,,,,,,,,,,
 août,document 48,3559 X 89,aout_1890_414,KRIEG,Wilhelm Charles,ouvrier potier,5 mars 1815,,Gusten (Duché d'Anhalt-Coëthen),,Prusse,Laveyron,Drôme,,,,,,,,,,
 août,document 48,3941 X 89,aout_1890_415,BALTHAZAR,Jean,camionneur au chemin de fer de l'Est,28 avril 1842,,Arlon,,Belgique,Charleville,Ardennes,,,,,,,,,,Marie Eugénie (27 juillet 1872) ; Léon pierre (17 mai 1875) ; Jeanne Louise (7 septembre 1878)
@@ -2488,19 +2488,19 @@ août,document 49,2396 X 87,aout_1890_422,JOST,Henri,cordonnier,10 février 1862
 août,document 49,2482 X 87,aout_1890_423,ROSE,Jean,palefrenier,19 janvier 1860,,Roussy le Bourg,Moselle,,Paris,,,,,,,,,,,
 août,document 49,3840 X 87,aout_1890_424,SENNHAUSER,Mathieu,ébéniste,12 février 1863,,Winzenbach,Bas-Rhin,,Lunéville,Meurthe-et-Moselle,,,,,,,,,,
 août,document 49,4686 X 87,aout_1890_425,KEIL,Gustave Henri,employé de commerce,22 septembre 1858,,Paris,,"France, de mère allemande",Paris,,,,,,,,,,,
-août,document 49,711 X 87,aout_1890_426,FINALY,Hugo,administrateur de la compagnie financière et commerciale du pacifique,3 juillet 1844,,Buda-pesth,,Hongrie,Paris,,,ELLENBERGER,Eugénie,31 décembre 1850,,,Buda-Pesth,,Hongrie,Horace Henri (30 mai 1871) ; Marie Irène (30 août 1873) ; Julie Florence (20 avril 1877); Rose Anita Ida Henriette (25 février 1885) ; Edith Helène (27 mai 1888)
+août,document 49,711 X 87,aout_1890_426,FINALY,Hugo,administrateur de la compagnie financière et commerciale du pacifique,3 juillet 1844,,Buda-pesth,,Hongrie,Paris,,,ELLENBERGER,Eugénie,31 décembre 1850,,Hongrie,Buda-Pesth,,,Horace Henri (30 mai 1871) ; Marie Irène (30 août 1873) ; Julie Florence (20 avril 1877); Rose Anita Ida Henriette (25 février 1885) ; Edith Helène (27 mai 1888)
 août,document 49,7437 X 34,aout_1890_427,LOUIS,Jean Baptiste,tisserand,11 juin 1863,,Ribeauvillé,Haut-Rhin,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 août,document 49,647 X 86,aout_1890_428,BASTIEN,Jean Louis,coupeur chemisier,7 avril 1854,,Puttelange,Moselle,,Paris,,,,,,,,,,,
 août,document 49,1216 X 86,aout_1890_429,SCHNEITRE,Jean Albert,graveur,10 mai 1864,,Mulhouse,Haut-Rhin,,Levallois-Perret,Seine,,,,,,,,,,
 août,document 49,1384 X 86,aout_1890_430,WALTER,Léon,maître d'hôtel,30 août 1862,,Baldersheim,Haut-Rhin,,Paris,,,,,,,,,,,
 août,document 49,5347 X 86,aout_1890_431,MARCHAL,Joseph,cocher,16 avril 1851,,Fleisheim,Meurthe,,Paris,,,,,,,,,,,Catherine (24 août 1879) ; Nicolas Albert (28 juillet 1881)
-août,document 49,6909 X 86,aout_1890_432,GOEDERT,Guillaume,serrurier,18 mars 1846,,Esch sur la Sure,,Grand Duché de Luxembourg,Paris,,,WEBERT,Elisa,31 janvier 1849,,,Eschdorf,,Grand Duché de Luxembourg,Suzanne (16 novembre 1869) ; Adeline (22 juin 1874) ; Catherine (19 mars 1876) ; Anna (2 février 1878)
+août,document 49,6909 X 86,aout_1890_432,GOEDERT,Guillaume,serrurier,18 mars 1846,,Esch sur la Sure,,Grand Duché de Luxembourg,Paris,,,WEBERT,Elisa,31 janvier 1849,,Grand Duché de Luxembourg,Eschdorf,,,Suzanne (16 novembre 1869) ; Adeline (22 juin 1874) ; Catherine (19 mars 1876) ; Anna (2 février 1878)
 août,document 49,517 X 87,aout_1890_433,STEF,Edouard,jardinier,5 avril 1863,,Bourdonnay,Meurthe,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
 août,document 49,1090 X 87,aout_1890_434,SCHOULER,Jean François,emballeur,2 octobre 1864,,Grostenquin,Moselle,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
-août,document 49,1262 X 87,aout_1890_435,MARTILOTTA,Jean,pêcheur,2 mai 1840,,Acquappesa,,Italie,Vico,Corse,,STABOLLI,Catherine,10 avril 1838,,,Torre del Greco,,Italie,
+août,document 49,1262 X 87,aout_1890_435,MARTILOTTA,Jean,pêcheur,2 mai 1840,,Acquappesa,,Italie,Vico,Corse,,STABOLLI,Catherine,10 avril 1838,,Italie,Torre del Greco,,,
 août,document 49,1353 X 87,aout_1890_436,FREYERMUTH,Jean,journalier,27 février 1855,,Etting,Moselle,,Saint Denis,Seine,,,,,,,,,,
 août,document 49,1680 X 87,aout_1890_437,SCHRAMM,Louis,basculeur,4 août 1862,,Stotzheim,Bas-Rhin,,Nancy,Meurthe-et-Moselle,,,,,,,,,,
-août,document 49,1942 X 87,aout_1890_438,DELLINGER,Antoine,journalier,5 janvier 1856,,Kalhausen,Moselle,,Nancy,Meurthe-et-Moselle,,THEISEN,Anne,24 décembre 1864,,,Mondorff,,Grand Duché de Luxembourg,
+août,document 49,1942 X 87,aout_1890_438,DELLINGER,Antoine,journalier,5 janvier 1856,,Kalhausen,Moselle,,Nancy,Meurthe-et-Moselle,,THEISEN,Anne,24 décembre 1864,,Grand Duché de Luxembourg,Mondorff,,,
 août,document 49,1997 X 87,aout_1890_439,WAGNER,Jean,journalier,3 novembre 1863,,Remering,Moselle,,Aubervilliers,Seine,,,,,,,,,,
 août,document 49,7377 X 87,aout_1890_440,MEYER,Aloïse,tonnelier,2 juin 1860,,Rosheim,Bas-Rhin,,Paris,,,,,,,,,,,
 août,document 49,3938 X 87,aout_1890_441,BERG,Paul,ouvrier d'usine,11 mars 1866,,Sarralbe,Moselle,,Saint Nicolas du Port ,Meurthe-et-Moselle,,,,,,,,,,
@@ -2532,5 +2532,5 @@ août,document 50,4754 X 90,aout_1890_466,THIRY,Marie François Maurice,élève 
 août,document 50,4779 X 90,aout_1890_467,veuve SCHUIMER née MERLOT ,Barbe,,7 février 1837,,Donnelay,,Alsace Lorraine,Saint Max,Meurthe-et-Moselle,,,,,,,,,,Etienne (28 février 1870) ; Marie Madeleine (21 juillet 1871) ; Hélène (8 avril 1873) ; Barbe Camille (5 août 1874)
 août,document 50,5172 X 90,aout_1890_468,ROHMER,Marie Joseph Philippe Henri Geofroi,employé,17 juillet 1865,,Strasbourg,Bas-Rhin,,La Varenne Saint Hilaire,Seine,,,,,,,,,,
 août,document 50,4267 X 90,aout_1890_469,LYON,Jules,voyageur de commerce,1er mai 1862,,Tragny,Moselle,,Paris,,,,,,,,,,,
-août,document 50,3334 X 90,aout_1890_470,LAVELAINE-MAUBEUGE,Edouard Casimir François,rentier,2 septembre 1836,,Virignin,Ain,,Marseille,Bouches-du-Rhône,,DESSOLIERS,Sophie Marie Louise,3 avril 1848,,,Alger,,Algérie,
+août,document 50,3334 X 90,aout_1890_470,LAVELAINE-MAUBEUGE,Edouard Casimir François,rentier,2 septembre 1836,,Virignin,Ain,,Marseille,Bouches-du-Rhône,,DESSOLIERS,Sophie Marie Louise,3 avril 1848,,Algérie,Alger,,,
 août,document 50,3755 X 90,aout_1890_471,BODA,Marguerite Elisabeth,,7 juin 1864,,Thionville,Moselle,,Nancy,Meurthe-et-Moselle,,,,,,,,,,

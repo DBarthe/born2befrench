@@ -90,6 +90,7 @@ class ImporterNormalized(ImporterToJsonl):
         'lieu_residence',
         'status_familial',
         'urls',
+        'images'
     }
 
     def __init__(self, csv_path, output_path, year):
@@ -120,6 +121,7 @@ class ImporterNormalized(ImporterToJsonl):
             'urls': self.extract_urls(row),
             'lieu_residence': self.extract_lieu_residence(row),
             'status_familial': 'chef de famille',
+            "images": self.extract_images(row),
             "original": row.to_dict()
         }
         super(ImporterNormalized, self).handle_row(res)
@@ -148,6 +150,7 @@ class ImporterNormalized(ImporterToJsonl):
             'urls': principal['urls'],
             'lieu_residence': principal['lieu_residence'],
             'status_familial': 'épouse',
+            "images": principal["images"],
             "original": principal['original']
         }
         super(ImporterNormalized, self).handle_row(res)
@@ -195,6 +198,18 @@ class ImporterNormalized(ImporterToJsonl):
         pass
 
     def extract_pays_naissance_ep(self, row):
+        pass
+
+    IMAGES_BASE_DIR = '../archives-numerisees/'
+
+    def extract_images(self, row):
+        directory = self.extract_image_directory(row)
+        if directory is not None:
+            full_path = os.path.join(self.IMAGES_BASE_DIR, directory)
+            if os.path.isdir(full_path):
+                return ["{}/{}".format(directory, i) for i in os.listdir(full_path) if i.lower().endswith(".jpg")]
+
+    def extract_image_directory(self, row):
         pass
 
 
@@ -300,7 +315,10 @@ class Importer1887(ImporterNormalized):
     def extract_pays_naissance_ep(self, row):
         return parse_country_name(row['Ep_Lieu_naissance'])
 
-
+    def extract_image_directory(self, row):
+        num_doc = row['DOCUMENT'][len("document "):]
+        num_decret = row['DECRET_COTE'][len('BB/34/'):]
+        return "{}/{}_{}".format(1887, num_decret, num_doc)
 
 
 class Importer1890(ImporterNormalized):
@@ -420,9 +438,9 @@ def import_normalized():
     importer1887.run(chunksize=1024)
     importer1887.output.close()
 
-    importer1890 = Importer1890(output_path="../data/transformed/indexation_decrets_normalized_1890.jsonl")
-    importer1890.run(chunksize=1024)
-    importer1890.output.close()
+    # importer1890 = Importer1890(output_path="../data/transformed/indexation_decrets_normalized_1890.jsonl")
+    # importer1890.run(chunksize=1024)
+    # importer1890.output.close()
 
 
 if __name__ == '__main__':
