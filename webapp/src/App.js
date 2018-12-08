@@ -8,6 +8,7 @@ import Results from './components/Results';
 
 import Container, { resultsContainer, dataSearchContainer, appContainer } from './styles/Container';
 import Flex, { FlexChild } from './styles/Flex';
+import {SelectedFilters} from "@appbaseio/reactivesearch/lib/index";
 
 class App extends Component {
 	constructor(props) {
@@ -42,7 +43,9 @@ class App extends Component {
 					// credentials="LsxvulCKp:a500b460-73ff-4882-8d34-9df8064b3b38"
 					theme={theme}
 				>
+
 					<Flex direction="row-reverse" className={appContainer}>
+
 						<Header currentTopics={this.state.currentTopics} setTopics={this.setTopics} />
 						<FlexChild className={resultsContainer}>
 							<DataSearch
@@ -57,7 +60,9 @@ class App extends Component {
 								innerClass={{
 									input: 'search-input',
 								}}
+                                debounce={300}
 							/>
+
 							<Results currentTopics={this.state.currentTopics} toggleTopic={this.toggleTopic} />
 						</FlexChild>
 					</Flex>

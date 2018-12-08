@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+// Include the locale utils designed for moment
+
+import MomentLocaleUtils from 'react-day-picker/moment';
+
 import {
 	MultiDropdownList,
 	SingleDropdownRange,
@@ -7,168 +11,211 @@ import {
 } from '@appbaseio/reactivesearch';
 
 import Flex, { FlexChild } from '../styles/Flex';
-import { filtersContainer } from '../styles/Container';
-import {MultiList, SingleDropdownList, SingleList} from "@appbaseio/reactivesearch/lib/index";
+import {filterListContainer, filtersContainer, searchFilterList} from '../styles/Container';
+import {
+    DateRange,
+    DynamicRangeSlider, MultiList, SelectedFilters, SingleDropdownList,
+    SingleList
+} from "@appbaseio/reactivesearch/lib/index";
 
-const SearchFilters = ({ currentTopics, setTopics, visible }) => (
-	<Flex direction="column" hidden={!visible} className={filtersContainer}>
-		{/*<FlexChild margin="10px">*/}
-			{/*<MultiDropdownList*/}
-				{/*componentId="language"*/}
-				{/*dataField="language.raw"*/}
-				{/*title="Language"*/}
-				{/*placeholder="Select languages"*/}
-				{/*URLParams*/}
-				{/*react={{ and: ['topics', 'pushed', 'created', 'forks', 'stars'] }}*/}
-			{/*/>*/}
-		{/*</FlexChild>*/}
-        <FlexChild margin="10px">
-            <MultiDropdownList
-                componentId="pays_naissance"
-                dataField="pays_naissance.keyword"
-                title="Pays de naissance"
-                placeholder="Selectionner un pays"
-                size={1000}
-                //selectAllLabel={"Tous"}
-                URLParams
-                //defaultSelected={currentTopics}
-                //onValueChange={setTopics}
-                react={{ and: ['search'] }}
-                queryFormat='or'
-                showSearch={true}
-                showMissing={true}
-                missingLabel={"Inconnu"}
-            />
-        </FlexChild>
-
-		{/*<FlexChild margin="10px">*/}
-			{/*<MultiDropdownList*/}
-				{/*componentId="topics"*/}
-				{/*dataField="topics.raw"*/}
-				{/*title="Repo Topics"*/}
-				{/*placeholder="Select topics"*/}
-				{/*size={1000}*/}
-				{/*queryFormat="and"*/}
-				{/*URLParams*/}
-				{/*defaultSelected={currentTopics}*/}
-				{/*onValueChange={setTopics}*/}
-				{/*react={{ and: ['language', 'pushed', 'created', 'forks', 'stars'] }}*/}
-			{/*/>*/}
-		{/*</FlexChild>*/}
-		{/*<FlexChild margin="10px">*/}
-			{/*<SingleDropdownRange*/}
-				{/*componentId="pushed"*/}
-				{/*dataField="pushed"*/}
-				{/*URLParams*/}
-				{/*title="Last Active"*/}
-				{/*placeholder="Repo last active"*/}
-				{/*data={[*/}
-					{/*{ start: 'now-1M', end: 'now', label: 'Last 30 days' },*/}
-					{/*{ start: 'now-6M', end: 'now', label: 'Last 6 months' },*/}
-					{/*{ start: 'now-1y', end: 'now', label: 'Last year' },*/}
-				{/*]}*/}
-			{/*/>*/}
-		{/*</FlexChild>*/}
-		{/*<FlexChild margin="10px">*/}
-			{/*<SingleDropdownRange*/}
-				{/*componentId="created"*/}
-				{/*dataField="created"*/}
-				{/*title="Created"*/}
-				{/*placeholder="Repo created"*/}
-				{/*URLParams*/}
-				{/*data={[*/}
-					{/*{*/}
-						{/*start: '2017-01-01T00:00:00Z',*/}
-						{/*end: '2017-12-31T23:59:59Z',*/}
-						{/*label: '2017',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2016-01-01T00:00:00Z',*/}
-						{/*end: '2016-12-31T23:59:59Z',*/}
-						{/*label: '2016',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2015-01-01T00:00:00Z',*/}
-						{/*end: '2015-12-31T23:59:59Z',*/}
-						{/*label: '2015',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2014-01-01T00:00:00Z',*/}
-						{/*end: '2014-12-31T23:59:59Z',*/}
-						{/*label: '2014',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2013-01-01T00:00:00Z',*/}
-						{/*end: '2013-12-31T23:59:59Z',*/}
-						{/*label: '2013',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2012-01-01T00:00:00Z',*/}
-						{/*end: '2012-12-31T23:59:59Z',*/}
-						{/*label: '2012',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2011-01-01T00:00:00Z',*/}
-						{/*end: '2011-12-31T23:59:59Z',*/}
-						{/*label: '2011',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2010-01-01T00:00:00Z',*/}
-						{/*end: '2010-12-31T23:59:59Z',*/}
-						{/*label: '2010',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2009-01-01T00:00:00Z',*/}
-						{/*end: '2009-12-31T23:59:59Z',*/}
-						{/*label: '2009',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2008-01-01T00:00:00Z',*/}
-						{/*end: '2008-12-31T23:59:59Z',*/}
-						{/*label: '2008',*/}
-					{/*},*/}
-					{/*{*/}
-						{/*start: '2007-01-01T00:00:00Z',*/}
-						{/*end: '2007-12-31T23:59:59Z',*/}
-						{/*label: '2007',*/}
-					{/*},*/}
-				{/*]}*/}
-			{/*/>*/}
-		{/*</FlexChild>*/}
-		{/*<FlexChild margin="10px">*/}
-			{/*<RangeSlider*/}
-				{/*componentId="stars"*/}
-				{/*title="Repo Stars"*/}
-				{/*dataField="stars"*/}
-				{/*range={{ start: 0, end: 300000 }}*/}
-				{/*showHistogram={false}*/}
-				{/*rangeLabels={{*/}
-					{/*start: '0 Stars',*/}
-					{/*end: '300K Stars',*/}
-				{/*}}*/}
-				{/*innerClass={{*/}
-					{/*label: 'range-label',*/}
-				{/*}}*/}
-			{/*/>*/}
-		{/*</FlexChild>*/}
-		{/*<FlexChild margin="10px">*/}
-			{/*<RangeSlider*/}
-				{/*componentId="forks"*/}
-				{/*title="Repo Forks"*/}
-				{/*dataField="forks"*/}
-				{/*range={{ start: 0, end: 180500 }}*/}
-				{/*showHistogram={false}*/}
-				{/*rangeLabels={{*/}
-					{/*start: '0 Forks',*/}
-					{/*end: '180K Forks',*/}
-				{/*}}*/}
-				{/*innerClass={{*/}
-					{/*label: 'range-label',*/}
-				{/*}}*/}
-			{/*/>*/}
-		{/*</FlexChild>*/}
-	</Flex>
+const SearchFilterTitle = ({ title, value, handler }) => (
+    <div>
+        <input type="checkbox"
+               value={value}
+               onChange={handler}
+        />{title}
+    </div>
 );
+
+class SearchFilterToogle extends Component {
+    render() {
+        if (this.props.toogle) {
+            return <MultiDropdownList componentId={this.props.id} {...this.props}/>
+        }
+        else {
+            return <MultiList componentId={this.props.id + "_ext"} {...this.props}/>
+        }
+    }
+}
+
+class SearchFilters extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            checkboxes: {
+                paysNaissance: false
+            }
+        }
+
+        this.handleCheckboxPaysNaissance = this.handleCheckboxPaysNaissance.bind(this);
+    }
+
+    handleCheckboxPaysNaissance(event) {
+        console.log("handleCheckboxPaysNaissance", event.target.value)
+        this.setState({
+            checkboxes: {
+                paysNaissance: event.target.checked
+            }
+        })
+    }
+
+    render() {
+        let { currentTopics, setTopics, visible } = this.props;
+
+        return (
+
+            <Flex direction="column" hidden={!visible} className={filtersContainer}>
+                {/*<FlexChild margin="10px">*/}
+                {/*<MultiDropdownList*/}
+                {/*componentId="language"*/}
+                {/*dataField="language.raw"*/}
+                {/*title="Language"*/}
+                {/*placeholder="Select languages"*/}
+                {/*URLParams*/}
+                {/*react={{ and: ['topics', 'pushed', 'created', 'forks', 'stars'] }}*/}
+                {/*/>*/}
+                {/*</FlexChild>*/}
+
+                <FlexChild margin="20px">
+                    <RangeSlider
+                        componentId="document_date"
+                        dataField="date"
+                        title="Date du décret"
+                        range={{
+                            start: new Date('10/1/1886').getTime(),
+                            end: new Date('1/1/1891').getTime()
+                        }}
+                        // rangeLabels={(min, max) => (
+                        //     {
+                        //         "start": new Date(min).getFullYear(),
+                        //         "end": new Date(max).getFullYear()
+                        //     }
+                        // )}
+                        rangeLabels={{
+                            start: "1887",
+                            end: "1891"
+                        }}
+                        interval={30*24*60*60*1000}
+                        react={{
+                            and: ["search", "pays_naissance", "profession", "lieu_residence", 'status_familial' ]
+                        }}
+                        URLParams
+
+                    />
+                </FlexChild>
+
+                {/*<FlexChild margin="10px">*/}
+                    {/*<DateRange*/}
+                        {/*componentId="naissance_date"*/}
+                        {/*dataField="date_naissance"*/}
+                        {/*title="Date de naissance"*/}
+                        {/*//interval={30*24*60*60*1000}*/}
+                        {/*URLParams*/}
+                        {/*numberOfMonths={1}*/}
+                        {/*focused={false}*/}
+                        {/*dayPickerInputProps={{*/}
+                            {/*dayPickerProps: {*/}
+                                {/*locale: 'fr',*/}
+                                {/*localeUtils: MomentLocaleUtils*/}
+                            {/*}*/}
+                        {/*}}*/}
+                        {/*initialMonth={new Date('1850-1-1')}*/}
+                    {/*/>*/}
+                {/*</FlexChild>*/}
+
+
+                <FlexChild margin="10px">
+                    <MultiList
+                        componentId="pays_naissance"
+                        dataField="pays_naissance.keyword"
+                        title="Pays de naissance"
+                        placeholder="Selectionner un pays"
+                        size={100}
+                        //selectAllLabel={"Tous"}
+                        URLParams
+                        //defaultSelected={currentTopics}
+                        //onValueChange={setTopics}
+                        react={{ and: ['search', 'profession', "document_date", "lieu_residence", 'status_familial' ] }}
+                        queryFormat='or'
+                        showSearch={true}
+                        showMissing={true}
+                        missingLabel={"Inconnu"}
+                        innerClass={{
+                            list: searchFilterList,
+                        }}
+                    />
+                </FlexChild>
+                <FlexChild margin="10px">
+                    <MultiDropdownList
+                        componentId="profession"
+                        dataField="profession.keyword"
+                        title="Profession"
+                        placeholder="Selectionner une profession"
+                        size={100}
+                        //selectAllLabel={"Tous"}
+                        URLParams
+                        //defaultSelected={currentTopics}
+                        //onValueChange={setTopics}
+                        react={{ and: ['search', 'pays_naissance', "document_date", "lieu_residence", 'status_familial' ] }}
+                        queryFormat='or'
+                        showSearch={true}
+                        showMissing={true}
+                        missingLabel={"Inconnue"}
+                        innerClass={{
+                            list: searchFilterList,
+                        }}
+                    />
+                </FlexChild>
+
+                <FlexChild margin="10px">
+                    <MultiDropdownList
+                        componentId="lieu_residence"
+                        dataField="lieu_residence.keyword"
+                        title="Lieu de résidence"
+                        placeholder="Selectionner un lieu"
+                        size={100}
+                        //selectAllLabel={"Tous"}
+                        URLParams
+                        //defaultSelected={currentTopics}
+                        //onValueChange={setTopics}
+                        react={{ and: ['search', 'pays_naissance', "document_date", "profession", 'status_familial'] }}
+                        queryFormat='or'
+                        showSearch={true}
+                        showMissing={true}
+                        missingLabel={"Inconnu"}
+                        innerClass={{
+                            list: searchFilterList,
+                        }}
+                    />
+                </FlexChild>
+
+
+                <FlexChild margin="10px">
+                    <MultiList
+                        componentId="status_familial"
+                        dataField="status_familial"
+                        title="Status familial"
+                        placeholder="Selectionner un status familial"
+                        size={100}
+                        //selectAllLabel={"Tous"}
+                        URLParams
+                        //defaultSelected={currentTopics}
+                        //onValueChange={setTopics}
+                        react={{ and: ['search', 'pays_naissance', "document_date", "profession", 'lieu_residence'] }}
+                        queryFormat='or'
+                        showSearch={false}
+                        showMissing={true}
+                        missingLabel={"Inconnu"}
+                        innerClass={{
+                            list: searchFilterList,
+                        }}
+                    />
+                </FlexChild>
+            </Flex>
+
+        )
+    }
+}
 
 SearchFilters.propTypes = {
 	currentTopics: PropTypes.arrayOf(PropTypes.string),

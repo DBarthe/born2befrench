@@ -17,7 +17,7 @@ export const ToggleButton = styled.div`
 	border: 1px solid white;
 	display: none;
 	max-width: 200px;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	align-self: center;
 	padding: 10px;
 	margin-top: 10px;

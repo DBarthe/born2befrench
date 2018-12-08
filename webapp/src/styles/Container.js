@@ -63,4 +63,30 @@ export const appContainer = css`
 	`};
 `;
 
+export const searchFilterList = css`
+	max-height: 150px;
+`;
+
+export const linkButton = css`
+
+	background: ${theme.colors.lightGray};
+	color: #3385ff;
+	a {
+		color: #3385ff;
+	}
+	
+	&:hover {
+		background: #3385ff;
+		color: white;
+		a {
+			color: white;
+		}
+	}
+
+`;
+
+export const ResearchHelpContainer = styled.div`
+	margin-left: 10px;
+`;
+
 export default Container;

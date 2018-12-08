@@ -1,6 +1,7 @@
 import styled, { css } from 'react-emotion';
 
 import { queries } from './mediaQueries';
+import theme from "./theme";
 
 export const resultItemDetails = css`
 	color: #a2a2a2;
@@ -9,6 +10,10 @@ export const resultItemDetails = css`
 	div:not(:first-child) {
 		border-left: 1px solid #eee;
 	}
+`;
+
+export const selectedFiltersContainer = css`
+	margin-left: 10px;
 `;
 
 export const resultListContainer = css`
@@ -50,6 +55,16 @@ export const resultCardHeader = css`
 			margin-top: 5px;
 		}
 	`};
+`;
+
+export const resultPopup = css`
+	font-family: ${theme.typography.fontFamily};
+	
+	color: black;
+	
+	h3 {
+		color: ${theme.colors.secondaryColor};
+	}
 `;
 
 const ResultItem = styled.div`
