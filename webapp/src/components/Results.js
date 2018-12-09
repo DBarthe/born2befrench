@@ -325,7 +325,7 @@ const PopupConsultation = ({data}) => (
                 <FlexChild>
                     <Popup  style={{display: "flex !important"}}
                             trigger={
-                                <Button><i className="fas fa-book " />Demander le décret</Button>
+                                <Button><i className="far fa-envelope" />Demander le décret</Button>
                             }
                             content={<MailDecret data={data}/>}
                             on={'click'}
@@ -336,7 +336,7 @@ const PopupConsultation = ({data}) => (
                 <FlexChild>
                     <Popup  style={{display: "flex !important"}}
                             trigger={
-                                <Button><i className="fas fa-book " />Demander le dossier</Button>
+                                <Button><i className="far fa-envelope" />Demander le dossier</Button>
                             }
                             content={<MailDossier data={data}/>}
                             on={'click'}
@@ -404,6 +404,13 @@ const onData = (data, showImagesHandler) => (
                 />
             </FlexChild>
 
+            { data.images ?
+                <FlexChild>
+                    <Button onClick={() => { showImagesHandler(data)}}><i className="far fa-images" />Voir</Button>
+                </FlexChild>
+                : ""
+            }
+
 			<FlexChild>
                 <Popup  style={{display: "flex !important"}}
                         trigger={
@@ -415,12 +422,7 @@ const onData = (data, showImagesHandler) => (
 						wide='very'
                 />
 			</FlexChild>
-            { data.images ?
-                <FlexChild>
-                    <Button onClick={() => { showImagesHandler(data)}}><i className="far fa-images" />Voir</Button>
-				</FlexChild>
-                : ""
-            }
+
         </Flex>
 
         {/*{ data.urls ?*/}

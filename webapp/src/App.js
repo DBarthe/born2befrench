@@ -50,7 +50,6 @@ class App extends Component {
 						<FlexChild className={resultsContainer}>
 							<DataSearch
 								componentId="search"
-								//dataField={['name', 'description', 'name.raw', 'fullname', 'owner', 'topics']}
 								dataField={['original.*']}
                                 placeholder="Rechercher"
 								iconPosition="left"
