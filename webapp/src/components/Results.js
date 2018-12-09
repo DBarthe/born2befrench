@@ -14,6 +14,7 @@ import {SelectedFilters} from "@appbaseio/reactivesearch/lib/index";
 import Topic from "../styles/Topic";
 import theme from "../styles/theme";
 import {linkButton, ResearchHelpContainer} from "../styles/Container";
+import Viewer from 'react-viewer';
 
 const onResultStats = (results, time) => (
 	<Flex justifyContent="flex-end">
@@ -89,62 +90,95 @@ const ResearchHelp = (props) => (
 	</ResearchHelpContainer>
 );
 
-const Results = ({ toggleTopic, currentTopics }) => (
-	<div className={resultListContainer}>
-		<SelectedFilters className={selectedFiltersContainer}/>
-    <ReactiveList
-		componentId="results"
-		dataField="_id"
-		onData={data => onData(data, currentTopics, toggleTopic)}
-		onResultStats={onResultStats}
-		react={{
-            and: ['search', 'pays_naissance', 'profession', "document_date", "lieu_residence" , 'status_familial']
-		}}
-		pagination
-		innerClass={{
-			list: 'result-list-container',
-			pagination: 'result-list-pagination',
-			resultsInfo: 'result-list-info',
-			poweredBy: 'powered-by',
-		}}
-        onNoResults={(<ResearchHelp/>)}
-		size={12}
-		URLParams
-		sortOptions={[
-			{
-				label: 'Meilleur résultat',
-				dataField: '_score',
-				sortBy: 'desc',
-			},
-            {
-                label: 'Cote A-Z',
-                dataField: 'cote.keyword',
-                sortBy: 'asc',
-            },
-			{
-				label: 'Nom A-Z',
-				dataField: 'nom.keyword',
-				sortBy: 'asc',
-			},
-            {
-                label: 'Prénom A-Z',
-                dataField: 'prenoms.keyword',
-                sortBy: 'asc',
-            },
-			{
-				label: 'Date de naissance',
-				dataField: 'date_naissance',
-				sortBy: 'asc',
-			},
-            {
-                label: 'Date du décret',
-                dataField: 'date',
-                sortBy: 'asc',
-            },
-		]}
-	/>
-	</div>
-);
+class Results extends React.Component{
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			imageShow: false,
+			imageList: [],
+			imageAlt: ""
+		};
+
+		this.showImagesHandler = this.showImagesHandler.bind(this);
+	}
+
+	showImagesHandler(data) {
+		this.setState({
+			imageShow: true,
+			imageList: data.images,
+			imageAlt: `decret numérisé ${data.cote} / ${data.decret_cote}`
+		})
+	}
+
+	render() {
+
+
+		return (
+            <div className={resultListContainer}>
+                <SelectedFilters className={selectedFiltersContainer}/>
+                <Expo
+                    visible={this.state.imageShow}
+                    handlerClose={() => this.setState({ imageShow: false, imageList: [], imageAlt: ""})}
+                    images={this.state.imageList}
+					alt={this.state.imageAlt}
+                />
+                <ReactiveList
+                    componentId="results"
+                    dataField="_id"
+                    onData={data => onData(data, this.showImagesHandler)}
+                    onResultStats={onResultStats}
+                    react={{
+                        and: ['search', 'pays_naissance', 'profession', "document_date", "lieu_residence" , 'status_familial']
+                    }}
+                    pagination
+                    innerClass={{
+                        list: 'result-list-container',
+                        pagination: 'result-list-pagination',
+                        resultsInfo: 'result-list-info',
+                        poweredBy: 'powered-by',
+                    }}
+                    onNoResults={(<ResearchHelp/>)}
+                    size={12}
+                    URLParams
+                    sortOptions={[
+                        {
+                            label: 'Meilleur résultat',
+                            dataField: '_score',
+                            sortBy: 'desc',
+                        },
+                        {
+                            label: 'Cote A-Z',
+                            dataField: 'cote.keyword',
+                            sortBy: 'asc',
+                        },
+                        {
+                            label: 'Nom A-Z',
+                            dataField: 'nom.keyword',
+                            sortBy: 'asc',
+                        },
+                        {
+                            label: 'Prénom A-Z',
+                            dataField: 'prenoms.keyword',
+                            sortBy: 'asc',
+                        },
+                        {
+                            label: 'Date de naissance',
+                            dataField: 'date_naissance',
+                            sortBy: 'asc',
+                        },
+                        {
+                            label: 'Date du décret',
+                            dataField: 'date',
+                            sortBy: 'asc',
+                        },
+                    ]}
+                />
+            </div>
+		);
+	}
+}
+
 
 const toLiteralDate = (dateString) => {
 	if (dateString !== undefined) {
@@ -191,9 +225,22 @@ const PopupConsultation = ({data}) => (
 )
 
 
+const IMG_SERVER_URL = "http://localhost:3000";
 
 
-const onData = (data, currentTopics, toggleTopic) => (
+const Expo = ({images, visible, handlerClose, imageAlt}) => (
+	<Viewer
+		visible={visible}
+		onClose={handlerClose}
+		images={images.map(name => ({
+			src: `${IMG_SERVER_URL}/${name}`,
+			alt: imageAlt
+		}))}
+        zoomSpeed={0.3}
+	/>
+);
+
+const onData = (data, showImagesHandler) => (
     <ResultItem key={data._id}>
 
         <Flex alignCenter justifyContent="center" className={resultCardHeader}>
@@ -243,55 +290,22 @@ const onData = (data, currentTopics, toggleTopic) => (
 						wide='very'
                 />
 			</FlexChild>
-
-            { data.urls ?
-				<FlexChild>
-					<Button className={linkButton}><a href={data.urls} target="_blank"><i className="fas fa-file-alt" />Consulter</a></Button>
+            { data.images ?
+                <FlexChild>
+                    <Button onClick={() => { showImagesHandler(data)}}><i className="far fa-images" />Voir</Button>
 				</FlexChild>
                 : ""
             }
-
         </Flex>
 
-
-        {/*<Flex alignCenter justifyContent="center" className={resultCardHeader}>*/}
-        {/*/!*<Avatar src={data.avatar} alt="User avatar" />*!/*/}
-        {/*/!*<Link href={data.url} target="_blank" rel="noopener noreferrer">*!/*/}
-        {/*/!*<Flex flexWrap>*!/*/}
-        {/*/!*<FlexChild>{data.owner}/</FlexChild>*!/*/}
-        {/*/!*<FlexChild>{data.name}</FlexChild>*!/*/}
-        {/*/!*</Flex>*!/*/}
-        {/*/!*</Link>*!/*/}
-        {/*<Link href={data.url} target="_blank" rel="noopener noreferrer">*/}
-        {/*<Flex flexWrap>*/}
-        {/*<FlexChild>{data.COTE}/</FlexChild>*/}
-        {/*<FlexChild>{data.Nom}</FlexChild>*/}
-        {/*<FlexChild>{data.Prenoms}</FlexChild>*/}
-        {/*<FlexChild>{data.Profession}</FlexChild>*/}
-        {/*</Flex>*/}
-        {/*</Link>*/}
-        {/*</Flex>*/}
-        {/*<div style={{ margin: '10px 0' }}>{data.description}</div>*/}
-        {/*<Flex flexWrap justifyContent="center">*/}
-        {/*{*/}
-        {/*data.topics.slice(0, 7)*/}
-        {/*.map(item =>*/}
-        {/*(*/}
-        {/*<Topic*/}
-        {/*key={item}*/}
-        {/*active={currentTopics.includes(item)}*/}
-        {/*toggleTopic={toggleTopic}*/}
-        {/*>*/}
-        {/*{item}*/}
-        {/*</Topic>*/}
-        {/*))*/}
+        {/*{ data.urls ?*/}
+			{/*<Flex>*/}
+				{/*<FlexChild>*/}
+					{/*<Button className={linkButton}><a href={data.urls} target="_blank"><i className="fas fa-file-alt" />Consulter</a></Button>*/}
+				{/*</FlexChild>*/}
+			{/*</Flex>*/}
+            {/*: ""*/}
         {/*}*/}
-        {/*</Flex>*/}
-        {/*<Flex>*/}
-        {/*<FlexChild><Button><i className="fas fa-star" />{data.stars}</Button></FlexChild>*/}
-        {/*<FlexChild><Button><i className="fas fa-code-branch" />{data.forks}</Button></FlexChild>*/}
-        {/*<FlexChild><Button><i className="fas fa-eye" />{data.watchers}</Button></FlexChild>*/}
-        {/*</Flex>*/}
     </ResultItem>
 );
 
