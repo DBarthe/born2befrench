@@ -51,6 +51,10 @@
           "type": "text",
           "index": false
         },
+        "images": {
+          "type": "keyword",
+          "index": false
+        },
         "lieu_naissance" : {
           "type" : "text",
           "fields" : {

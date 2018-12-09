@@ -410,6 +410,11 @@ class Importer1890(ImporterNormalized):
     def extract_pays_naissance_ep(self, row):
         return parse_country_name(row['Pays de naissance 2'])
 
+    def extract_image_directory(self, row):
+        num_doc = row['Numéro du document'][len("document "):]
+        num_decret = self.extract_decret_cote(row)[len('BB/34/'):]
+        return "{}/{}_{}".format(1890, num_decret, num_doc)
+
 
 class ImporterOriginal(ImporterToJsonl):
     def __init__(self, csv_path, output_path):
@@ -434,13 +439,13 @@ def import_original():
 
 
 def import_normalized():
-    importer1887 = Importer1887(output_path="../data/transformed/indexation_decrets_normalized_1887.jsonl")
-    importer1887.run(chunksize=1024)
-    importer1887.output.close()
+    # importer1887 = Importer1887(output_path="../data/transformed/indexation_decrets_normalized_1887.jsonl")
+    # importer1887.run(chunksize=1024)
+    # importer1887.output.close()
 
-    # importer1890 = Importer1890(output_path="../data/transformed/indexation_decrets_normalized_1890.jsonl")
-    # importer1890.run(chunksize=1024)
-    # importer1890.output.close()
+    importer1890 = Importer1890(output_path="../data/transformed/indexation_decrets_normalized_1890.jsonl")
+    importer1890.run(chunksize=1024)
+    importer1890.output.close()
 
 
 if __name__ == '__main__':
