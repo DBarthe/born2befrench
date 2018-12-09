@@ -61,6 +61,7 @@ class App extends Component {
 									input: 'search-input',
 								}}
                                 debounce={300}
+                                fuzziness={2}
 							/>
 
 							<Results currentTopics={this.state.currentTopics} toggleTopic={this.toggleTopic} />

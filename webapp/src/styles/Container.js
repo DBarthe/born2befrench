@@ -89,4 +89,8 @@ export const ResearchHelpContainer = styled.div`
 	margin-left: 10px;
 `;
 
+export const MailContainer = styled.div`
+	margin-left: 10px;
+`;
+
 export default Container;
