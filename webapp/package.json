@@ -33,6 +33,7 @@
   },
   "scripts": {
     "build": "webpack -p --progress",
-    "start": "webpack-dev-server --hot --inline --progress --colors --port 8001"
+    "start": "webpack-dev-server --hot --inline --progress --colors --port 8001",
+    "imgserve": "cd ../archives-numerisees && http-server -p 3000 --cors"
   }
 }
