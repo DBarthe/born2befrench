@@ -8,6 +8,7 @@ export const title = css`
 	font-family: Monoton, cursive;
 	font-size: 2rem;
 	text-align: center;
+	font-weight: normal;
 
 	${queries.xLarge`
 		text-align: left;

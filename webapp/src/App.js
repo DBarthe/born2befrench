@@ -8,30 +8,10 @@ import Results from './components/Results';
 
 import Container, { resultsContainer, dataSearchContainer, appContainer } from './styles/Container';
 import Flex, { FlexChild } from './styles/Flex';
-import {SelectedFilters} from "@appbaseio/reactivesearch/lib/index";
 
 class App extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			currentTopics: [],
-		};
-	}
-
-	setTopics = (currentTopics) => {
-		this.setState({
-			currentTopics: currentTopics || [],
-		});
-	}
-
-	toggleTopic = (topic) => {
-		const { currentTopics } = this.state;
-		const nextState = currentTopics.includes(topic)
-			? currentTopics.filter(item => item !== topic)
-			: currentTopics.concat(topic);
-		this.setState({
-			currentTopics: nextState,
-		});
 	}
 
 	render() {
@@ -40,13 +20,10 @@ class App extends Component {
 				<ReactiveBase
 					app="nat"
 					url="http://localhost:9200"
-					// credentials="LsxvulCKp:a500b460-73ff-4882-8d34-9df8064b3b38"
 					theme={theme}
 				>
-
 					<Flex direction="row-reverse" className={appContainer}>
-
-						<Header currentTopics={this.state.currentTopics} setTopics={this.setTopics} />
+						<Header />
 						<FlexChild className={resultsContainer}>
 							<DataSearch
 								componentId="search"
@@ -62,8 +39,7 @@ class App extends Component {
                                 debounce={300}
                                 fuzziness={2}
 							/>
-
-							<Results currentTopics={this.state.currentTopics} toggleTopic={this.toggleTopic} />
+							<Results />
 						</FlexChild>
 					</Flex>
 				</ReactiveBase>

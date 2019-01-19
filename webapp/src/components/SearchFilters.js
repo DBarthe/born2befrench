@@ -1,80 +1,28 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-// Include the locale utils designed for moment
-
-import MomentLocaleUtils from 'react-day-picker/moment';
-
 import {
 	MultiDropdownList,
-	SingleDropdownRange,
 	RangeSlider,
 } from '@appbaseio/reactivesearch';
 
 import Flex, { FlexChild } from '../styles/Flex';
-import {filterListContainer, filtersContainer, searchFilterList} from '../styles/Container';
-import {
-    DateRange,
-    DynamicRangeSlider, MultiList, SelectedFilters, SingleDropdownList,
-    SingleList
-} from "@appbaseio/reactivesearch/lib/index";
-
-const SearchFilterTitle = ({ title, value, handler }) => (
-    <div>
-        <input type="checkbox"
-               value={value}
-               onChange={handler}
-        />{title}
-    </div>
-);
-
-class SearchFilterToogle extends Component {
-    render() {
-        if (this.props.toogle) {
-            return <MultiDropdownList componentId={this.props.id} {...this.props}/>
-        }
-        else {
-            return <MultiList componentId={this.props.id + "_ext"} {...this.props}/>
-        }
-    }
-}
+import { MultiList } from "@appbaseio/reactivesearch/lib/index";
+import {filtersContainer, searchFilterList} from "../styles/SearchFilters";
 
 class SearchFilters extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            checkboxes: {
-                paysNaissance: false
-            }
-        }
 
-        this.handleCheckboxPaysNaissance = this.handleCheckboxPaysNaissance.bind(this);
-    }
+    static ALL_COMPONENTS = ["document_date", "search", "pays_naissance", "profession", "lieu_residence", 'status_familial'];
 
-    handleCheckboxPaysNaissance(event) {
-        console.log("handleCheckboxPaysNaissance", event.target.value)
-        this.setState({
-            checkboxes: {
-                paysNaissance: event.target.checked
-            }
-        })
+    static allComponentsBut(component) {
+        return SearchFilters.ALL_COMPONENTS.filter(c => c !== component)
     }
 
     render() {
-        let { currentTopics, setTopics, visible } = this.props;
+        let { visible } = this.props;
 
         return (
 
             <Flex direction="column" hidden={!visible} className={filtersContainer}>
-                {/*<FlexChild margin="10px">*/}
-                {/*<MultiDropdownList*/}
-                {/*componentId="language"*/}
-                {/*dataField="language.raw"*/}
-                {/*title="Language"*/}
-                {/*placeholder="Select languages"*/}
-                {/*URLParams*/}
-                {/*react={{ and: ['topics', 'pushed', 'created', 'forks', 'stars'] }}*/}
-                {/*/>*/}
-                {/*</FlexChild>*/}
 
                 <FlexChild margin="20px">
                     <RangeSlider
@@ -85,44 +33,18 @@ class SearchFilters extends Component {
                             start: new Date('10/1/1886').getTime(),
                             end: new Date('1/1/1891').getTime()
                         }}
-                        // rangeLabels={(min, max) => (
-                        //     {
-                        //         "start": new Date(min).getFullYear(),
-                        //         "end": new Date(max).getFullYear()
-                        //     }
-                        // )}
                         rangeLabels={{
                             start: "1887",
                             end: "1891"
                         }}
                         interval={30*24*60*60*1000}
                         react={{
-                            and: ["search", "pays_naissance", "profession", "lieu_residence", 'status_familial' ]
+                            and: SearchFilters.allComponentsBut("document_date")
                         }}
                         URLParams
 
                     />
                 </FlexChild>
-
-                {/*<FlexChild margin="10px">*/}
-                    {/*<DateRange*/}
-                        {/*componentId="naissance_date"*/}
-                        {/*dataField="date_naissance"*/}
-                        {/*title="Date de naissance"*/}
-                        {/*//interval={30*24*60*60*1000}*/}
-                        {/*URLParams*/}
-                        {/*numberOfMonths={1}*/}
-                        {/*focused={false}*/}
-                        {/*dayPickerInputProps={{*/}
-                            {/*dayPickerProps: {*/}
-                                {/*locale: 'fr',*/}
-                                {/*localeUtils: MomentLocaleUtils*/}
-                            {/*}*/}
-                        {/*}}*/}
-                        {/*initialMonth={new Date('1850-1-1')}*/}
-                    {/*/>*/}
-                {/*</FlexChild>*/}
-
 
                 <FlexChild margin="10px">
                     <MultiList
@@ -131,11 +53,8 @@ class SearchFilters extends Component {
                         title="Pays de naissance"
                         placeholder="Selectionner un pays"
                         size={100}
-                        //selectAllLabel={"Tous"}
                         URLParams
-                        //defaultSelected={currentTopics}
-                        //onValueChange={setTopics}
-                        react={{ and: ['search', 'profession', "document_date", "lieu_residence", 'status_familial' ] }}
+                        react={{ and: SearchFilters.allComponentsBut("pays_naissance") }}
                         queryFormat='or'
                         showSearch={true}
                         showMissing={true}
@@ -152,11 +71,8 @@ class SearchFilters extends Component {
                         title="Profession"
                         placeholder="Selectionner une profession"
                         size={100}
-                        //selectAllLabel={"Tous"}
                         URLParams
-                        //defaultSelected={currentTopics}
-                        //onValueChange={setTopics}
-                        react={{ and: ['search', 'pays_naissance', "document_date", "lieu_residence", 'status_familial' ] }}
+                        react={{ and: SearchFilters.allComponentsBut("profession") }}
                         queryFormat='or'
                         showSearch={true}
                         showMissing={true}
@@ -174,11 +90,8 @@ class SearchFilters extends Component {
                         title="Lieu de résidence"
                         placeholder="Selectionner un lieu"
                         size={100}
-                        //selectAllLabel={"Tous"}
                         URLParams
-                        //defaultSelected={currentTopics}
-                        //onValueChange={setTopics}
-                        react={{ and: ['search', 'pays_naissance', "document_date", "profession", 'status_familial'] }}
+                        react={{ and: SearchFilters.allComponentsBut("lieu_residence") }}
                         queryFormat='or'
                         showSearch={true}
                         showMissing={true}
@@ -197,11 +110,8 @@ class SearchFilters extends Component {
                         title="Status familial"
                         placeholder="Selectionner un status familial"
                         size={100}
-                        //selectAllLabel={"Tous"}
                         URLParams
-                        //defaultSelected={currentTopics}
-                        //onValueChange={setTopics}
-                        react={{ and: ['search', 'pays_naissance', "document_date", "profession", 'lieu_residence'] }}
+                        react={{ and: SearchFilters.allComponentsBut("status_familial") }}
                         queryFormat='or'
                         showSearch={false}
                         showMissing={true}
@@ -218,8 +128,6 @@ class SearchFilters extends Component {
 }
 
 SearchFilters.propTypes = {
-	currentTopics: PropTypes.arrayOf(PropTypes.string),
-	setTopics: PropTypes.func,
 	visible: PropTypes.bool,
 };
 

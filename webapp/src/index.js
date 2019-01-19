@@ -8,4 +8,3 @@ import 'react-viewer/dist/index.css';
 
 
 ReactDOM.render(<App />, document.getElementById('app'));
-//ReactDOM.render(<App2 />, document.getElementById('app'));
