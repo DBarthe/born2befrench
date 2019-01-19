@@ -362,6 +362,7 @@ const Expo = ({images, visible, handlerClose, imageAlt}) => (
 			alt: imageAlt
 		}))}
         zoomSpeed={0.3}
+        noResetZoomAfterChange
 	/>
 );
 

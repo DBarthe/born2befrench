@@ -1,9 +1,7 @@
 {
-  "name": "gitxplore",
+  "name": "archivesnat",
   "version": "1.0.0",
-  "description": "Github Explorer app built with ReactiveSearch",
   "main": "index.js",
-  "author": "Divyanshu Maithani <div.blackcat@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "@appbaseio/reactivesearch": "^2.12.1",
@@ -13,7 +11,7 @@
     "react-day-picker": "^7.2.4",
     "react-dom": "^16.2.0",
     "react-emotion": "9",
-    "react-viewer": "^2.6.1",
+    "react-viewer": "^2.7.0",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.83.0"
   },
