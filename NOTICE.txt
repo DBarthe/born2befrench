@@ -1,0 +1,8 @@
+ArchivesNat
+Copyright 2018-2019 Barthélémy Delemotte
+
+This product includes parts of the software gitxplore developed by
+Divyanshu Maithani 2018 at appbaseio which is exclusively located in the
+webapp sub-folder and has been heavily rewritten by Barthélémy Delemotte.
+This included software is released under Apache 2 License, a copy of the license is
+available in the webapp sub-folder.

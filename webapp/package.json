@@ -2,6 +2,7 @@
   "name": "archivesnat",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Barthelemy Delemotte <barthelemy.delemotte@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "@appbaseio/reactivesearch": "^2.12.1",
